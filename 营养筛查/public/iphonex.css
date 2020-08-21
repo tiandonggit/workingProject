@@ -1,0 +1,36 @@
+
+.iphonex_box{
+    background-color: #000;
+    height: 35px;
+}
+
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and
+
+(-webkit-device-pixel-ratio: 3) {
+
+    /*增加头部适配层*/
+
+    .has-topbar {
+
+        height: 100%;
+
+        box-sizing: border-box;
+
+        padding-top: 44px;
+        
+    
+    }
+    /*导航操作栏上移*/
+    .has-bottombar {
+        /* height: 100%; */
+        box-sizing: border-box;
+        padding-bottom: 34px;
+    }
+        /*增加底部适配层*/
+    .bottom-menu-fixed {
+
+        bottom: 34px;
+
+    }
+}

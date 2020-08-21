@@ -1,0 +1,76 @@
+@redOne:#ff0000;
+@redTwo: #e4393c;
+@redThree:#FE0201;
+@yellowOne: #E98C2E;
+@fontOne: #FFFFFF;
+//页面背景色
+@backgroundColor:#f2f2f2;
+@homeHeaderBackgroundColor: #E98C2E;
+@backgroundColorT: #FFFFFF;
+@backgroundColorTh: #FFECD8;
+//标题
+@titleColor:#333;
+@titleBack: #ADADAD;
+//下划线
+@borderColor:#f2f2f2;
+//超出部分隐藏
+.overflowline(@num){
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @num;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /*! autoprefixer: on */
+}
+//自适应尺寸px转vw
+.fontSize(@px) {
+  font-size:(@px / 375) * 100vw;
+}
+.borderRadius(@px:0,@px2:0,@px3:0,@px4:0){
+  border-radius: (@px / 375) * 100vw  (@px2 / 375) * 100vw  (@px3 / 375) * 100vw  (@px4 / 375) * 100vw;
+}
+//医生端
+@spanColor: #A9A9A9;
+@buttonColor: #e89748;
+@buttonColorBlue:#499FD8;   //蓝色按钮
+@shenSpan: #666; //深一点
+@qianSpan: #999; //浅一点
+@blueSpan: #4066b5; //蓝色字体
+@greenSpan: #40b588; //绿色字体
+@orangeSpan: #e89748; //橙色字体
+//药房
+@bjdcolor:#F2F2F2; //按钮颜色
+/*
+患者
+*/
+@startyellow:#eabc9a;
+@endyellow:#E98C2E;
+
+// 田东
+@mainColor: #E98C2E; // 主色
+@subtitleColor: #666; // 副标题字体颜色
+@descriptionColor: #999; // 描述、提示字体颜色
+@WeChatColor: #2AA246; // 微信图标
+@orderStatusColor: #FF0404; // 订单状态颜色
+@orderPriceColor: #f00; // 订单详情价格颜色
+@btnLeftColor: #fbc075; // 渐变按钮左侧颜色
+@noticeBgColor: #fff9e9; // 通告栏背景色
+@zhifubaoColor: #4a8ad2; // 支付宝颜色
+@weixinColor: #3AB46E; // 微信颜色
+@receiptColor: #E98D30; // 确认收货字体颜色
+@submitOrderColor: #FEFEFE; // 提交订单字体颜色
+@defaultPhoneColor: #808080; // 修改手机号 显示的默认号码颜色
+@iconshoucang: #b7282e; // 收藏
+@icondingwei: #1e50a2; // 地址管理
+@iconshimingrenzheng: #82ae46; // 实名认证
+@iconchangjianwenti: #745399; // 常见问题
+@iconyijianfankui: #E6B422; // 意见反馈
+@iconkefu: #BB5548; // 在线客服
+@buzanColor: #ccc; // 常见问题未解决字体颜色
+@buzanBorderColor: #ddd; //  常见问题未解决边框颜色
+@addBtnBgColor: #F3F3F3; // 购物车产品数量增减按钮背景色
+@background0: #000; // 
+@titleColor0: #000; //
+@redColor:#BA2636; //

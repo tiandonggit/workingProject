@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'custom-iconfont';
+  src: url('../iconfont/iconfont.ttf') format('truetype');
+}
+.van-icon {
+  font-family: 'vant-icon', 'custom-iconfont' !important;
+}
+.van-icon-gouwuchekong:before {
+  content: '\e600';
+}
+
+.van-icon-home:before {
+  content: '\e654';
+}
+
+.van-icon-fenlei1:before {
+  content: '\e614';
+}
+.van-icon-wo1:before {
+  content: '\e63f';
+}
+.van-icon-xiaoxi:before {
+  content: '\e69a';
+}
+.van-icon-yaoshizixun:before {
+  content: '\e638';
+}
+.van-icon-liaotian:before {
+  content: "\e624";
+}
+.van-icon-shoucang:before {
+  content: "\e613";
+}
+.van-icon-gouwuche:before {
+  content: "\e7e6";
+}

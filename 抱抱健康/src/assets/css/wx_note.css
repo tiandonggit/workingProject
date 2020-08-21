@@ -1,0 +1,97 @@
+/*微信公众号 自动适配页面样式   
+主体写在class为rich_media_content的div下*/
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.6
+}
+
+body {
+	-webkit-touch-callout: none;
+	/*font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;*/
+	color: #333;
+	background-color: #f2f2f2;
+	letter-spacing: .034em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	font-size: 16px
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+a {
+	color: #576b95;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.rich_media_content {
+	overflow: hidden;
+	color: #333;
+	font-size: 17px;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	text-align: justify;
+	position: relative;
+	z-index: 0
+}
+
+.rich_media_content * {
+	max-width: 100%!important;
+	box-sizing: border-box!important;
+	-webkit-box-sizing: border-box!important;
+	word-wrap: break-word!important
+}
+
+.rich_media_content p {
+	clear: both;
+	min-height: 1em
+}
+
+.rich_media_content em {
+	font-style: italic
+}
+
+.rich_media_content fieldset {
+	min-width: 0
+}
+
+.rich_media_content .list-paddingleft-2 {
+	padding-left: 2.2em
+}
+
+.rich_media_content .list-paddingleft-2 .list-paddingleft-2 {
+	padding-left: 30px
+}
+
+.rich_media_content blockquote {
+	margin: 0;
+	padding-left: 10px;
+	border-left: 3px solid #dbdbdb
+}
+
+.rich_media_content .code-snippet,
+.rich_media_content .code-snippet__fix {
+	max-width: 1000%!important
+}
+
+.rich_media_content .code-snippet *,
+.rich_media_content .code-snippet__fix * {
+	max-width: 1000%!important
+}
+
+rich_media_content img {
+	height: auto!important
+}

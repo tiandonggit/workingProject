@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "titleBar": "/components/titleBar/titleBar",
+    "isIphoneX": "/components/isIphoneX/isIphoneX"
+  },
+  "navigationBarTitleText": "",
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  }
+}

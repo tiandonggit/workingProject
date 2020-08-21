@@ -1,0 +1,38 @@
+<!--pages/PermissionApplicationSuccess/PermissionApplicationSuccess.wxml-->
+<!--pages/PermissionApplication/PermissionApplication.wxml-->
+
+<view>
+  <titleBar bgColor="{{true}}">
+    <view slot="content">权限申请</view>
+  </titleBar>
+
+
+  <view class="result_box">
+    <view class="result_img">
+      <image src="/images/success.png" mode="widthFix"></image>
+    </view>
+    <view class="result_title">
+      审批通过
+    </view>
+
+    <view class="result_explain">
+      <p>
+        您的{{userType}}权限账号申请已经通过，可以登录
+      </p>
+      <p>
+        【智造管理】小程序，查看与您业务推广相
+      </p>
+      <p>
+        关的统计数据。<span class="result_login" bindtap="login">去登陆></span>
+      </p>
+    </view>
+
+
+  </view>
+
+
+  <isIphoneX pension="{{false}}">
+  </isIphoneX>
+
+</view>
+

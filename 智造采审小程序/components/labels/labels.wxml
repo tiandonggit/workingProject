@@ -1,0 +1,8 @@
+<!-- 组件模板 -->
+ <!-- 自定义导航栏 -->
+  <view class="main">
+    <view class="label" bindtap="select">
+      <view class="{{select!=index?'':'select'}}" wx:for="{{data}}" wx:key="index" id="label{{index}}">{{item}}</view>
+      <view class="bottom_border" style="width: {{width}}px; transform: translateX({{left}}px); transition-duration: 0.3s;"></view>
+    </view>
+  </view>

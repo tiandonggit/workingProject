@@ -1,0 +1,72 @@
+
+view, scroll-view, swiper, button, input, textarea, label, navigator, image {
+box-sizing: border-box;
+  
+  }
+  
+
+.title_bar{
+  display: block;
+position: relative;
+
+
+}
+
+.title_bar_box.fixed, .nav.fixed {
+ position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1024;
+  }
+
+  .title_bar .action {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* justify-content: center; */
+    max-width: 100%;
+    margin-left: 24rpx;
+    font-size: 38rpx;
+  }
+
+  .bg-gradual-pink {
+    color: rgb(247, 247, 247);
+    /* background-color: rgb(1, 135, 245); */
+    
+    }
+    
+
+
+  .title_bar_box .content {
+position: absolute;
+    text-align: center;
+    width: calc(100% - 340rpx);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 60rpx;
+    font-size: 32rpx;
+    line-height: 60rpx;
+    cursor: none;
+    pointer-events: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    }
+    
+    .pureColor{
+      background:linear-gradient(180deg,rgba(14,134,254,1) 0%,rgba(14,134,254,1) 100%);
+    }
+    .gradualColor{
+      color: rgb(247, 247, 247);
+      background: -webkit-linear-gradient(#0069FF, #0180FF); /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(#0069FF, #0180FF); /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(#0069FF, #0180FF); /* Firefox 3.6 - 15 */
+      background: linear-gradient(#0069FF, #0180FF); /* 标准的语法,必须放最后 */
+    }
+
+
+    

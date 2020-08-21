@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "headNavigation": "/components/headNavigation/headNavigation",
+    "labels": "/components/labels/labels",
+    "personCard": "/components/personCard/personCard",
+    "van-search": "/miniprogram_npm/@vant/weapp/search/index"
+  }
+}

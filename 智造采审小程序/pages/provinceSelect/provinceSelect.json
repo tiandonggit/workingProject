@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "list-html": "/components/wx-index-list/wx-index-list",
+    "titleBar": "/components/titleBar/titleBar",
+    "isIphoneX": "/components/isIphoneX/isIphoneX"
+  },
+  "navigationBarTitleText": "",
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  }
+}

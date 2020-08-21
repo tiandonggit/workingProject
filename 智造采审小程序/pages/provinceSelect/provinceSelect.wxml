@@ -1,0 +1,22 @@
+
+<!-- 外部搜索 -->
+<view class="pages">
+  <titleBar bgColor="{{true}}"  isBack="{{true}}">
+    <view slot="content">省份选择</view>
+
+ <view slot="backIcon">
+ <van-icon name="arrow-left"  catchtap='_isBack'/>
+     <view>{{stateBack}}
+     </view>
+     </view>
+
+    </titleBar>
+<view class="{{isIphoneX?'wrapper_IphoneX':'wrapper'}}">
+ <!-- <titleBar bgColor="{{true}}">
+    <view slot="content">城市选择</view>
+    </titleBar> -->
+  
+    <list-html data="{{city}}" binddetail="bindtap" my-city config="{{config}}"></list-html>
+</view>
+</view>
+

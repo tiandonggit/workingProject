@@ -1,0 +1,13 @@
+{
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "titleBar": "/components/titleBar/titleBar",
+    "isIphoneX": "/components/isIphoneX/isIphoneX",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-search": "@vant/weapp/search/index"
+  },
+  "navigationBarTitleText": "",
+  "window": {
+    "navigationBarTextStyle": "white"
+  }
+}

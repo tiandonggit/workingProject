@@ -1,0 +1,25 @@
+<!-- 组件模板 -->
+ <!-- 自定义导航栏 -->
+  <view class="custom" style="padding-top:{{statusBarHeight}}px;background:{{bg}}">
+    <view class='capsule' wx:if="{{ back || home }}">
+      <view bindtap='back' wx:if="{{back}}">
+        <image src='/images/back.svg'></image>            
+      </view>
+      <view bindtap='backHome' wx:if="{{home}}">
+        <image src='/images/home.svg'></image>
+      </view>
+    </view>
+    <view wx:if="{{title}}" class="title" >{{title}}</view>
+    <view class='capsule' wx:if="{{ back || home }}">
+      <view bindtap='back' wx:if="{{back}}">
+        <!-- <image src='/images/back.svg'></image>             -->
+      </view>
+      <view bindtap='backHome' wx:if="{{home}}">
+        <!-- <image src='/images/home.svg'></image> -->
+      </view>
+    </view>
+    <view wx:else class="label" bindtap="select">
+      <view wx:for="{{data}}" id="label{{index}}" wx:key="index" class="{{select!=index?'':'select'}}">{{item}}</view>
+      <view class="bottom_border" style="width: {{width}}px; transform: translateX({{left}}px); transition-duration: 0.3s;"></view>
+    </view>
+  </view>

@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "headNavigation": "/components/headNavigation/headNavigation",
+    "van-overlay": "/miniprogram_npm/@vant/weapp/overlay/index",
+    "van-dialog": "/miniprogram_npm/@vant/weapp/dialog/index"
+  }
+}

@@ -1,0 +1,6 @@
+<!--components/isIphoneX/isIphoneX.wxml-->
+
+<view wx:if="{{pension==false && isIphoneX==true}}" class="phoneXState {{isIphoneX?'phoneX_box':'phone_button'}}">
+</view>
+<view wx:if="{{pension==true && isIphoneX==true}}" class="pension_iphonex_button">
+</view>

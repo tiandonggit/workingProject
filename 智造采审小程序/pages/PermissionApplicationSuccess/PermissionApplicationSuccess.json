@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "titleBar": "/components/titleBar/titleBar"
+  }
+}

@@ -1,0 +1,23 @@
+<!--pages/auditIndex/auditIndex.wxml-->
+<view class="main">
+  <!-- 自定义标题 -->
+  <headNavigation data="{{title}}" select="{{select}}" bg="linear-gradient(90deg,rgba(0,105,255,1) 0%,rgba(1,128,255,1) 100%);" bindselect="onSelect">
+  </headNavigation>
+  <!-- 非滚动区域 -->
+  <view class="main_no_scroll">
+    <!-- 标签卡 -->
+    <view class="label" wx:if="{{userType == 0}}">
+      <labels data="{{labels}}" select="{{label}}" bindselect="onSelectLabel"></labels>
+    </view>
+    <!-- 搜索栏 -->
+    <view class="search">
+      <van-search background="#EDEDED" maxlength="10" value="{{ selectName }}" placeholder="搜索申请人姓名" bind:search="onSearch" bind:change="onChange" bind:clear="onClear" />
+    </view>
+  </view>
+  <!-- 滚动区域 -->
+  <view class="main_scroll">
+    <!-- 卡片 -->
+    <personCard height="{{height}}" label="{{label}}" loadMore="{{loadMore}}" bindselect="onSelectCard"  isShowNoMoreGoods="{{isShowNoMoreGoods}}" bindselectPageModel="selectPageModel" data="{{objData}}" isLoading="{{isLoading}}"></personCard>
+  </view>
+  <!-- <van-toast id="van-toast" /> -->
+</view>

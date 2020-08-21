@@ -1,0 +1,357 @@
+/* pages/info/info.wxss */
+
+page {
+  background-color: #fff;
+}
+
+.info {
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  font-size: 36rpx;
+}
+
+view.search {
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  height: 96rpx;
+  background: #fff;
+  /* background: rgba(0,0,0,0.4); */
+  align-items: center;
+  width: 100%;
+  /* margin-left: 4%;
+    margin-right: 4%; */
+  border-radius: 20rpx;
+}
+
+view.searchItem {
+  display: flex;
+  width: 100%;
+  /* background: #fff; */
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+view.searchItem image {
+  height: 64rpx;
+  width: 56rpx;
+  align-self: center;
+}
+
+view.searchItem input {
+  flex: 1;
+  font-size: 36rpx;
+  margin-left: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 10rpx;
+}
+
+.section {
+  /* display: flex; *//* height:448rpx; */
+  background: rgba(237, 237, 237, 1);
+  border-radius: 20px;
+  margin-top: 40rpx;
+  padding-top: 20rpx;
+  padding-right: 14rpx;
+  padding-left: 22rpx;
+  padding-bottom: 20rpx;
+}
+
+.sectionTexts {
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 9;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /*! autoprefixer: on */
+}
+
+.section span {
+  width: 140rpx;
+}
+
+.upload_box {
+  height: 526rpx;
+  background: rgba(237, 237, 237, 1);
+  border-radius: 20px;
+  margin-top: 40rpx;
+  padding-top: 20rpx;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+}
+
+.upload_box span {
+  width: 100%;
+  height: 40rpx;
+}
+
+.upload {
+  background-color: #fff;
+  /* width: 100%; */
+  height: 280rpx;
+  border-radius: 20px;
+  margin-top: 30rpx;
+  padding-top: 130rpx;
+}
+
+.upload .noImg {
+  width: 120rpx;
+  height: 105rpx;
+  margin: 0 auto;
+  display: block;
+}
+
+.uploadImg {
+  height: 390rpx;
+  padding: 20rpx;
+}
+
+.upload .Img {
+  width: 100%;
+  height: 100%;
+}
+
+.upload p {
+  text-align: center;
+  font-size: 28rpx;
+  margin: 0 auto;
+  display: block;
+  margin-top: 78rpx;
+}
+
+.submit {
+  width: 94%;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: linear-gradient(270deg, rgba(14, 134, 254, 1) 0%, rgba(0, 105, 255, 1) 100%);
+  border-radius: 20rpx;
+}
+
+/* 登录移植 */
+
+view.searchPassword {
+  display: flex;
+  flex-direction: row;
+  height: 96rpx;
+  background: #fff;
+  align-items: center;
+  width: 100%;
+  /* margin-left: 4%;
+  margin-right: 4%; */
+  border-radius: 20rpx;
+  margin-top: 40rpx;
+}
+
+view.searchItemPassword {
+  display: flex;
+  width: 100%;
+  /* background: #fff; */
+  flex-direction: row;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+
+view.searchItemPassword image {
+  height: 64rpx;
+  width: 56rpx;
+  align-self: center;
+}
+
+view.searchItemPassword input {
+  margin-top: 10rpx;
+  flex: 1;
+  /* font-size: 30rpx; */
+  font-family: UICTFontTextStyleBody;
+}
+
+.verification {
+  width: 40%;
+  color: #0069ff;
+  margin-right: 2%;
+}
+
+view.searchItemPasswordVerification {
+}
+
+.submit_box {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+/* ml 页面 */
+
+.background {
+  width: 100%;
+}
+
+.background image {
+  width: 100%;
+}
+
+.buttons .playThis {
+  width: 702rpx;
+  color: #fff;
+  background: linear-gradient(270deg, rgba(14, 134, 254, 1) 0%, rgba(0, 105, 255, 1) 100%);
+  border-radius: 20rpx;
+  text-align: center;
+  font-size: 36rpx;
+  /* padding: 20rpx 0; */
+  margin-top: 120rpx;
+  font-weight: bold;
+}
+
+.bottomTip {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40rpx;
+  padding-top: 20rpx;
+}
+
+.bottomTip_img {
+  margin-top: 24rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomTip_img image {
+  width: 668rpx;
+}
+
+.bottomTip_explain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 5rpx;
+  margin-top: 10rpx;
+  /*定义为弹性盒子*/
+}
+
+.bottomTip_explain span {
+  width: 64rpx;
+  margin-left: 38rpx;
+  margin-right: 38rpx;
+  color: #333;
+}
+
+.explain {
+  width: 100%;
+  text-align: center;
+  padding-top: 80rpx;
+  color: #333;
+  font-size: 36rpx;
+}
+
+.place-holder {
+  color: #999;
+  margin-left: 10rpx;
+}
+
+/* 下拉菜单 */
+
+.page {
+  background: rgba(237, 237, 237, 1);
+  display: block;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.select_box {
+  background: #fff;
+  width: 100%;
+  margin: 30rpx auto;
+  position: relative;
+  border-radius: 20rpx;
+}
+
+.select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 96rpx;
+
+  border-radius: 10rpx;
+  display: flex;
+
+  padding: 0 20rpx;
+
+  flex-direction: row; /*设置排列方式*/
+  justify-content: space-between; /*设置水平对齐方式*/
+  align-items: flex-start; /*设置改行垂直对齐方式*/
+  flex-wrap: wrap; /*设置溢出是否换行*/
+}
+
+.select image {
+  height: 64rpx;
+  width: 56rpx;
+  align-self: center;
+}
+
+.select_text {
+  font-size: 36rpx;
+  flex: ;
+  padding-top: 22rpx;
+  text-align: left;
+  color: #999;
+  width: 78%;
+}
+
+.select_img {
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  transition: transform 0.3s;
+  margin-top: 26rpx;
+  color: #666;
+}
+
+.select_img_rotate {
+  transform: rotate(90deg);
+  transform-origin:center center;
+}
+
+.option_box {
+  position: absolute;
+  top: 96rpx;
+  width: 100%;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  /* height: ; */
+  overflow-y: auto;
+  /* border-top: ; */
+  background: #fff;
+  transition: height 0.3s;
+  z-index: 999;
+  border-radius: 20rpx;
+}
+
+.option {
+  display: block;
+  /* line-height: 90rpx; */
+  font-size: 36rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+  padding-left: 20rpx;
+  color: #999;
+}
+
+.van-icon-arrow {
+  color: #666;
+}

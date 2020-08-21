@@ -1,0 +1,16 @@
+/* components/isIphoneX/isIphoneX.wxss */
+.phoneXState{
+  width: 100%;
+}
+.phoneX_box{
+  height:68rpx!important;
+}
+
+.phone_button{
+height: 0rpx;
+}
+
+.pension_iphonex_button{
+  width: 100%;
+  height:68rpx!important;
+}

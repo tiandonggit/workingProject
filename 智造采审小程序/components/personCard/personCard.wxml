@@ -1,0 +1,47 @@
+<!-- 组件模板 -->
+<!-- 自定义导航栏 -->
+<!-- <scroll-view scroll-y="true" bindtouchstart="touchStart" bindtouchend="touchEnd" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower" style="height:{{height}}rpx" class="scroll_view"> -->
+<scroll-view scroll-y   style="height:{{height}}rpx" class="scroll_view goods-scroll-view" bindscrolltolower="scrollToLower" bindscrolltoupper="scrollToUpper">
+  <view class="main" >
+    <!-- <view wx:if="{{data.length !=0 }}" class="label"   style="{{nature}}"> -->
+    <view wx:if="{{data.length !=0 }}" class="label" >
+      <!-- <view class="pullDowmText">
+        {{pullDowmText}}
+      </view> -->
+      <view class="card" wx:for="{{data}}" wx:key="index" id="{{item.id}}" bindtap="select">
+        <view class="left">
+          <view class="img">
+            <image mode="widthFix" src="{{item.img}}"></image>
+          </view>
+          <view class="hint_box">
+            <view wx:if="{{item.isNew && item.isNew == 1}}" class="hint"></view>
+          </view>
+          <view class="box">
+            <view class="top">
+              <view class="name">{{item.name}}</view>
+              <view class="label {{label==0?'operator':'aid'}}">{{label==0?"运营商":"医助"}}</view>
+            </view>
+            <view class="phone">{{item.phone}}</view>
+          </view>
+        </view>
+
+        <wxs src='filter.wxs' module='filter' />
+        <view class="right">
+          {{ filter.formatDate(item.createtime) }}
+        </view>
+      </view>
+      <!-- 加载更多 -->
+      <!-- <view class='isLoading-tip' hidden='{{!isLoading}}'>
+        <van-loading type="spinner" />
+      </view> -->
+    </view>
+    <view class="noLabel" wx:else>
+      <image src="/images/audit.png"></image>
+      <view wx:if="{{ select ==0 }}" class="marked">暂无需要审核的申请</view>
+      <view wx:else class="marked">暂无相关审核记录</view>
+    </view>
+  </view>
+  <view class='no-more-goods' wx:if="{{isShowNoMoreGoods}}">
+    <text>没有更多了</text>
+  </view>
+</scroll-view>

@@ -1,0 +1,149 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.4",
+	"appid": "wx59d9c2c2ed28738c",
+	"projectname": "RegistrationAapproval",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/detailsPage/detailsPage",
+					"pathName": "pages/detailsPage/detailsPage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/shortShare/shortShare",
+					"pathName": "pages/shortShare/shortShare",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/selectTemplateShort/selectTemplateShort",
+					"pathName": "pages/selectTemplateShort/selectTemplateShort",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/selectTemplateLong/selectTemplateLong",
+					"pathName": "pages/selectTemplateLong/selectTemplateLong",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/selectTemplateLong/selectTemplateLong",
+					"pathName": "pages/selectTemplateLong/selectTemplateLong",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/info/info",
+					"pathName": "pages/info/info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/welcome/welcome",
+					"pathName": "pages/welcome/welcome",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/PermissionApplication/PermissionApplication",
+					"pathName": "pages/PermissionApplication/PermissionApplication",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/PermissionApplicationSuccess/PermissionApplicationSuccess",
+					"pathName": "pages/PermissionApplicationSuccess/PermissionApplicationSuccess",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/registerIndex/registerIndex",
+					"pathName": "pages/registerIndex/registerIndex",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/recommenderSelect/recommenderSelect",
+					"pathName": "pages/recommenderSelect/recommenderSelect",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/PermissionApplicationSuccess/PermissionApplicationSuccess",
+					"pathName": "pages/PermissionApplicationSuccess/PermissionApplicationSuccess",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

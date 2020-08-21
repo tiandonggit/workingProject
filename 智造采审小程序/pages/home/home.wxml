@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<view class="main">
+  <view class="bg">
+    <image src="/images/homeBg.png" mode="widthFix"></image>
+  </view>
+</view>

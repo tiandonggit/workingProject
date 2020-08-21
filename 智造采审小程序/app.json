@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/registerIndex/registerIndex",
+    "pages/recommenderSelect/recommenderSelect",
+    "pages/recommenderSearch/recommenderSearch",
+    "pages/citySelect/citySelect",
+    "components/titleBar/titleBar",
+    "components/isIphoneX/isIphoneX",
+    "components/wx-index-list/wx-index-list",
+    "pages/auditIndex/auditIndex",
+    "pages/provinceSelect/provinceSelect",
+    "pages/detailsPage/detailsPage",
+    "pages/PermissionApplication/PermissionApplication",
+    "pages/PermissionApplicationSuccess/PermissionApplicationSuccess"
+  ],
+  "subpackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "navigateToMiniProgramAppIdList": [
+"wx5fef7d079d816927"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

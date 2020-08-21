@@ -1,0 +1,53 @@
+var formatDate = function (timestamp, option) {
+  console.log(2222);
+  var date = getDate();
+  var year = date.getFullYear()
+  var month = date.getMonth() + 1
+  var day = date.getDate()
+  //
+  var dateOld = getDate(timestamp.split('-').join('/')); //兼容ios时间格式化错误
+  var yearOld = dateOld.getFullYear()
+  var monthOld = dateOld.getMonth() + 1
+  var dayOld = dateOld.getDate()
+  console.log(date);
+  console.log(dateOld,"传入时间");
+  var hour = function () {
+    if (dateOld.getHours() < 10) {  //补‘0’
+      return '0' + dateOld.getHours()
+    }
+    return date.getHours();
+  }
+  var minute = function () {
+    if (dateOld.getMinutes() < 10) {
+      return '0' + dateOld.getMinutes()
+    }
+    return dateOld.getMinutes();
+  }
+  var second = function () {
+    if (dateOld.getSeconds() < 10) {
+      return '0' + dateOld.getSeconds()
+    }
+    return dateOld.getSeconds();
+  }
+
+  if (option == 'notime') {  //不需要时间
+    console.log("不需要时间")
+    return year + '-' + month + '-' + day;
+  }
+
+  if (year != yearOld) {
+    return monthOld + "月" + dayOld + "日"
+  } else if (month != monthOld) {
+    return monthOld + "月" + dayOld + "日"
+  } else if (day != dayOld) {
+    return monthOld + "月" + dayOld + "日"
+  } else {
+    return hour() + ':' + minute()
+  }
+
+  // return year + '-' + month + '-' + day + ' ' + hour() + ':' + minute() + ":" + second();
+}
+
+module.exports = {
+  formatDate: formatDate,
+};

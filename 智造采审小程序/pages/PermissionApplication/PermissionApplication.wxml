@@ -1,0 +1,29 @@
+<!--pages/PermissionApplication/PermissionApplication.wxml-->
+<view>
+  <titleBar bgColor="{{true}}">
+    <view slot="content">权限申请</view>
+  </titleBar>
+
+  <view class="result_box">
+    <view class="result_img">
+      <image src="/images/waitFor.png" mode="widthFix"></image>
+    </view>
+    <view class="result_title">
+      等待处理
+    </view>
+
+    <view class="result_explain">
+      <p>
+        您的权限申请已经提交，
+      </p>
+      <p>
+        平台会尽快审核，
+      </p>
+      <p>
+        审核结果请留意微信平台的服务通知。
+      </p>
+    </view>
+  </view>
+  <isIphoneX pension="{{false}}">
+  </isIphoneX>
+</view>

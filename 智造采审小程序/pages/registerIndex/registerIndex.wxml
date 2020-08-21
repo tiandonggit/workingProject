@@ -1,0 +1,101 @@
+<!--pages/info/info.wxml-->
+<view wx:if="{{!isHide}}" class="page">
+  <!-- <view> -->
+  <titleBar bgColor="{{true}}">
+    <view slot="content">权限申请</view>
+  </titleBar>
+  <view class="info">
+    <view class='search'>
+      <view class='searchItem'>
+        <image src='/images/zhuce.png' />
+        <input type="text" maxlength="10" placeholder-class="place-holder" bindinput="name" placeholder='请输入真实姓名' value="{{name}}"></input>
+      </view>
+    </view>
+    <view class='select_box'>
+      <view class='select' catchtap='selectTap'>
+        <image src='/images/leixing.png' />
+        <text class='select_text'>{{index==0?"申请权限类型":selectData[index].role}}</text>
+        <van-icon name="arrow" class="select_img {{show?'select_img_rotate':'aaa'}}" />
+      </view>
+      <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length-1*112):0}}rpx;'>
+        <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' wx:if='{{item.id>0}}' data-index='{{item.id}}' catchtap='optionTap'>
+          {{item.role}}
+        </text>
+      </view>
+    </view>
+
+    <view class='search' wx:if="{{pShow}}">
+      <view class='searchItem'>
+        <image src='/images/shengfen.png' />
+        <input type="number" placeholder-class="place-holder" disabled='true' placeholder='所在省份' value="{{provinceName}}" bindtap="provinceSelect"></input>
+        <van-icon name="arrow" />
+      </view>
+    </view>
+    <view class='search' wx:if="{{cShow}}">
+      <view class='searchItem'>
+        <image src='/images/chengshi.png' />
+        <input type="number" placeholder-class="place-holder" disabled='true' placeholder='所在城市' value="{{cityName}}" bindtap="citySelect"></input>
+        <van-icon name="arrow" />
+      </view>
+    </view>
+    <view class='search' wx:if="{{rShow}}">
+      <view class='searchItem'>
+        <image src='/images/tuijian.png' />
+        <input type="text" disabled placeholder-class="place-holder" bindinput="referencename" placeholder='请输入推荐人姓名（选填）' maxlength="10" value="{{referencename}}" bindtap="recommenderSelect"></input>
+      </view>
+    </view>
+    <view class="input_box" wx:if="{{isLogin}}">
+      <view class='search'>
+        <view class='searchItem'>
+          <image src='/images/shouji.png' />
+          <input type="number" placeholder-class="place-holder" value="{{phone}}" placeholder='请输入您注册的手机号码' maxlength="11" bindinput="phone"></input>
+        </view>
+      </view>
+      <view class='searchPassword' wx:if="{{isLogin}}">
+        <view class='searchItemPassword'>
+          <image src='/images/yaoshi.png' />
+          <input type="number" placeholder-class="place-holder" placeholder='请输入6位验证码' maxlength="6" bindinput="veifyCode" value="{{veifyCode}}"></input>
+        </view>
+        <view class="verification" maxlength="6" bindtap="verificationNum" style="color:{{colorState}}">
+          {{content}}
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="submit_box">
+    <button class="submit" bindtap="submitInfo">提交信息</button>
+    <isIphoneX pension="{{true}}">
+    </isIphoneX>
+  </view>
+</view>
+
+<view wx:if="{{isHide}}">
+  <view wx:if="{{canIUse}}">
+    <view class="welcome">
+      <view class="background">
+        <image mode="widthFix" src="../../images/welcome.png"></image>
+      </view>
+      <view class="buttons">
+        <button class="playThis" type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">申请使用</button>
+      </view>
+      <view class="explain">
+        使用流程:
+      </view>
+      <view class="bottomTip">
+        <view class="bottomTip_img">
+          <image mode="widthFix" src="../../images/explain.png"></image>
+        </view>
+        <view class="bottomTip_explain">
+          <span>申请 使用</span>
+          <span>微信 授权</span>
+          <span>申请 账号</span>
+          <span>登录</span>
+          <span>审核</span>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:else>请升级微信版本</view>
+  <isIphoneX pension="{{false}}">
+  </isIphoneX>
+</view>

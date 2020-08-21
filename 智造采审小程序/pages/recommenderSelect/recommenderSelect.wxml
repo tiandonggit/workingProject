@@ -1,0 +1,30 @@
+<!-- 头 -->
+<titleBar bgColor="{{true}}" isBack="{{true}}">
+  <view slot="content">推荐人</view>
+</titleBar>
+<!-- 搜索框 -->
+<van-search value="{{ searchvalue }}" placeholder="请输入姓名搜索" bind:search="onSearch" bind:change="onChange" bind:cancel="onCancel" />
+<!--列表页-->
+<scroll-view scroll-y="true" id="list" class="list" style="height:{{height}}px" bindscrolltolower="scrolltolower">
+  <view wx:if="{{isFind && !list.length}}" class="no_result">
+    <image src="../../images/no_result.png" class="img"></image>
+    <span class="span">
+      暂无搜索结果，请输入准确的姓名
+    </span>
+  </view>
+  <view wx:else>
+    <view class='list-item' wx:for='{{list}}' wx:key="item" bindtap="selectRecommender" data-name="{{item.referName}}" data-id="{{item.referId}}">
+      <image src='{{item.headImg}}' class="img" />
+      <view class="message-box">
+        <p class="name">
+          {{item.referName || ''}}
+          <span class="identity {{item.userType=='0'?'zhuanyuan':''}}  {{item.userType=='1' ? 'zongguan': ''}}">
+            {{item.userType=='0' ? '产品专员': item.userType=='1' ?'运营商':''}}
+          </span>
+        </p>
+        <p class="phone">{{item.phone || ''}}</p>
+        <p class="address">{{item.provName + ' ' + item.cityName }}</p>
+      </view>
+    </view>
+  </view>
+</scroll-view>

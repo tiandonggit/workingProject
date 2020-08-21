@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index"
+  },
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  }
+}

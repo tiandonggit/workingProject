@@ -1,0 +1,45 @@
+<!--pages/detailsPage/detailsPage.wxml-->
+<view class="main">
+  <!-- 自定义标题 -->
+  <headNavigation title="{{type==1?'审核结果':'申请信息'}}" select="{{select}}" bg="linear-gradient(90deg,rgba(0,105,255,1) 0%,rgba(1,128,255,1) 100%);" back="true" bindmyevent="onMyEvent">
+  </headNavigation>
+  <view class="main_scroll">
+    <view class="card">
+      <view class="row">姓名：{{objData.name}}</view>
+      <view class="row">手机号码：{{objData.phone}}</view>
+      <view class="row">申请权限：{{objData.requestRight}}</view>
+      <view class="row">推荐人：{{objData.referencer?objData.referencer:"无"}}</view>
+      <view class="row">省份：{{objData.province}}</view>
+      <view class="row">城市：{{objData.city}}</view>
+      <view class="row">申请时间：{{objData.bindTime}}</view>
+    </view>
+    <view class="card cardtt" wx:if="{{type==1}}">
+      <view class="row">审核结果：
+        <view class="{{objData.checkStatus==1?'green':'red'}}">{{objData.checkStatus==1?"通过": "驳回"}}</view>
+      </view>
+      <view class="row">审核人：{{objData.checkUser?objData.checkUser:"无"}}</view>
+      <view class="row">审核人权限：{{objData.checkerRight}}</view>
+      <view class="row">审核时间：{{objData.checkTime}}</view>
+      <view class="row" wx:if="{{objData.checkStatus==2}}">驳回原因：{{objData.reason}}</view>
+    </view>
+    <view class="shade">
+      <van-dialog use-slot title="驳回原因" show="{{ show }}" show-cancel-button confirm-button-color="#FFF" cancel-button-color="#333" async-close="{{reason}}" bind:confirm="onSubmitReason" bind:cancel="onCancel">
+        <textarea maxlength="20" bindinput="bindTextAreaBlur" placeholder-class="placeholder_class" placeholder="请输入驳回原因（限20字）" value="{{reason}}" />
+      </van-dialog>
+      <!-- <van-overlay show="{{ show }}" bind:click="onClickHide">
+        
+      </van-overlay> -->
+      <van-dialog id="van-dialog" />
+
+    </view>
+
+    <view class="foot" wx:if="{{type==0}}">
+      <view hover-class="button-hover" class="button" bindtap="onSubmit">通过</view>
+      <view hover-class="button-hover" class="button" bindtap="onReject">驳回</view>
+    </view>
+    <view class="foot audit" wx:if="{{objData.checkStatus && objData.checkStatus==2}}">
+      <view>如有疑问，请联系平台客服</view>
+      <view bindtap="onPhone">4000909975</view>
+    </view>
+  </view>
+</view>

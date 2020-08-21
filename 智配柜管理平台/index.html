@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="./css/login.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="loginall">
+    <div class="loginlogo">
+      <img class="loginlogopic" src="./images/cabinet.png">
+    </div>
+    <div class="logintitle">智配柜管理平台（移动端）</div>
+    <div class="logincontent">
+      <div class="logincontentt">
+        <div class="logincontenttt">账号</div>
+        <div class="logincontenttb">
+          <input type="text" maxlength="32" name="account" id="account" placeholder="请输入您的登录账号">
+        </div>
+      </div>
+    </div>
+    <div class="logincontent">
+      <div class="logincontentt">
+        <div class="logincontenttt">密码</div>
+        <div class="logincontenttb2">
+          <input type="password" oninput="this.value=this.value.replace(/[\u4e00-\u9fa5]/g,'');"
+            onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[\u4e00-\u9fa5]/g,''))"
+            name="password" maxlength="32" id="password" placeholder="请输入您的登录密码">
+          <img src="./images/hidepwd.png" id="pwdpic">
+        </div>
+      </div>
+    </div>
+    <div class="login-but">
+      <button id="loginbut">登录</button>
+    </div>
+  </div>
+  <script src="./js/jquery-1.8.3.min.js"></script>
+  <script src="./js/url.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/fontsize.js"></script>
+</body>
+
+</html>

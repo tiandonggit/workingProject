@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>每日一练</title>
+
+</head>
+
+<body>
+
+    <script>
+    
+        // 2019 - 7 - 10
+        // function test(x, y, z) {
+        //     console.log(test.length); // 3
+        //     console.log(arguments); // 
+        //     console.log(arguments.length); // 2
+        //     console.log(arguments.callee === test); // true
+        //     console.log(arguments[2]); // undefined (长度为2)
+        // }
+        // test(10, 20);
+
+
+        // 2019 - 7 - 11
+        // var a = 10;
+        // a.pro = 10;
+        // console.log(a.pro, a, a.pro + a); // undefined 10 NaN
+
+        // var s = "Hello";
+        // s.pro = "World";
+        // console.log(s.pro, s, s.pro + s); // undefined "Hello" "undefinedHello"
+
+        // 2019 - 7 - 12
+        // var f = 1;
+        // if(!f){
+        //     var a = 10;
+        // }
+        // function fn(){
+        //     var b = 20;
+        //     c = 30;
+        // }
+        // fn(); 
+        // console.log(a); // 10
+        // console.log(c); // 30
+        // console.log(b); // 报错 b is not defined
+
+        // 2019 - 7 - 15
+        var length = 10;
+        function fn() {
+            console.log(this.length);
+        }
+        var obj = {
+            length: 5,
+            method: function (fn) {
+                fn();
+                arguments[0]();
+            }
+        }
+        obj.method(fn, 1);
+
+    
+    </script>
+
+</body>
+
+</html>

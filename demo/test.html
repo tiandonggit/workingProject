@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>app</title>
+
+    <style>
+        div {
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+        }
+        .bar {
+            bottom: 0;
+            width: 1.25em;
+            height: 6.25em;
+            animation: bar 3s cubic-bezier(0.81, 0.04, 0.4, 0.7) infinite;
+        }
+        .bar:first-child {
+            margin-left: -6.25em;
+            background: #1e3f57;
+            animation-delay: 0ms; 
+        }
+        .bar:nth-child(2) {
+            margin-left: -5em;
+            background: #264a63;
+            animation-delay: 50ms; 
+        }
+        .bar:nth-child(3) {
+            margin-left: -3.75em;
+            background: #2d566f;
+            animation-delay: 100ms; 
+        }
+        .bar:nth-child(4) {
+            margin-left: -2.5em;
+            background: #35617a;
+            animation-delay: 150ms; 
+        }
+        .bar:nth-child(5) {
+            margin-left: -1.25em;
+            background: #3d6d86;
+            animation-delay: 200ms; 
+        }
+        .bar:nth-child(6) {
+            margin-left: 0;
+            background: #447892;
+            animation-delay: 250ms; 
+        }
+        .bar:nth-child(7) {
+            margin-left: 1.25em;
+            background: #4c849e;
+            animation-delay: 300ms; 
+        }
+        .bar:nth-child(8) {
+            margin-left: 2.5em;
+            background: #548fa9;
+            animation-delay: 350ms; 
+        }
+        .bar:nth-child(9) {
+            margin-left: 3.75em;
+            background: #5b9bb5;
+            animation-delay: 400ms; 
+        }
+        .bar:nth-child(10) {
+            margin-left: 5em;
+            background: #63a6c1;
+            animation-delay: 450ms; 
+        }
+        .loader {
+            margin-left: -6.25em;
+            width: 12.5em;
+            height: 6.25em;
+            perspective: 62.5em;
+            -webkit-box-reflect: below 0 linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7));
+        }
+        @keyframes bar {
+            0% {
+                transform: rotate(-0.5turn) rotateX(-1turn)
+            }
+            75%,
+            100% {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="btn">点击</button>
+    <input type="text" id="inp">
+
+    <div class="loader">
+        <div class="bar"></div>
+        <div class="bar"></div> 
+        <div class="bar"></div>
+        <div class="bar"></div> 
+        <div class="bar"></div>
+        <div class="bar"></div> 
+        <div class="bar"></div>
+        <div class="bar"></div> 
+        <div class="bar"></div>
+        <div class="bar"></div>       
+    </div>
+
+    <input type="tel" id="input">
+
+    <script>
+
+        input.onkeyup = function(){
+            console.log(this.value);
+        }
+
+        // 如何让 (a == 1 && a == 2 && a == 3) 的值为true？
+        let a = {
+            [Symbol.toPrimitive]: (function (hint) {
+                let i = 1;
+                return function () {
+                    return i++;
+                }
+            })()
+        }
+        // console.log(a == 1 && a == 2 && a == 3);
+
+        let j = 1;
+        let b = new Proxy({}, {
+            j: 1,
+            get: function () {
+                return () => this.j++;
+            }
+        });
+        // console.log(b == 1 && b == 2 && b == 3);
+
+        let c = [1, 2, 3];
+        c.join = c.shift;
+        // console.log(c);
+        console.log(c == 1 && c == 2 && c == 3);
+
+
+        // 函数防抖 （函数延迟）
+        btn.onclick = function () {
+            let d = (debounce(click, 2000));
+            d();
+        }
+
+        let inp = document.getElementById("inp");
+        inp.addEventListener("input", debounce(onkeyup, 1000));
+
+        function click() {
+            console.log(123);
+        }
+
+        function onkeyup() {
+            console.log(document.getElementById('inp').value);
+        }
+
+        function debounce(fn, time) {
+            let timeout = null;
+            return function () {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => {
+                    fn.apply(this, arguments);
+                }, 500);
+            }            
+        }
+    
+    
+        // 柯里化
+        function curry(fn){
+            if (fn.length <= 1) return fn;
+            const generator = (...regs) => {
+                if(fn.length === regs.length) {
+                    return fn(...regs);
+                }else {
+                    return (...regs2) => {
+                        return generator(...regs, ...regs2);
+                    }
+                }
+            }
+            return generator;
+        }
+        let add = (a, b, c, d) => { console.log(a + b + c + d) }
+        const curryAdd = curry(add);
+        curryAdd(1)(2)(3)(4);
+        add(1, 2, 3, 4);
+    
+    </script>
+</body>
+
+</html>

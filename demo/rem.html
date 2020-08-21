@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name = "format-detection" content = "telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+
+    <title>Title</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 0.14rem;
+        }
+        .fr {
+            float: right;
+        }
+        .fl {
+            float: left;
+        }
+        .d1, .d2, .d3, .d4, .d5{
+            font-size: 0.14rem;
+            background: #999;
+            width: 1.5rem;
+            height: 1rem;
+        }
+        .d2 {
+            background: #888888;
+        }
+        .d3 {
+            background: #777777;
+        }
+        .d4 {
+            background: #666666;
+        }
+        .d5 {
+            background: #b6f;
+            width: 0.75rem;
+        }
+        .top {
+            margin-bottom: 0.1rem;
+        }
+        .top:after, .bottom:after {
+            content: ' ';
+            display: table;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="top">
+    <div class="d1 fl">热么方法无法为附件而威风威风肥法</div>
+    <div class="d5 fl">热么方法无法为附件 2范文芳VS v无关文法为丰富法</div>
+    <div class="d2 fr">为我国认为i感觉我i及为国家为</div>
+</div>
+<div class="bottom">
+    <div class="d3 fl">欸我给i嗯估计我i归结为感觉我i感觉</div>
+    <div class="d4 fr">的覅违纪违法就我i附件为附加额外i附件为哦覅金额为i</div>
+</div>
+
+
+<script>
+
+    (function flexible (window, document) {
+        var docEl = document.documentElement
+        var dpr = window.devicePixelRatio || 1
+
+        // adjust body font size
+        function setBodyFontSize () {
+            if (document.body) {
+                document.body.style.fontSize = (12 * dpr) + 'px'
+            }
+            else {
+                document.addEventListener('DOMContentLoaded', setBodyFontSize)
+            }
+        }
+        setBodyFontSize();
+
+        // set 1rem = viewWidth / 3.75 = 100px
+        function setRemUnit () {
+            var rem = docEl.clientWidth / 3.75;
+            docEl.style.fontSize = rem + 'px'
+        }
+
+        setRemUnit()
+
+        // reset rem unit on page resize
+        window.addEventListener('resize', setRemUnit)
+        window.addEventListener('pageshow', function (e) {
+            if (e.persisted) {
+                setRemUnit()
+            }
+        })
+
+        // detect 0.5px supports
+        if (dpr >= 2) {
+            var fakeBody = document.createElement('body')
+            var testElement = document.createElement('div')
+            testElement.style.border = '.5px solid transparent'
+            fakeBody.appendChild(testElement)
+            docEl.appendChild(fakeBody)
+            if (testElement.offsetHeight === 1) {
+                docEl.classList.add('hairlines')
+            }
+            docEl.removeChild(fakeBody)
+        }
+    }(window, document))
+
+</script>
+
+</body>
+</html>

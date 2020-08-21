@@ -1,0 +1,72 @@
+/* pages/information/information.wxss */
+page{
+  background: #EDEDED;
+  width:100%;
+  height: 100%;
+}
+.parts{
+  width: 100%;
+  height: 348rpx;
+}
+.time{
+  height: 98rpx;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-size:28rpx;
+  line-height: 108rpx;
+}
+.tag{
+  height: 250rpx;
+  width: 662rpx;
+  padding: 0 20rpx;
+  margin-left: 26rpx;
+  border-radius:20rpx;
+  background: #FFF;
+}
+.tag_up{
+  height: 160rpx;
+  border-bottom: 2rpx solid rgba(0, 0, 0, 0.1);
+  font-size:32rpx;
+  line-height: 90rpx;
+  font-weight:400;
+  color: #333;
+}
+.thickening{
+  font-weight:bold;
+  margin-right: 20rpx;
+}
+.dep{
+  font-size:28rpx;
+  color: #999;
+  margin-left: 20rpx
+}
+.hospital-name {
+  height:40rpx;
+  font-size:28rpx;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  line-height:40rpx;
+  margin-bottom: 30rpx;
+}
+.tag_down{
+  font-size:30rpx;
+  line-height: 86rpx;
+  color: #333;
+  position: relative;
+}
+.tag_img{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 22rpx;
+  left: 0rpx;
+}
+.text{
+  position: absolute;
+  left: 60rpx;
+}
+van-icon .van-icon{
+  top: 6rpx;
+  left: 10rpx;
+}

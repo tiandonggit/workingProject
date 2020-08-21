@@ -1,0 +1,102 @@
+<view id='myDoctor'>
+  <view class='myDoctor'>
+    <view class='nav' style='height:{{navH}}px'>
+      <view class='nav-title'>
+        <view bindtap="code" class="code">
+          <image src="../../images/code.png" class="code_pic" />
+          <view class='code_text'>二维码</view>
+        </view>
+        <view class="INinputheader">
+          <icon class="INsearchicon" type="search" size="12"/>
+          <input class="weui-input" placeholder="医生名称搜索" confirm-type='search' bindconfirm='confirm' bindinput='diseaseNameInput' value="{{inputValue}}"/>
+          <van-icon name="clear" bindtap="clearInput" wx:if="{{showClear}}"/>
+        </view>
+        <view bindtap="information" class="information">
+          <image src="../../images/bell.png" class="information_pic" />
+          <view class='information_text'>消息</view>
+        </view>
+      </view>
+    </view>
+    <view class="body">
+    <!--医助头-->
+      <view class="container">
+        <view class='cont_body'>
+          <view class="myHelp">我的医生</view>
+          <text>({{num}})</text>
+          <view class='screen' bindtap="showPopup">
+            <view class='screen_text'>筛选</view>
+            <image src="../../images/screen.png" class="screen_icon"/>
+          </view>
+          <view class='or'></view>
+          <view class='statistics' bindtap="statistics">
+            <view class='statistics_text'>统计</view>
+            <image src="../../images/statistics.png" class="statistics_icon"/>
+          </view>
+        </view>
+      </view>
+      <!--医助列表-->
+      <scroll-view scroll-y="true" id="list" class="list" style="height:{{height}}px" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower">
+        <view class='tag' wx:for='{{list}}' wx:key="item" bindtap="go"  data-index="{{index}}">
+          <image src='{{item.vxheadurl}}' class='tag_img'/>
+          <view class='tag_name'>{{item.name}}</view>
+          <view class='tag_pos'>{{item.dictext}}</view>
+          <view class='tag_dep'>{{item.depname}}</view>
+          <view class='tag_hos'>{{item.hospitalname}}</view>
+          <van-icon name="arrow" />
+        </view>
+        <view wx:if='{{list.length==0}}'>
+          <view wx:if='{{type==1}}'>
+            <image src='../../images/noFind.png' class='pic'/>
+            <view class='text'>暂未找到符合条件的医生</view>
+          </view>
+          <view wx:else>
+            <image src='../../images/noBinding.png' class='pic'/>
+            <view class='text'>暂无绑定的医生</view>
+          </view>
+        </view>
+        <view style="height:78rpx;width:100%"></view>
+      </scroll-view>
+    </view>
+  </view>
+  <van-popup
+  show="{{ show }}"
+  position="right"
+  custom-style="width: 602rpx;height:calc(100% - {{navH1}}px);top:calc(50% + {{navH1/2}}px);border-radius:20rpx 0px 0px 20rpx;display: flex;flex-direction: column;"
+  bind:close="onClose"
+>
+    <view class="right_top"></view>
+    <view class="right_body">
+      <view wx:if="{{hos_list.length>0}}">
+        <view class="operator_title" bindtap="clicked">
+          <view class="operator_title_text">医院</view>
+          <view class="{{downArrow? 'down-arrow' : 'down-arrow active'}}"></view>
+        </view>
+        <view class="operator_body {{downArrow ? 'show' : 'hide'}}">
+          <view wx:for='{{hos_list}}' wx:key='item' class="{{item.choose? 'tab choosed' : 'tab'}}" bindtap="hosSelect" data-index="{{index}}">{{item.name}}</view>
+        </view>
+        <view class='grey'></view>
+      </view>
+      <view wx:if="{{pos_list.length>0}}">
+        <view class="operator_title">
+          <view class="operator_title_text">职称</view>
+        </view>
+        <view class="operator_body show">
+          <view wx:for='{{pos_list}}' wx:key='item' class="{{item.choose? 'tab choosed' : 'tab'}}" bindtap="posSelect" data-index="{{index}}">{{item.text}}</view>
+        </view>
+        <view class='grey'></view>
+      </view>
+      <view>
+        <view class="operator_title">
+          <view class="operator_title_text">其他</view>
+        </view>
+        <view class="operator_body show">
+          <view wx:for='{{other_list}}' wx:key='item' class="{{item.choose? 'tab choosed' : 'tab'}}" bindtap="otherSelect" data-index="{{index}}">{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="right_bottom">
+      <van-button type="default" bindtap="reset">重置</van-button>
+      <van-button type="info" bindtap='find'>确定</van-button>
+    </view>
+  </van-popup>
+</view>

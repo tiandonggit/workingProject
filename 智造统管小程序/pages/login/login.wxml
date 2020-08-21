@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view id='login'>
+  <view class='top'>
+    <image src='../../images/indexBackTop.png' class='top_back'></image>
+  </view>
+  <van-button type="warning" bindgetuserinfo="bindGetUserInfo" open-type="getUserInfo">申请使用</van-button>
+  <view class='bottom'></view>
+  <van-toast id="van-toast" />
+</view>

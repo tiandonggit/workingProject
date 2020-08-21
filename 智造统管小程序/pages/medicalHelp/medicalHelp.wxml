@@ -1,0 +1,82 @@
+<view id='medicalHelp'>
+  <view class='medicalHelp'>
+    <view class='nav' style='height:{{navH}}px'>
+      <view class='nav-title'>
+        <view class="INinputheader">
+          <icon class="INsearchicon" type="search" size="12"/>
+          <input class="weui-input" placeholder="医助名称搜索" confirm-type='search' bindconfirm='confirm'
+                 bindinput='diseaseNameInput' value="{{inputValue}}"/>
+          <van-icon name="clear" bindtap="clearInput" wx:if="{{showClear}}"/>
+        </view>
+      </view>
+    </view>
+    <view class="body">
+      <!--医助头-->
+      <view class="container">
+        <view class='cont_body'>
+          <view class="myHelp">我的医助</view>
+          <text>({{num}})</text>
+          <view class='screen' bindtap="showPopup">
+            <view class='screen_text'>筛选</view>
+            <image src="../../images/screen.png" class="screen_icon"/>
+          </view>
+        </view>
+      </view>
+      <!--医助列表-->
+      <scroll-view scroll-y="true" id="list" class="list" style="height:{{height}}px" bindscrolltoupper="scrolltoupper"
+                   bindscrolltolower="scrolltolower">
+        <view class='tag' wx:for='{{list}}' wx:key="item" bindtap="go" data-index="{{index}}">
+          <view class='tag_name'>{{item.name}}</view>
+          <view class='tag_tell'>{{item.phone}}</view>
+          <van-button type="warning" catchtap="chooseDoctor" data-index="{{index}}">医生列表</van-button>
+        </view>
+        <view wx:if='{{list.length==0}}'>
+          <view wx:if='{{type==1}}'>
+            <image src='../../images/noFind.png' class='pic'/>
+            <view class='text'>暂未找到符合条件的医助</view>
+          </view>
+          <view wx:else>
+            <image src='../../images/noBinding.png' class='pic'/>
+            <view class='text'>暂无绑定的医助</view>
+          </view>
+        </view>
+        <view style="height:78rpx;width:100%"></view>
+      </scroll-view>
+    </view>
+  </view>
+  <van-toast id="van-toast"/>
+  <van-popup
+      show="{{ show }}"
+      position="right"
+      custom-style="width: 602rpx;height:calc(100% - {{navH1}}px);top:calc(50% + {{navH1/2}}px);border-radius:20rpx 0px 0px 20rpx;display: flex;flex-direction: column;"
+      bind:close="onClose"
+  >
+    <view class="right_top"></view>
+    <view class="right_body">
+      <view wx:if='{{operator_type=="0"}}'>
+        <view class="operator_title" bindtap="clicked">
+          <view class="operator_title_text">我绑定的运营商</view>
+          <view class="{{downArrow? 'down-arrow' : 'down-arrow active'}}"></view>
+        </view>
+        <view class="operator_body {{downArrow ? 'show' : 'hide'}}">
+          <view wx:for='{{operator_list}}' wx:key='item' class="{{item.choose? 'tab choosed' : 'tab'}}" bindtap="select"
+                data-index="{{index}}">{{item.name}}
+          </view>
+        </view>
+        <view class='grey'></view>
+      </view>
+      <view>
+        <view class="operator_title">
+          <view class="operator_title_text">医助所属地区</view>
+        </view>
+        <view class="{{areaChoose=='1'? 'tab choosed' : 'tab'}}" bindtap="selectArea" data-index="1">全部地区</view>
+        <view class="{{areaChoose=='2'? 'tab choosed' : 'tab'}}" bindtap="selectArea" data-index="2">部分地区</view>
+        <van-picker columns="{{ columns }}" bind:change="onChange" wx:if="{{areaChoose=='2'}}"/>
+      </view>
+    </view>
+    <view class="right_bottom">
+      <van-button type="default" bindtap="reset">重置</van-button>
+      <van-button type="info" bindtap='find'>确定</van-button>
+    </view>
+  </van-popup>
+</view>

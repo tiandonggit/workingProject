@@ -1,0 +1,74 @@
+ <view class="box screenNum" style="{marginTop:24rpx}">
+        <view class="boxTop">
+          <view class="boxText">营养筛查数</view>
+          <view class="boxImg screenImg">
+            <view class="screenNumber">{{shaicha.shaichashu}}</view>
+          </view>
+        </view>
+        <view class="screenBody">
+          <view class="bodyTop">
+            <view class="screenMain">
+              <view class="mainNum">{{shaicha.shaichakaidanshu}}</view>
+              <view class="mainText">筛查开单数</view>
+            </view>
+            <view class="screenMain">
+              <view class="mainNum">{{shaicha.goumailv}}%</view>
+              <view class="mainText">购买率</view>
+            </view>
+          </view>
+          <view class="bodyTop bodyBottom">
+            <view class="screenMain">
+              <view class="mainNum">{{shaicha.goumaidanshu}}</view>
+              <view class="mainText">购买单数</view>
+            </view>
+            <view class="screenMain">
+              <view class="mainNum">¥{{shaicha.zongyingxiaoe}}</view>
+              <view class="mainText">总营销额</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="box programmeNum">
+        <view class="boxTop">
+          <view class="boxText" bindtap="openOtherList">营养推荐开单数</view>
+          <view class="boxImg programmeImg">
+            <view class="programmeNumber">{{yingyangtuijian.tuijianshu}}</view>
+          </view>
+        </view>
+        <view class="programmeBody">
+          <view class="programmeMain programmeLeft">
+            <view class="mainNum">{{yingyangtuijian.goumailv}}%</view>
+            <view class="mainText">购买率</view>
+          </view>
+          <view class="programmeMain programmeLeft">
+            <view class="mainNum">{{yingyangtuijian.goumaidanshu}}</view>
+            <view class="mainText">购买单数</view>
+          </view>
+          <view class="programmeMain">
+            <view class="mainNum">¥{{yingyangtuijian.zongyingxiaoe}}</view>
+            <view class="mainText">总营销额</view>
+          </view>
+        </view>
+      </view>
+      <view class="box programmeNum">
+        <view class="boxTop">
+          <view class="boxText">推荐产品开单数</view>
+          <view class="boxImg programmeImg productImg">
+            <view class="programmeNumber productNumber">{{tuijianchanpin.kaidanshu}}</view>
+          </view>
+        </view>
+        <view class="programmeBody">
+          <view class="programmeMain programmeLeft">
+            <view class="mainNum">{{tuijianchanpin.goumailv}}%</view>
+            <view class="mainText">购买率</view>
+          </view>
+          <view class="programmeMain programmeLeft">
+            <view class="mainNum">{{tuijianchanpin.goumaidanshu}}</view>
+            <view class="mainText">购买单数</view>
+          </view>
+          <view class="programmeMain">
+            <view class="mainNum">¥{{tuijianchanpin.zongyingxiaoe}}</view>
+            <view class="mainText">总营销额</view>
+          </view>
+        </view>
+      </view>

@@ -1,0 +1,199 @@
+<view id='levelList'>
+  <view class='levelList'>
+    <view class='nav' style='height:{{navH}}px'>
+      <view class='nav-title'>
+        <view bindtap="back" class="code">
+          <image src="../../images/icon-back2.png" class="back_pic" />
+        </view>
+        <view class="INinputheader">
+          <image src="../../images/icon-search.png" class="code_pic" />
+          <input class="weui-input" placeholder="医生名称搜索" confirm-type='search' bindconfirm='confirm' bindinput='diseaseNameInput' value="{{inputValue}}" />
+          <van-icon name="clear" bindtap="clearInput" wx:if="{{showClear}}" />
+        </view>
+      </view>
+    </view>
+    <view class="body">
+      <!-- 头 -->
+      <view class="container">
+        <view class='cont_body'>
+          <view class="top-info">
+            {{titleName}}
+            <text>{{titleAddress}}</text>
+          </view>
+          <view class="tab-choose">
+            <view class="tab {{userType=='4' ? 'tab1': userType=='0' ? 'tab3': userType=='1' ? 'tab4' : userType=='2' ? 'tab5' :''}}">
+              {{titleText}}
+            </view>
+            <view class="choose">
+              <view wx:if="{{type=='3' || type=='4' || type=='5'}}" class='statistics' bindtap="showPopupArea">
+                <view wx:if="{{!selectedArea}}" class='statistics_text'>全部地区</view>
+                <view wx:if="{{selectedArea}}" class="statistics_text">{{selectedArea}}</view>
+                <image wx:if="{{!showArea}}" src="../../images/icon-down2.png" class="statistics_icon" />
+                <image wx:if="{{showArea}}" src="../../images/icon-up2.png" class="statistics_icon" />
+              </view>
+              <view wx:if="{{type=='5'}}" class='or'></view>
+              <view wx:if="{{type=='1' || type=='5'}}" class='statistics' bindtap="showPopup">
+                <view class='statistics_text'>筛选</view>
+                <image src="../../images/icon-choose.png" class="screen_icon" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 列表 -->
+      <wxs src='filter.wxs' module='filter' />
+      <scroll-view scroll-y="true" id="list" class="list" style="height:{{height}}px" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower">
+        <view class="chooseText">
+          <view class="sub-title">
+            {{subTitle}}
+            <text>({{num}})</text>
+          </view>
+          <!-- <view class="showTime">上次数据更新{{mainInfo.date}}</view> -->
+        </view>
+        <!-- 医院下智配柜2 -->
+        <view wx:if="{{type=='2'}}" class="block-box cabinet">
+          <view class="card-box" wx:for="{{list}}" wx:key="item"  data-index="{{index}}"  data-usertype="5" bindtap="openStatisticalHome">
+            <view class="top">
+              <view class="title">{{item.devicename}}</view>
+              <view class="number">{{item.devicecode}}</view>
+            </view>
+            <view class="bottom">
+              <view class="left-text">
+                <view class="desc">{{item.rhospitalidname}}</view>
+                <view class="desc">总销售额：¥{{filter.priceDate(item.totalprice)}}</view>
+                <view class="desc">本月销售额：¥{{filter.priceDate(item.totalpriceday)}}</view>
+              </view>
+              <view class="right-img">
+                <image src="../../images/icon-cab.png" />
+              </view>
+            </view>
+          </view>
+        </view>
+        <!-- 医院下的医生列表1  or  医助下的医生列表5 -->
+        <view wx:if="{{type=='1' || type=='5'}}" class="block-box doctor-list">
+          <view class="card-box" wx:for="{{list}}" wx:key="item"  data-index="{{index}}" bindtap="openDoctorDetails">
+            <view class="left-box">
+              <view class="img">
+                <image src="{{item.vxheadurl}}" />
+              </view>
+              <view class="title">{{item.dictext}}</view>
+            </view>
+            <view class="middle-info">
+              <view class="name">{{item.name}}-<text>{{item.depname}}</text></view>
+              <view class="hospital">{{item.hospitalname}}</view>
+              <view class="desc">总销售额：¥{{filter.priceDate(item.educations)}}</view>
+              <view class="desc">本月销售额：¥{{filter.priceDate(item.rbusunesscardstyleid)}}</view>
+            </view>
+            <view class="right-icon">
+              <van-icon name="arrow" />
+            </view>
+          </view>
+        </view>
+        <!-- 产品专员3 -->
+        <view wx:if="{{type=='3'}}" class="block-box person-list">
+          <view class="card-box" wx:for="{{list}}" wx:key="item" >
+            <view class="top-info" data-index="{{index}}" data-usertype="1" bindtap="openStatisticalHome">
+              <view class="left-text">
+                <view class="name">
+                  {{item.bname}}
+                  <text class="desc">{{item.provName}}-{{item.cityName}}</text>
+                </view>
+                <view class="desc">总销售额：¥{{filter.priceDate(item.totalSalesQuota)}}</view>
+                <view class="desc">本月销售额：¥{{filter.priceDate(item.salesQuotaForThisMonth)}}</view>
+              </view>
+              <view class="right-img">
+                <image src="{{item.headImgUrl}}" />
+              </view>
+            </view>
+            <view class="btn-box" data-index="{{index}}" data-usertype="1" data-cap="4" bindtap="openLevelList">
+              下级医助
+              <image src="../../images/icon-right2.png" />
+            </view>
+          </view>
+        </view>
+        <!-- 运营商4 -->
+        <view wx:if="{{type=='4'}}" class="block-box person-list">
+          <view class="card-box" wx:for="{{list}}" wx:key="item" >
+            <view class="top-info" data-index="{{index}}" data-cap="1" data-usertype="2" bindtap="openStatisticalHome">
+              <view class="left-text">
+                <view class="name">
+                  {{item.name}}
+                  <text class="desc">{{item.prov}}-{{item.city}}</text>
+                </view>
+                <view class="desc">销售额：¥{{filter.priceDate(item.educations)}}</view>
+                <view class="desc">本月销售额：¥{{filter.priceDate(item.rbusunesscardstyleid)}}</view>
+              </view>
+              <view class="right-img">
+                <image src="{{item.wechatimg}}" />
+              </view>
+            </view>
+            <view class="btn-box" data-index="{{index}}" data-usertype="2"  data-cap="5" bindtap="openLevelList">
+              关联的医生
+              <image src="../../images/icon-right2.png" />
+            </view>
+          </view>
+        </view>
+        <view style="height:78rpx;width:100%"></view>
+      </scroll-view>
+    </view>
+  </view>
+  <!-- 地区选择二级联动popup -->
+  <van-popup show="{{ showArea }}" position="bottom" bind:close="onClose">
+    <view class="right_body">
+      <view>
+        <view class="operator_title">
+          <view class="operator_title_text">所属地区</view>
+        </view>
+        <view class="{{areaChoose=='1'? 'item choosed' : 'item'}}" bindtap="selectArea" data-index="1">全部地区</view>
+        <view class="{{areaChoose=='2'? 'item choosed' : 'item'}}" bindtap="selectArea" data-index="2">部分地区</view>
+        <van-picker columns="{{ columns }}" bind:change="onPlaceChange" wx:if="{{areaChoose=='2'}}" />
+      </view>
+    </view>
+    <view class="right_bottom">
+      <van-button type="default" bindtap="resetArea">重置</van-button>
+      <van-button type="info" bindtap='find'>确定</van-button>
+    </view>
+  </van-popup>
+  <van-popup show="{{ show }}" position="right" custom-style="width: 602rpx;height:calc(100% - {{navH1}}px);top:calc(50% + {{navH1/2}}px);border-radius:20rpx 0px 0px 20rpx;display: flex;flex-direction: column;" bind:close="onClose">
+    <view class="right_top"></view>
+    <view class="right_body">
+      <view wx:if="{{hos_list.length>0}}">
+        <view class="operator_title" bindtap="clicked">
+          <view class="operator_title_text">医院</view>
+          <view class="{{downArrow? 'down-arrow' : 'down-arrow active'}}"></view>
+        </view>
+        <view class="operator_body {{downArrow ? 'show' : 'hide'}}">
+          <view wx:for='{{hos_list}}' wx:key='item' class="{{item.choose? 'item choosed' : 'item'}}" bindtap="hosSelect" data-index="{{index}}">
+            {{item.name}}
+          </view>
+        </view>
+        <view class='grey'></view>
+      </view>
+      <view wx:if="{{pos_list.length>0}}">
+        <view class="operator_title">
+          <view class="operator_title_text">职称</view>
+        </view>
+        <view class="operator_body show">
+          <view wx:for='{{pos_list}}' wx:key='item' class="{{item.choose? 'item choosed' : 'item'}}" bindtap="posSelect" data-index="{{index}}">
+            {{item.text}}
+          </view>
+        </view>
+        <view class='grey'></view>
+      </view>
+      <view>
+        <view class="operator_title">
+          <view class="operator_title_text">其他</view>
+        </view>
+        <view class="operator_body show">
+          <view wx:for='{{other_list}}' wx:key='item' class="{{item.choose? 'item choosed' : 'item'}}" bindtap="otherSelect" data-index="{{index}}">
+            {{item.name}}
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="right_bottom">
+      <van-button type="default" bindtap="reset">重置</van-button>
+      <van-button type="info" bindtap='find'>确定</van-button>
+    </view>
+  </van-popup>
+</view>

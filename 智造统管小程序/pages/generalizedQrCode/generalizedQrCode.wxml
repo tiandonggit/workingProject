@@ -1,0 +1,32 @@
+<!--pages/generalizedQrCode/generalizedQrCode.wxml-->
+<view class="generalizedQrCode">
+  <view class="top">
+    <!-- <image src="../../images/qrCodeTop.png"></image> -->
+    <image src="../../images/qrcodeTop.png"></image>
+  </view>
+  <view class="body">
+    <view class="main">
+      <view class="img">
+        <image src="{{assistantInfo.img}}"></image>
+      </view>
+      <view class="name">{{assistantInfo.name}}</view>
+      <view class="phone">
+        <view class="icon">
+          <image src="../../images/qrcodeLeft.png"></image>
+        </view>
+        <view class="text">{{assistantInfo.phone}}</view>
+        <view class="icon">
+          <image src="../../images/qrcodeRight.png"></image>
+        </view>
+      </view>
+      <view class="qrCode">
+        <view class="codeMain">
+          <view class="codeImg"><image src="{{qrCode}}"></image></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="bottom">
+    <image src="../../images/qrcodeBottom.png"></image>
+  </view>
+</view>

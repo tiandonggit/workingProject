@@ -1,0 +1,179 @@
+<!-- pages/statisticalList/statisticalList.wxml -->
+<view class="statisticcalList">
+  <view class="top">
+    <view class="main">
+      <view wx:if="{{false}}" class="assistant">
+        <view class="assistantMain">
+          <view class="assistantName">
+            <view class="name">恬冬</view>
+            <view class="phone">
+              <view>13028399283</view>
+            </view>
+            <view class="phone">
+              <view class="label">医助</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="doctor">
+        <view class="tag">
+          <image src="{{doctorInfo.vxheadurl}}" class="tag_img" />
+          <view class="tag_name">
+            {{doctorInfo.name}}
+            <image wx:if="{{type==4}}" class="tag-img" src="../../images/msg-icon2.png" />
+          </view>
+          <view class="tag_pos">{{doctorInfo.dictext}}</view>
+          <view class="tag_dep">{{doctorInfo.depname}}</view>
+          <!-- <view class="tag_pos">筛查发起人</view>
+          <view class="tag_dep">
+            {{doctorInfo.dictext}}
+            <text>{{doctorInfo.depname}}</text>
+          </view> -->
+          <view class="tag_hos">{{doctorInfo.hospitalname}}</view>
+        </view>
+        <view class="tabs" wx:if="{{type == 6 || type == 7 || type == 8}}">
+          <view class="tab {{type=='6'?'active':''}}" bindtap="onChangeTab" data-num="6">
+            <view>营养推荐</view>
+          </view>
+          <view class="tab {{type=='7'?'active':''}}" bindtap="onChangeTab" data-num="7">
+            <view>营养筛查</view>
+          </view>
+          <view class="tab {{type=='8'?'active':''}}" bindtap="onChangeTab" data-num="8">
+            <view>自营产品</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="body">
+    <scroll-view scroll-y="true" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower" style="height:{{scrollHeight}}rpx" class="">
+      <view class="main" wx:if="{{type <= 4}}">
+        <view class="title">
+          {{topText}}
+          <span wx:if="{{type != 4}}">({{mainListLength}})</span>
+        </view>
+        <view wx:if="{{type != 4}}" class="list">
+          <view wx:if="{{type == 1|| type == 2}}" class="cabinet">
+            <view class="box" wx:for='{{mainList}}' wx:key="item" data-index="{{index}}">
+              <view class="img">
+                <image wx:if="{{type == 1}}" src="../../images/cabinet.png"></image>
+                <image wx:if="{{type == 2}}" src="../../images/book.png"></image>
+              </view>
+              <view class="info">
+                <view class="title">{{type == 1?item.devicename:item.name}}</view>
+                <view class="mes">{{type == 1?item.address:item.illnessname}}</view>
+              </view>
+            </view>
+          </view>
+          <view wx:if="{{type == 3}}" class="cabinet">
+            <view wx:for='{{mainList}}' wx:key="item" data-index="{{index}}" class="box text">
+              {{item.name}}
+            </view>
+          </view>
+          <view wx:if="{{lastPage && mainList.length != 0}}" class="listAllText">已加载全部数据</view>
+          <view wx:if="{{mainList.length == 0}}" class="noList">
+            <view class="img">
+              <image wx:if="{{type == 1}}" src="../../images/noCabinet.png"></image>
+              <image wx:if="{{type == 2}}" src="../../images/noBook.png"></image>
+              <image wx:if="{{type == 3}}" src="../../images/noTask.png"></image>
+            </view>
+            <view class="text">{{bottomText}}</view>
+          </view>
+        </view>
+        <view wx:if="{{type == 4}}" class="pack">
+          <view class="boxs">
+            <view class="text">
+              <view class="textTitle">筛查患者姓名：</view>
+              <view class="textName">{{patientMain.npname}}</view>
+            </view>
+            <view class="text">
+              <view class="textTitle">营养风险评分：</view>
+              <view class="textName">{{patientMain.assessmentbranch}}分</view>
+            </view>
+            <view class="text">
+              <view class="textTitle">身体质量指数(BMI)：</view>
+              <view class="textName">{{patientMain.bmi}}</view>
+            </view>
+            <view class="text">
+              <view class="textTitle">血清白蛋白值：</view>
+              <view class="textName">{{patientMain.serumalbumin}}g/L</view>
+            </view>
+          </view>
+          <view class="doctor">
+            <view class="tag">
+              <image src="{{patientMain.docurl}}" class="tag_img" />
+              <view class="tag_name">
+                {{patientMain.docname}}
+                <image class="tag-img" src="../../images/msg-icon1.png" />
+              </view>
+              <view class="tag_pos">{{patientMain.text}}</view>
+              <view class="tag_dep">{{patientMain.depatmentname}}</view>
+              <view class="tag_hos">{{patientMain.hospitalname}}</view>
+            </view>
+          </view>
+          <view wx:if="{{productList.length > 0}}" class="title">当前推荐产品</view>
+          <view wx:if="{{productList.length > 0}}" class="boxs product-boxs">
+            <view wx:for='{{productList}}' wx:key="item" data-index="{{index}}" class="productList">
+              <view class="pic">
+                <image src="{{item.topImg}}"></image>
+                <!-- <view class="label">营养成品</view> -->
+              </view>
+              <view class="product">
+                <view class="name">{{item.productName}}</view>
+                <view class="tip">
+                  <view class="specs">{{item.specificationName}}</view>
+                  <view class="num">X{{item.quantity}}</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="order-box" wx:if="{{type >= 6}}">
+        <wxs src='filter.wxs' module='filter' />
+        <view class="order-detail" wx:for='{{orderList}}' wx:key="item" data-index="{{index}}">
+          <view class="order-status">
+            <view>{{item.id}}</view>
+            <view wx:if="{{item.pushoutstatus==0 || item.pushoutstatus==5}}" class="status1">
+              待付款
+            </view>
+            <view wx:if="{{item.pushoutstatus==1}}" class="status2">待发货</view>
+            <view wx:if="{{item.pushoutstatus==2}}" class="status2">待收货</view>
+            <view wx:if="{{item.pushoutstatus==3}}" class="status3">已收货</view>
+            <view wx:if="{{item.pushoutstatus==4}}" class="status4">已取消</view>
+            <view wx:if="{{item.pushoutstatus==6}}" class="status2">待取货</view>
+            <view wx:if="{{item.pushoutstatus==7}}" class="status3">已取货</view>
+          </view>
+          <view class="product-details {{index2 < item.goods.length-1 ? 'last-item' : ''}}" wx:for='{{item.goods}}' wx:for-item="item2" wx:key="item2" wx:for-index="index2">
+            <view class="left-img">
+              <image src="{{item2.imgurl}}" alt="" />
+            </view>
+            <view class="right-info">
+              <view class="name">{{item2.goodsname}}</view>
+              <view class="spec">{{item2.specificationname}}</view>
+              <view class="price">
+                ¥{{filter.priceDate(item2.saleprice)}}
+                <text>x{{item2.quantity}}</text>
+              </view>
+            </view>
+          </view>
+          <view class="order-info">
+            <view>下单时间：{{item.createtime}}</view>
+            <view wx:if="{{type==8 && item.deloverycosts}}">运 费：¥{{item.deloverycosts}}</view>
+            <view wx:if="{{item.pushoutstatus!=0 && item.pushoutstatus!=5 && item.paytime}}">支付时间：{{item.paytime}}</view>
+            <view wx:if="{{type==6 || type==7 && item.devicename}}">智配柜：{{item.devicename}}</view>
+            <view wx:if="{{item.pushoutstatus==3 && item.claimgoodstimes}}">收货时间：{{item.claimgoodstimes}}</view>
+            <view wx:if="{{item.pushoutstatus==7 && item.claimgoodstime}}">取货时间：{{item.claimgoodstime}}</view>
+            <view>订单金额：¥{{filter.priceDate(item.totalprice)}}</view>
+          </view>
+        </view>
+        <view wx:if="{{orderList.length == 0}}" class="noList">
+          <view class="img">
+            <image src="../../images/no-order.png"></image>
+          </view>
+          <view class="text">暂无订单</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

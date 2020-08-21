@@ -1,0 +1,7 @@
+var priceDate = function (price) {
+  return (price / 100).toFixed(2)
+}
+
+module.exports = {
+  priceDate: priceDate,
+};

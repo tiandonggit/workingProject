@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "定位打卡",
+  "usingComponents": {
+    "van-icon": "../../miniprogram_npm/@vant/weapp/icon/index",
+    "van-popup": "../../miniprogram_npm/@vant/weapp/popup/index",
+    "van-dialog": "../../miniprogram_npm/@vant/weapp/dialog/index"
+  }
+}

@@ -1,0 +1,72 @@
+<view class="wholeContinaer">
+  <!-- 地图组件 -->
+  <map id="myMap" wx:if="{{!show&&!dialogShow}}" markers="{{markers}}" style="width:100%;height:100vh;" longitude="{{poi.longitude}}" latitude="{{poi.latitude}}" scale='16' show-location>
+  </map>
+  <!-- 签到面板 -->
+  <cover-view class="checkInPanel" wx:if="{{!show}}">
+    <cover-view class="checkInBtn {{canClick ? '' : 'disableClick'}} {{withOutPermission ? 'withOutPermission':''}}" bindtap="checkIn">
+      <cover-view class="checkInTitle">{{dakaText}}</cover-view>
+      <cover-view class="checkInTime">{{time}}</cover-view>
+    </cover-view>
+    <cover-view class="whitePositionPanel">
+      <cover-view class="positonTextRow">
+        <cover-image class="positionIcon" src="../../images/zcxj/positionIcon.png" wx:if="{{!withOutPermission}}"></cover-image>
+        <cover-image class="positionIcon" src="../../images/refresh.png" bindtap="rePosition" wx:if="{{withOutPermission}}"></cover-image>
+        <cover-view class="positionFont {{!addressName?'noAddressName':''}}">{{addressName || '未获取到定位'}}</cover-view>
+      </cover-view>
+      <!-- 打卡记录 -->
+      <cover-view class="border"></cover-view>
+      <cover-view class="daka_box">
+        <cover-view class="title">打卡记录</cover-view>
+        <cover-view class="divider">
+          <cover-view class="rpxBorder"></cover-view>
+          <cover-view class="divider_content" bindtap="openPopup">
+            <cover-image class="icon_bottom" src="../../images/icon_bottom.png"></cover-image>
+          </cover-view>
+          <cover-view class="rpxBorder"></cover-view>
+        </cover-view>
+      </cover-view>
+    </cover-view>
+  </cover-view>
+  <!-- 重新定位icon -->
+  <cover-view class="location_agin" bindtap="rePosition" wx:if="{{!show}}">
+    重新定位
+  </cover-view>
+</view>
+
+<view>
+  <!-- 打卡记录popup -->
+  <van-popup show="{{ show }}" bind:close="onClose" custom-style="height: 90%" position="bottom">
+    <cover-view class="historyList_title_box">
+      <cover-view class="history_title">打卡记录</cover-view>
+      <cover-view class="divider">
+        <cover-view class="rpxBorder"></cover-view>
+        <view class="divider_content" bindtap="onClose">
+          <cover-image class="icon_top" src="../../images/icon_top.png"></cover-image>
+        </view>
+        <cover-view class="rpxBorder"></cover-view>
+      </cover-view>
+    </cover-view>
+    <scroll-view scroll-y="true" class="scroll_box" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower">
+      <cover-view wx:for="{{historyList}}" wx:key="item" class="item_view">
+        <cover-view class="item_box flex">
+          <cover-image class="positionIcon" src="../../images/zcxj/positionIcon.png"></cover-image>
+          <cover-view class="span">{{item.remarktime}}</cover-view>
+        </cover-view>
+        <cover-view class="item_box mgl_box address">
+          {{item.positionaddress}}
+        </cover-view>
+        <cover-view class="item_box mgl_box detail_address">
+          {{item.positionproname}}{{item.positioncityname}}{{item.positionaddress}}
+        </cover-view>
+      </cover-view>
+    </scroll-view>
+  </van-popup>
+  <!-- 提示弹窗 -->
+  <!-- <van-dialog id="van-dialog" /> -->
+  <van-dialog use-slot show="{{ dialogShow }}" bind:close="dialogClose">
+    <view class="van-dialog__message">
+      请先确保开启手机系统定位服务并且允许“微信”App的定位权限，以获取精准的定位信息。
+    </view>
+  </van-dialog>
+</view>

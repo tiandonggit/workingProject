@@ -1,0 +1,38 @@
+<view id='information'>
+  <!--列表-->
+  <scroll-view scroll-y="true" id="list" class="list" style="height:{{height}}px" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower">
+    <view class="parts" wx:for='{{list}}' wx:key="item" data-type="{{item.type}}" bindtap="statistics"  data-index="{{index}}">
+      <view class='time'>{{item.ktime}}</view>
+      <view class='tag'>
+        <view class='tag_up'>
+          <text class='thickening'>{{item.name}}</text>
+          <text>{{item.keshi}}</text>
+          <text class="dep">[{{item.zhicheng}}]</text>
+          <view class="hospital-name">{{item.hospitalname}}</view>
+        </view>
+        <view class='tag_down' wx:if="{{item.type == 1}}">
+          <image src='../../images/check.png' class='tag_img'></image>
+          <view class='text'>{{"成功开具一套营养方案"}}<van-icon name="arrow" /></view>
+        </view>
+        <view class='tag_down' wx:if="{{item.type == 2}}">
+          <image src='../../images/check.png' class='tag_img'></image>
+          <view class='text'>{{"完成患者营养风险筛查"}}<van-icon name="arrow" /></view>
+        </view>
+        <view class='tag_down' wx:if="{{item.type == 3}}">
+          <image src='../../images/icon-info3.png' class='tag_img'></image>
+          <view class='text'>{{"营养方案长时间未进行定制"}}<van-icon name="arrow" /></view>
+        </view>
+        <view class='tag_down' wx:if="{{item.type == 4}}">
+          <image src='../../images/icon-info4.png' class='tag_img'></image>
+          <view class='text'>{{"营养方案订单已成功支付"}}<van-icon name="arrow" /></view>
+        </view>
+        <view class='tag_down' wx:if="{{item.type == 5}}">
+          <image src='../../images/icon-info5.png' class='tag_img'></image>
+          <view class='text'>{{"数据使用权限已成功授权给您"}}<van-icon name="arrow" /></view>
+        </view>
+        
+      </view>
+    </view>
+    <view style="height:78rpx;width:100%"></view>
+  </scroll-view>
+</view>

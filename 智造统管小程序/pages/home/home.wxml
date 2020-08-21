@@ -1,0 +1,304 @@
+<!--pages/home/home.wxml-->
+<view id='home'>
+  <!-- 三种首页背景图高度不一致 绑定类名区分 -->
+  <view class="home  {{userType == 0 ? 'home0' : ''}} {{userType == 1 ? 'home1' : ''}} {{userType == 2 ? 'home2' : ''}}">
+    <view class='nav' style='height:{{navH}}px'>
+      <view class='nav-title'>
+        智造统管
+      </view>
+    </view>
+    <view class="body">
+      <view class="bg" style='top:{{navH}}px'></view>
+      <!-- 总管理员面板 -->
+      <view class="container" wx:if="{{userType == 3}}">
+        <view class="flex_box">
+          <view class="doctor_num">
+            <p class="title_p">
+              平台医生数
+            </p>
+            <p class="value_p">
+              {{doctor_number}}
+            </p>
+          </view>
+          <view class="patient_num">
+            <p class="title_p">
+              平台患者数
+            </p>
+            <p class="value_p">
+              {{patient_number}}
+            </p>
+          </view>
+          <view class="hospital_num" data-index="1" bindtap="panelLink">
+            <p class="title_p">
+              平台医院数
+              <van-icon name="arrow" />
+            </p>
+            <p class="value_p">
+              {{hospital_number}}
+            </p>
+          </view>
+          <view class="gui_number" data-index="2" bindtap="panelLink">
+            <p class="title_p">
+              智配柜数
+              <van-icon name="arrow" />
+            </p>
+            <p class="value_p">
+              {{gui_number}}
+            </p>
+          </view>
+        </view>
+        <view class="detail_flex_box">
+          <view class="cell_box border" data-index="3" bindtap="panelLink">
+            <p class="value_p">
+              {{zhuanyuan_number}}
+            </p>
+            <p class="title_p">
+              产品专员数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+          <view class="cell_box border" data-index="4" bindtap="panelLink">
+            <p class="value_p">
+              {{yunxingshang_number}}
+            </p>
+            <p class="title_p">
+              运营商数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+          <view class="cell_box" data-index="5" bindtap="panelLink">
+            <p class="value_p">
+              {{yizhu_number}}
+            </p>
+            <p class="title_p">
+              医助数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+        </view>
+      </view>
+      <!-- 产品专员面板 -->
+      <view class="container zhuanyuan_container" wx:if="{{userType == 0}}">
+        <view class="flex_box">
+          <view class="doctor_num" data-index="5" bindtap="panelLink">
+            <p class="title_p">
+              关联医生数
+              <van-icon name="arrow" />
+            </p>
+            <p class="value_p">
+              {{guanlian_doctor_number}}
+            </p>
+          </view>
+          <view class="patient_num">
+            <p class="title_p">
+              关联患者数
+            </p>
+            <p class="value_p">
+              {{guanlian_patient_number}}
+            </p>
+          </view>
+        </view>
+        <view class="detail_flex_box">
+          <view class="cell_box border" data-index="3" bindtap="panelLink">
+            <p class="value_p">
+              {{xiaji_yunyingshang_number}}
+            </p>
+            <p class="title_p">
+              下级运营商数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+          <view class="cell_box" data-index="4" bindtap="panelLink">
+            <p class="value_p">
+              {{xiaji_yizhu_number}}
+            </p>
+            <p class="title_p">
+              下级医助数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+        </view>
+      </view>
+      <!-- 运营商面板 -->
+      <view class="container yunyingshang_container" wx:if="{{userType == 1}}">
+        <view class="flex_box">
+          <view class="doctor_num" data-index="5" bindtap="panelLink">
+            <p class="title_p">
+              关联医生数
+              <van-icon name="arrow" />
+            </p>
+            <p class="value_p">
+              {{y_guanlian_doctor_number}}
+            </p>
+          </view>
+          <view class="patient_num">
+            <p class="title_p">
+              关联患者数
+            </p>
+            <p class="value_p">
+              {{y_guanlian_patient_number}}
+            </p>
+          </view>
+        </view>
+        <view class="detail_flex_box">
+          <view class="cell_box border" data-index="2" data-usertype='1' bindtap="panelLink">
+            <p class="value_p">
+              {{y_gui_number}}
+            </p>
+            <p class="title_p">
+              智配柜数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+          <view class="cell_box" data-index="4" bindtap="panelLink">
+            <p class="value_p">
+              {{xiaji_yizhu_number}}
+            </p>
+            <p class="title_p">
+              关联医助数
+              <van-icon name="arrow" />
+            </p>
+          </view>
+        </view>
+      </view>
+
+      <!-- 医助面板 -->
+      <view class="chanpinzhuanyuan_menu" wx:if="{{userType == 2}}">
+        <view class="menu_item" bindtap="goLocation">
+          <image src="../../images/place.png" class="img"></image>
+          <span class="span">定位打卡</span>
+        </view>
+        <view class="menu_item" bindtap="goCode">
+          <image src="../../images/code.png" class="img"></image>
+          <span class="span">推广二维码</span>
+        </view>
+        <view class="menu_item" bindtap="goMessageList">
+          <image src="../../images/message.png" class="img"></image>
+          <span class="span">消息通知</span>
+        </view>
+      </view>
+      <view class="container yizhu_container" wx:if="{{userType == 2}}">
+        <view class="flex_box">
+          <view class="doctor_num" data-index="5" bindtap="panelLink">
+            <p class="title_p">
+              推广医生数
+              <van-icon name="arrow" />
+            </p>
+            <p class="value_p">
+              {{yz_tuiguang_doctor_number}}
+            </p>
+          </view>
+          <view class="patient_num">
+            <p class="title_p">
+              医生关联患者数
+            </p>
+            <p class="value_p">
+              {{yz_guanlian_patient_number}}
+            </p>
+          </view>
+        </view>
+      </view>
+      <view class="select_box">
+        <p class="p_desc" bindtap="selectTimePop">
+          {{timeSelectText}}
+          <van-icon name="arrow-down" />
+        </p>
+        <p class="p_desc" bindtap="selectAreaPop" wx:if="{{userType == 3}}">
+          {{placeSelectText}}
+          <van-icon name="arrow-down" />
+        </p>
+        <p class="p_desc" wx:if="{{userType != 3}}" style="display: inline;margin-right:0;float:right">
+          上次数据更新{{updateTime}}
+        </p>
+      </view>
+      <view class="update_time" wx:if="{{userType == 3}}">
+        上次数据更新{{updateTime}}
+      </view>
+      <view class="statisticsPanel">
+        <statistics-panel tuijianchanpin="{{tuijianchanpin}}" shaicha="{{shaicha}}" yingyangtuijian="{{yingyangtuijian}}"></statistics-panel>
+      </view>
+      <view wx:if="{{userType == 2}}" class="tableBox">
+        <view class="docTable">
+          <view class="tableTitle">已推广医生分布</view>
+          <view class="tableMain">
+            <view class="tableTr">
+              <view class="tableTh1">
+                医院
+              </view>
+              <view class="tableTh1 tableTh2">
+                医生数
+              </view>
+              <view class="tableTh1 tableTh2 tableTh3">
+                患者数
+              </view>
+            </view>
+            <view class="tableNo"></view>
+            <view wx:for='{{docDistribution}}' wx:key="item" data-index="{{index}}" class="tableTr tableTr2">
+              <view class="tableTh1 tableTd1">
+                {{item.name}}
+              </view>
+              <view class="tableTh1 tableTd1 tableTh2 tableTd2">
+                {{item.num}}
+              </view>
+              <view class="tableTh1 tableTh2 tableTd2 tableTh3">
+                {{item.guanlianhuanzheshu}}
+              </view>
+            </view>
+            <view wx:if="{{docDistribution.length == 0}}" class="tableTr tableTr2 noNum">
+              <view>暂无数据</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{userType == 2}}" class="cell">
+        <view class="cellList">
+          <view data-cap="1" bindtap="openViewProductList" class="list">
+            <view class="listText">
+              智能柜产品销量统计
+            </view>
+            <view class="listIcon">
+              <van-icon name="arrow" />
+            </view>
+          </view>
+          <view data-cap="2" bindtap="openViewProductList" class="list">
+            <view class="listText">
+              自营产品销量统计
+            </view>
+            <view class="listIcon">
+              <van-icon name="arrow" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 统计区间popup -->
+  <view class="popup">
+    <van-popup show="{{ show }}" bind:close="onClose">
+      <view class="chooseTime">
+        <van-radio-group value="{{ radio }}">
+          <van-radio data-cap="7" data-value="本月数据" bindtap="onChange" checked-color="#0069FF" name="7">本月数据</van-radio>
+          <van-radio data-cap="1" data-value="上一个月数据" bindtap="onChange" checked-color="#0069FF" name="1">上一个月数据</van-radio>
+          <van-radio data-cap="2" data-value="上两个月数据" bindtap="onChange" checked-color="#0069FF" name="2">上两个月数据</van-radio>
+        </van-radio-group>
+      </view>
+    </van-popup>
+  </view>
+  <!-- 地区选择二级联动popup -->
+  <van-popup show="{{ placeSelectShow }}" position="bottom" bind:close="onClose">
+    <view class="right_body">
+      <view>
+        <view class="operator_title">
+          <view class="operator_title_text">所属地区</view>
+        </view>
+        <view class="{{areaChoose=='1'? 'tab choosed' : 'tab'}}" bindtap="selectArea" data-index="1">全部地区</view>
+        <view class="{{areaChoose=='2'? 'tab choosed' : 'tab'}}" bindtap="selectArea" data-index="2">部分地区</view>
+        <van-picker columns="{{ columns }}" bind:change="onPlaceChange" wx:if="{{areaChoose=='2'}}" />
+      </view>
+    </view>
+    <view class="right_bottom">
+      <van-button type="default" bindtap="reset">重置</van-button>
+      <van-button type="info" bindtap='find'>确定</van-button>
+    </view>
+  </van-popup>
+</view>

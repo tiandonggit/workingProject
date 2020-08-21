@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view id='index'>
+  <view class='bottom'></view>
+  <van-toast id="van-toast" />
+</view>

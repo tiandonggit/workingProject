@@ -1,0 +1,91 @@
+/**
+ * 格式化时间
+ */
+var formatTime =function(date) {
+  const year = date.getFullYear()
+  const month = date.getMonth() + 1
+  const day = date.getDate()
+  const hour = date.getHours()
+  const minute = date.getMinutes()
+  const second = date.getSeconds()
+
+  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+}
+
+var  formatNumber = function(n)  {
+  n = n.toString()
+  return n[1] ? n : '0' + n
+}
+/**
+ * 处理统计页数据
+ */
+var filterNum = function (num, bit, percentage)  {
+  console.log(num, bit, percentage)
+  if (percentage){
+    if(num != 0){
+      num = Math.round(num * 10000) / 100 + '%';
+    }else{
+      num = 0 + "%"
+    }
+  }else{
+    if (bit == 5) {
+      if (num > 99999) {
+        num = "99999+"
+      }
+    } else if (bit == 9) {
+      if (num > 999999999) {
+        num = "999999999+"
+      }
+    }
+  }
+
+  return num;
+}
+/**
+ * 处理金额问题
+ */
+var moneyFilter = function (num) {
+  if(num == 0){
+    return '0.00';
+  }
+  num = num/100;
+  var result = parseFloat(num);
+  if (isNaN(result)) {
+    console.log('传递参数错误，请检查！');
+    return '0.00';
+  }
+  result = Math.round(num * 100) / 100;
+  var s_x = result.toString();
+  var pos_decimal = s_x.indexOf('.');
+  if (pos_decimal < 0) {
+    pos_decimal = s_x.length;
+    s_x += '.';
+  }
+  while (s_x.length <= pos_decimal + 2) {
+    s_x += '0';
+  }
+ 
+  if (s_x > 999999999.99){
+    s_x = 999999999.99;
+  }
+  return s_x;
+}
+/**
+ * 字符串截取
+ */
+var sub = function (val,len) {
+  if (val == undefined || val.length == 0) {
+    return;
+  }
+  if (val.length > len) {
+    return val.substring(0, len) + "...";
+  } else {
+    return val;
+  }
+}
+module.exports = {
+  formatTime: formatTime,
+  filterNum: filterNum,
+  moneyFilter: moneyFilter,
+  sub: sub
+}

@@ -1,0 +1,152 @@
+@barBackgroundColor: rgba(81, 193, 255, 1);
+
+
+@mainBackgroundColor: rgba(255, 255, 255, 1);
+@mainFontColor: rgba(51, 51, 51, 1);
+@contentFontColor: rgba(153, 153, 153, 1);
+@highlightFontColor: rgba(0, 130, 255, 1);
+@highlightFontColor2: rgba(255, 48, 0, 1);
+@highlightFontColor3: rgba(0, 105, 255, 0.1);
+@titleColor: #333;
+@subTitleColor: #666;
+@descTitleColor: #999;
+@menuIconColor: rgba(128, 176, 255, 1);
+@menuIconHighlightColor: rgba(255, 255, 255, 1);
+
+// 公共颜色
+@mainColor: #0069FF;
+@beginColor: #0180FF;
+@fontColorFFF: #ffffff;
+@fontColor999: #999999;
+@checkedHighLightColor: #48ADE5;
+@searchBackgroundColor: #F3F3F3;
+@exitGroupFontColor: #FF3000;
+@badgeFontColor: #FF5900;
+@myMsgBackgroundColor: #e5f0ff;
+@myMsgSelectedBackgroundColor: #ced7e6;
+
+@addBtnColor: #51C1FF;
+@bgColorED: #EDEDED;
+@bgColorF2: #F2F2F2;
+@bgActiveIM: #DAF2FF;
+
+@fontColorLevel3: #FF5900;
+
+
+/*element-ui统一样式修改 带有less变量的使用*/
+/deep/ .el-dialog__title {
+  font-size: 16px;
+  font-weight: bold;
+  color: @mainFontColor;
+  line-height: 20px;
+}
+
+.el-dialog__body {
+  font-size: 14px;
+  font-weight: 400;
+  color: @mainFontColor;
+  line-height: 18px;
+  padding: 10px 20px;
+}
+
+
+.el-table__empty-text, .cell {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: @contentFontColor !important;
+}
+
+.el-dialog__headerbtn i {
+  color: @titleColor !important;
+  font-size: 22px;
+}
+
+.el-dropdown-menu {
+  padding: 0 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .2) !important;
+}
+
+.el-dropdown-menu__item:hover {
+  background-color: @fontColorFFF !important;
+}
+
+.el-popper[x-placement^=bottom] {
+  margin-top: 6px !important;
+}
+
+
+/deep/ .el-input {
+
+  font-size: 16px;
+  font-weight: 400;
+  color: @fontColor999;
+
+  input::-webkit-input-placeholder {
+    color: rgba(153, 153, 153, 1);
+  }
+
+  input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(153, 153, 153, 1);
+  }
+
+  input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(153, 153, 153, 1);
+  }
+
+  input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(153, 153, 153, 1);
+  }
+}
+
+/deep/ .el-badge__content.is-dot {
+  height: 10px;
+  width: 10px;
+}
+
+/deep/ .el-table__body tr.current-row > td {
+  background-color: rgba(218, 242, 255, 1) !important;
+}
+
+/deep/ .el-tree-node__content {
+  margin: 8px 0;
+  align-items: flex-start !important;
+  min-height: 26px !important;
+  height: auto;
+}
+
+/deep/ .el-tag {
+  color: @fontColorFFF;
+  font-size: 14px!important;
+  .el-tag__close {
+    color: @fontColorFFF;
+  }
+}
+
+/deep/ .el-tag .el-tag__close:hover {
+  background-color: transparent!important;
+}
+
+/deep/ .el-textarea__inner:focus {
+  border-color: @barBackgroundColor!important;
+}
+
+/deep/ .el-input__inner:focus {
+  border-color: @barBackgroundColor!important;
+}
+
+/deep/ .el-button--primary {
+  color: #FFF;
+  background-color:  @barBackgroundColor!important;;
+  border-color:  @barBackgroundColor!important;;
+}
+
+/deep/ .el-button.cancel_btn {
+  color: @barBackgroundColor!important;
+  background-color:  @fontColorFFF!important;;
+  border-color:  @fontColorFFF!important;;
+}
+
+
+
+
+

@@ -1,0 +1,1943 @@
+{
+  "jinrixiaoshoueyuce": "11.24%",
+  "jinrikaidanshuyuce": "10.00%",
+  "jinrigoumailv": "87.93%",
+  "jinrigoumailvyuce": "3.45%",
+  "jinripingjunkejia": 391.03,
+  "jinripingjunkejiayuce": "-2.24%",
+  "jiaoyichengguo": {
+    "yData": [1.03, 1.32, 1.61],
+    "dialogData": {
+      "name": "内蒙古赤峰市医智成果累计交易数量弹窗json",
+      "num1": "97",
+      "num2": "16078",
+      "num3": "34.82%",
+      "num4": "55980"
+    }
+  },
+  "huanjiaowenzhang": {
+    "yData": [1375, 1408, 1427],
+    "dialogData": {
+      "name": "内蒙古赤峰市患教文章累计数量弹窗内容json",
+      "block1": {
+        "title": "各类型文章分布",
+        "subtitle1": "各类型文章阅读数量分布",
+        "subtitle2": "各类型文章转发数量分布",
+        "data1": [
+          {
+            "value": 7037,
+            "name": "名医公开课"
+          },
+          {
+            "value": 2963,
+            "name": "医学中心"
+          }
+        ],
+        "data2": [
+          {
+            "value": 6167,
+            "name": "名医公开课"
+          },
+          {
+            "value": 3833,
+            "name": "医学中心"
+          }
+        ]
+      },
+      "block2": {
+        "title": "各科室医生文章分布",
+        "subtitle1": "各科室医生文章阅读数量分布",
+        "subtitle2": "各科室医生文章转发数量分布",
+        "data1": [
+          {
+            "value": 2696,
+            "name": "内科"
+          },
+          {
+            "value": 2479,
+            "name": "外科"
+          },
+          {
+            "value": 1867,
+            "name": "妇产科"
+          },
+          {
+            "value": 1573,
+            "name": "儿科"
+          },
+          {
+            "value": 977,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 409,
+            "name": "其他"
+          }
+        ],
+        "data2": [
+          {
+            "value": 2688,
+            "name": "内科"
+          },
+          {
+            "value": 2680,
+            "name": "外科"
+          },
+          {
+            "value": 2059,
+            "name": "妇产科"
+          },
+          {
+            "value": 1494,
+            "name": "儿科"
+          },
+          {
+            "value": 1019,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 59,
+            "name": "其他"
+          }
+        ]
+      },
+      "block3": {
+        "title": "各地域文章分布",
+        "subtitle1": "各地域医生文章阅读数量分布",
+        "subtitle2": "各地域医生文章转发数量分布",
+        "data1": [
+          {
+            "value": 2035,
+            "name": "辽宁省"
+          },
+          {
+            "value": 1027,
+            "name": "吉林省"
+          },
+          {
+            "value": 675,
+            "name": "河南省"
+          },
+          {
+            "value": 630,
+            "name": "河北省"
+          },
+          {
+            "value": 509,
+            "name": "广西省"
+          },
+          {
+            "value": 885,
+            "name": "广东省"
+          },
+          {
+            "value": 356,
+            "name": "山东省"
+          },
+          {
+            "value": 617,
+            "name": "山西省"
+          },
+          {
+            "value": 1283,
+            "name": "江苏省"
+          },
+          {
+            "value": 1080,
+            "name": "黑龙江省"
+          },
+          {
+            "value": 903,
+            "name": "内蒙古自治区"
+          }
+        ],
+        "data2": [
+          {
+            "value": 2071,
+            "name": "辽宁省"
+          },
+          {
+            "value": 963,
+            "name": "吉林省"
+          },
+          {
+            "value": 641,
+            "name": "河南省"
+          },
+          {
+            "value": 625,
+            "name": "河北省"
+          },
+          {
+            "value": 486,
+            "name": "广西省"
+          },
+          {
+            "value": 826,
+            "name": "广东省"
+          },
+          {
+            "value": 534,
+            "name": "山东省"
+          },
+          {
+            "value": 603,
+            "name": "山西省"
+          },
+          {
+            "value": 1280,
+            "name": "江苏省"
+          },
+          {
+            "value": 1118,
+            "name": "黑龙江省"
+          },
+          {
+            "value": 853,
+            "name": "内蒙古自治区"
+          }
+        ]
+      }
+    }
+  },
+  "kangfurenwu": {
+    "yData": [947, 951, 954],
+    "dialogData": {
+      "name": "内蒙古赤峰市康复任务累计数量弹窗json",
+      "chart1": {
+        "subTitle": "单位：个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "日常任务",
+          "value": [
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3F50FF", "", ""]
+      },
+      "chart2": {
+        "subTitle": "单位：个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "调查问卷",
+          "value": [
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            }
+          ]
+        },
+        "barColorList": ["#00E9A3", "#10D564", "", ""]
+      },
+      "chart3": {
+        "num1": "86.76%",
+        "num2": "89.90%"
+      },
+      "chart4": {
+        "subTitle": "单位：个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "日常任务",
+          "value": [
+            {
+              "value": 73
+            },
+            {
+              "value": 73
+            },
+            {
+              "value": 73
+            },
+            {
+              "value": 73
+            },
+            {
+              "value": 73
+            },
+            {
+              "value": 73
+            },
+            {
+              "value": 73
+            }
+          ]
+        },
+        "barColorList": ["#C30AFF", "#9204FF", "", ""]
+      },
+      "chart5": {
+        "subTitle": "单位：个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "调查问卷",
+          "value": [
+            {
+              "value": 7
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 7
+            }
+          ]
+        },
+        "barColorList": ["#0ADEFF", "#04B9FF", "", ""]
+      },
+      "chart6": {
+        "num1": "75.21%",
+        "num2": "74.30%"
+      }
+    }
+  },
+  "chanpin": {
+    "yData": [46, 49, 54],
+    "dialogData": {
+      "name": "内蒙古赤峰市产品累计数量弹窗json",
+      "block1": [
+        {
+          "name": "全营养类",
+          "value": "14.15%"
+        },
+        {
+          "name": "蛋白质/氨基酸/ 肽类",
+          "value": "10.86%"
+        },
+        {
+          "name": "脂肪/脂肪酸类",
+          "value": "12.29%"
+        },
+        {
+          "name": "碳水化合类",
+          "value": "11.06%"
+        },
+        {
+          "name": "电解质类",
+          "value": "10.18%"
+        },
+        {
+          "name": "药食同源类",
+          "value": "10.61%"
+        },
+        {
+          "name": "特殊营养补充类",
+          "value": "10.02%"
+        },
+        {
+          "name": "益生菌类",
+          "value": "9.79%"
+        },
+        {
+          "name": "膳食纤维类",
+          "value": "11.05%"
+        }
+      ],
+      "block2": {
+        "type": 1,
+        "data1": [
+          {
+            "name": "全营养类",
+            "value": 1625
+          },
+          {
+            "name": "蛋白质/氨基酸/ 肽类",
+            "value": 1115
+          },
+          {
+            "name": "脂肪/脂肪酸类",
+            "value": 1347
+          },
+          {
+            "name": "碳水化合类",
+            "value": 1007
+          },
+          {
+            "name": "电解质类",
+            "value": 974
+          },
+          {
+            "name": "药食同源类",
+            "value": 1017
+          },
+          {
+            "name": "特殊营养补充类",
+            "value": 909
+          },
+          {
+            "name": "益生菌类",
+            "value": 919
+          },
+          {
+            "name": "膳食纤维类",
+            "value": 1087
+          }
+        ]
+      },
+      "block3": {
+        "type": 1,
+        "data1": [
+          {
+            "value": 1291,
+            "name": "蛋白质"
+          },
+          {
+            "value": 1665,
+            "name": "电解质"
+          },
+          {
+            "value": 1660,
+            "name": "维生素"
+          },
+          {
+            "value": 1700,
+            "name": "膳食纤维"
+          },
+          {
+            "value": 1083,
+            "name": "益生元"
+          },
+          {
+            "value": 872,
+            "name": "不饱和脂肪酸"
+          },
+          {
+            "value": 836,
+            "name": "微量元素"
+          },
+          {
+            "value": 894,
+            "name": "益生菌"
+          }
+        ]
+      },
+      "block4": [
+        {
+          "name": "黑龙江省",
+          "value": "11.46%"
+        },
+        {
+          "name": "吉林省",
+          "value": "9.47%"
+        },
+        {
+          "name": "辽宁省",
+          "value": "21.56%"
+        },
+        {
+          "name": "内蒙古自治区",
+          "value": "8.24%"
+        },
+        {
+          "name": "河北省",
+          "value": "6.8%"
+        },
+        {
+          "name": "广东省",
+          "value": "9.11%"
+        },
+        {
+          "name": "山西省",
+          "value": "4.94%"
+        },
+        {
+          "name": "山东省",
+          "value": "4.35%"
+        },
+        {
+          "name": "河南省",
+          "value": "6.59%"
+        },
+        {
+          "name": "江苏省",
+          "value": "12.03%"
+        },
+        {
+          "name": "广西省",
+          "value": "5.44%"
+        }
+      ]
+    }
+  },
+  "rihuoyue": {
+    "yData": [11, 8, 9, 12, 11, 10, 10],
+    "dialogData": {
+      "name": "内蒙古赤峰市日活跃医生数量弹窗内容json",
+      "nextDay": 9,
+      "nextMonth": 36,
+      "chart1": {
+        "type": 1,
+        "xAxisType": 1,
+        "data1": {
+          "name": "每日医生活跃人数",
+          "value": [
+            {
+              "value": 11
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 12
+            },
+            {
+              "value": 11
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 10
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#061B4D", "", ""]
+      },
+      "chart2": {
+        "type": 1,
+        "xAxisType": 1,
+        "data1": {
+          "name": "每日医生活跃人数增长率",
+          "value": [
+            {
+              "value": 0.19
+            },
+            {
+              "value": -27.27
+            },
+            {
+              "value": 12.5
+            },
+            {
+              "value": 33.33
+            },
+            {
+              "value": -8.33
+            },
+            {
+              "value": -9.09
+            },
+            {
+              "value": 0
+            }
+          ]
+        },
+        "barColorList": ["#FF8B1F", "#FF2C2C", "", ""]
+      },
+      "chart3": {
+        "type": 1,
+        "xAxisType": 1,
+        "data1": {
+          "name": "每日医生活跃占比",
+          "value": [
+            {
+              "value": 27.5
+            },
+            {
+              "value": 20
+            },
+            {
+              "value": 22.5
+            },
+            {
+              "value": 30
+            },
+            {
+              "value": 27.5
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 25
+            }
+          ]
+        },
+        "barColorList": ["#FE3B3B", "#061B4D", "", ""]
+      },
+      "chart4": {
+        "type": 1,
+        "xAxisType": 2,
+        "data1": {
+          "name": "每月医生活跃人数",
+          "value": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 34
+            },
+            {
+              "value": 33
+            },
+            {
+              "value": 38
+            },
+            {
+              "value": 40
+            }
+          ]
+        },
+        "barColorList": ["#55D0FF", "#061B4D", "", ""]
+      },
+      "chart5": {
+        "type": 1,
+        "xAxisType": 2,
+        "data1": {
+          "name": "每月医生活跃人数增长率",
+          "value": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": -2.94
+            },
+            {
+              "value": 15.15
+            },
+            {
+              "value": 5.26
+            }
+          ]
+        },
+        "barColorList": ["#54CFFF", "#8C37FD", "", ""]
+      },
+      "chart6": {
+        "type": 1,
+        "xAxisType": 2,
+        "data1": {
+          "name": "每月医生活跃占比",
+          "value": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 85
+            },
+            {
+              "value": 82.5
+            },
+            {
+              "value": 95
+            },
+            {
+              "value": 100
+            }
+          ]
+        },
+        "barColorList": ["#8D37FF", "#061B4D", "", ""]
+      }
+    }
+  },
+  "hezuoshengfen": {
+    "yData": [],
+    "dialogData": {}
+  },
+  "hezuoyiyuan": {
+    "yData": [0, 0, 0, 0, 0, 1, 1, 1, 1],
+    "dialogData": {
+      "name": "内蒙古赤峰市合作医院数弹窗json",
+      "block1": {
+        "type": 2,
+        "data": [
+          {
+            "value": 0,
+            "name": "三特"
+          },
+          {
+            "value": 1,
+            "name": "三甲"
+          },
+          {
+            "value": 0,
+            "name": "三丙"
+          },
+          {
+            "value": 0,
+            "name": "三乙"
+          },
+          {
+            "value": 0,
+            "name": "二甲"
+          },
+          {
+            "value": 0,
+            "name": "二乙"
+          },
+          {
+            "value": 0,
+            "name": "二丙"
+          },
+          {
+            "value": 0,
+            "name": "一甲"
+          },
+          {
+            "value": 0,
+            "name": "一乙"
+          },
+          {
+            "value": 0,
+            "name": "一丙"
+          }
+        ]
+      },
+      "block2": {
+        "type": 2,
+        "data": [
+          {
+            "value": 1,
+            "name": "综合医院"
+          },
+          {
+            "value": 0,
+            "name": "中医医院"
+          },
+          {
+            "value": 0,
+            "name": "中西医结合医院"
+          },
+          {
+            "value": 0,
+            "name": "专科医院"
+          },
+          {
+            "value": 0,
+            "name": "民族医院"
+          },
+          {
+            "value": 0,
+            "name": "康复医院"
+          },
+          {
+            "value": 0,
+            "name": "妇幼保健院"
+          },
+          {
+            "value": 0,
+            "name": "其他医疗机构"
+          },
+          {
+            "value": 0,
+            "name": "社区乡镇等基层医疗机构"
+          }
+        ]
+      },
+      "block3": [
+        {
+          "value": "13.10%",
+          "name": "昨日平均各医院销售额",
+          "imgUrl": "rise.png",
+          "count": "37821.75"
+        },
+        {
+          "value": "10.94%",
+          "name": "昨日平均各医院开单数量",
+          "imgUrl": "rise.png",
+          "count": "110"
+        }
+      ],
+      "block4": [
+        {
+          "value": "4.07%",
+          "name": "昨日平均各医院客单均价",
+          "imgUrl": "rise.png",
+          "count": "391.03"
+        },
+        {
+          "value": "-2.42%",
+          "name": "昨日平均各医院产品覆盖率",
+          "imgUrl": "decline.png",
+          "count": "40.15%"
+        }
+      ]
+    }
+  },
+  "hezuokeshi": {
+    "yData": [5, 5, 5],
+    "dialogData": {
+      "name": "内蒙古赤峰市合作科室弹窗json",
+      "block1": {
+        "type": 1,
+        "data": [
+          {
+            "value": 2000,
+            "name": "内科"
+          },
+          {
+            "value": 2000,
+            "name": "外科"
+          },
+          {
+            "value": 2000,
+            "name": "妇产科"
+          },
+          {
+            "value": 2000,
+            "name": "儿科"
+          },
+          {
+            "value": 2000,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 0,
+            "name": "其他"
+          }
+        ]
+      },
+      "block2": {
+        "subtitle": "单位：千元",
+        "data1": {
+          "name": "平均科室销售额",
+          "value": [
+            {
+              "value": 8.93
+            },
+            {
+              "value": 7.84
+            },
+            {
+              "value": 8.4
+            },
+            {
+              "value": 7.83
+            },
+            {
+              "value": 8.17
+            },
+            {
+              "value": 8.21
+            },
+            {
+              "value": 7.56
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均科室销售额",
+          "value": [
+            {
+              "value": 9.76
+            },
+            {
+              "value": 6.59
+            },
+            {
+              "value": 7.92
+            },
+            {
+              "value": 6.6
+            },
+            {
+              "value": 6.84
+            },
+            {
+              "value": 9.51
+            },
+            {
+              "value": 6.84
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3f50ff", "#00e9a3", "#11d563"]
+      },
+      "block3": {
+        "subtitle": "单位：单",
+        "data1": {
+          "name": "平均科室开单数量",
+          "value": [
+            {
+              "value": 19
+            },
+            {
+              "value": 23
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 21
+            },
+            {
+              "value": 23
+            },
+            {
+              "value": 19
+            },
+            {
+              "value": 22
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均科室开单数量",
+          "value": [
+            {
+              "value": 18
+            },
+            {
+              "value": 21
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 22
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 21
+            },
+            {
+              "value": 19
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#D9B61D", "#54F1FF", "#5475FF"]
+      },
+      "block4": {
+        "subtitle": "单位：元",
+        "data1": {
+          "name": "平均各科室客单均价",
+          "value": [
+            {
+              "value": 459.1
+            },
+            {
+              "value": 321.39
+            },
+            {
+              "value": 364.38
+            },
+            {
+              "value": 346.79
+            },
+            {
+              "value": 360.95
+            },
+            {
+              "value": 372.67
+            },
+            {
+              "value": 391.03
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均各科室客单均价",
+          "value": [
+            {
+              "value": 398.29
+            },
+            {
+              "value": 300.39
+            },
+            {
+              "value": 434.62
+            },
+            {
+              "value": 279.89
+            },
+            {
+              "value": 356.12
+            },
+            {
+              "value": 410.65
+            },
+            {
+              "value": 454.22
+            }
+          ]
+        },
+        "barColorList": ["#C30AFF", "#9004FF", "#0ADEFF", "#04B9FF"]
+      }
+    }
+  },
+  "hezuogui": {
+    "yData": [1, 1, 1],
+    "dialogData": {}
+  },
+  "hezuoyisheng": {
+    "yData": [37, 39, 40],
+    "dialogData": {
+      "name": "内蒙古赤峰市合作医生数弹窗json",
+      "block1": {
+        "type": 2,
+        "data": [
+          {
+            "name": "主任医师",
+            "value": 1293
+          },
+          {
+            "name": "副主任医师",
+            "value": 3075
+          },
+          {
+            "name": "主治医师",
+            "value": 3119
+          },
+          {
+            "name": "医师/住院医师",
+            "value": 2121
+          },
+          {
+            "name": "医士",
+            "value": 392
+          }
+        ]
+      },
+      "block2": {
+        "subTitle": "单位：人",
+        "type": 2,
+        "data1": {
+          "name": "平均各医生接诊患者数量",
+          "value": [
+            {
+              "value": 56
+            },
+            {
+              "value": 56
+            },
+            {
+              "value": 46
+            },
+            {
+              "value": 45
+            },
+            {
+              "value": 52
+            },
+            {
+              "value": 59
+            },
+            {
+              "value": 55
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均各医生接诊患者数量",
+          "value": [
+            {
+              "value": 63
+            },
+            {
+              "value": 60
+            },
+            {
+              "value": 43
+            },
+            {
+              "value": 51
+            },
+            {
+              "value": 47
+            },
+            {
+              "value": 64
+            },
+            {
+              "value": 62
+            }
+          ]
+        },
+        "lineColorList": ["#FF8D27", "#FF8D27", "#02B3B3", "#02B3B3"]
+      },
+      "block3": {
+        "subTitle": "单位：单",
+        "type": 2,
+        "data1": {
+          "name": "平均医生开单数量",
+          "value": [
+            {
+              "value": 20
+            },
+            {
+              "value": 18
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 22
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 22
+            },
+            {
+              "value": 22
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均医生开单数量",
+          "value": [
+            {
+              "value": 24
+            },
+            {
+              "value": 17
+            },
+            {
+              "value": 22
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 18
+            }
+          ]
+        },
+        "lineColorList": ["#FF27DD", "#FF27DD", "#008CFF", "#008CFF"]
+      },
+      "block4": {
+        "subTitle": "单位：秒",
+        "type": 2,
+        "data1": {
+          "name": "医生平均开单时长",
+          "value": [
+            {
+              "value": 26
+            },
+            {
+              "value": 22
+            },
+            {
+              "value": 11
+            },
+            {
+              "value": 13
+            },
+            {
+              "value": 16
+            },
+            {
+              "value": 11
+            },
+            {
+              "value": 15
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望医生平均开单时长",
+          "value": [
+            {
+              "value": 11
+            },
+            {
+              "value": 16
+            },
+            {
+              "value": 17
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 14
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 16
+            }
+          ]
+        },
+        "lineColorList": ["#A100FF", "#A100FF", "#31FFB4", "#31FFB4"]
+      }
+    }
+  },
+  "hezuohuanzhe": {
+    "yData": [2.27, 3.1, 3.92],
+    "dialogData": {
+      "name": "内蒙古赤峰市合作患者数弹窗json",
+      "block1": {
+        "type": 1,
+        "data": [
+          {
+            "value": 2872,
+            "name": "内科"
+          },
+          {
+            "value": 2575,
+            "name": "外科"
+          },
+          {
+            "value": 2232,
+            "name": "妇产科"
+          },
+          {
+            "value": 1256,
+            "name": "儿科"
+          },
+          {
+            "value": 552,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 512,
+            "name": "其他"
+          }
+        ]
+      },
+      "block2": {
+        "type": 1,
+        "data": [
+          {
+            "value": 10000,
+            "name": "综合医院"
+          }
+        ]
+      },
+      "block3": {
+        "subtitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "患者各科室购买率",
+          "value": [
+            {
+              "value": 84.22,
+              "name": "内科"
+            },
+            {
+              "value": 85.23,
+              "name": "外科"
+            },
+            {
+              "value": 82.72,
+              "name": "妇产科"
+            },
+            {
+              "value": 88.02,
+              "name": "儿科"
+            },
+            {
+              "value": 88.44,
+              "name": "肿瘤科"
+            },
+            {
+              "value": 88.38,
+              "name": "其他"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望患者各科室购买率",
+          "value": [
+            {
+              "value": 85.42,
+              "name": "内科"
+            },
+            {
+              "value": 85.33,
+              "name": "外科"
+            },
+            {
+              "value": 85.35,
+              "name": "妇产科"
+            },
+            {
+              "value": 90.35,
+              "name": "儿科"
+            },
+            {
+              "value": 87.74,
+              "name": "肿瘤科"
+            },
+            {
+              "value": 89.18,
+              "name": "其他"
+            }
+          ]
+        },
+        "barColorList": ["#FFA728", "#DAB61D", "#A20CFF", "#9204FF"]
+      },
+      "block4": {
+        "subtitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "患者各类别医院购买率",
+          "value": [
+            {
+              "value": 87.93,
+              "name": "综合医院"
+            },
+            {
+              "value": 0,
+              "name": "其他医疗机构"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望患者各类别医院购买率",
+          "value": [
+            {
+              "value": 89.29,
+              "name": "综合医院"
+            },
+            {
+              "value": 0,
+              "name": "专科医院"
+            },
+            {
+              "value": 0,
+              "name": "其他医疗机构"
+            }
+          ]
+        },
+        "barColorList": ["#41c2ff", "#4051FF", "#00e9a3", "#11D664"]
+      }
+    }
+  },
+  "kaidanshu": {
+    "dialogData": {
+      "name": "内蒙古赤峰市今日开单数弹窗内容json",
+      "block1": {
+        "num1": 1,
+        "num2": 5
+      },
+      "block2": {
+        "type": 2,
+        "legendType": 3,
+        "xAxisType": 1,
+        "data1": {
+          "name": "医生平均开单时长",
+          "value": [
+            {
+              "value": 21
+            },
+            {
+              "value": 18
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 22
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望医生平均开单时长",
+          "value": [
+            {
+              "value": 30
+            },
+            {
+              "value": 23
+            },
+            {
+              "value": 20
+            },
+            {
+              "value": 21
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 25
+            }
+          ]
+        },
+        "barColorList": ["#0ADEFF", "#04B9FF", "#C30AFF", "#9004FF"]
+      },
+      "block3": {
+        "type": 2,
+        "legendType": 3,
+        "xAxisType": 1,
+        "data1": {
+          "name": "昨日平均各医院产品覆盖率",
+          "value": [
+            {
+              "value": 33.87
+            },
+            {
+              "value": 32.3
+            },
+            {
+              "value": 42.18
+            },
+            {
+              "value": 43.43
+            },
+            {
+              "value": 40.18
+            },
+            {
+              "value": 44.43
+            },
+            {
+              "value": 40.15
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望昨日平均各医院产品覆盖率",
+          "value": [
+            {
+              "value": 34.23
+            },
+            {
+              "value": 41.25
+            },
+            {
+              "value": 38.97
+            },
+            {
+              "value": 43.64
+            },
+            {
+              "value": 37.88
+            },
+            {
+              "value": 46.42
+            },
+            {
+              "value": 40.68
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#D9B61D", "#54F1FF", "#5475FF"]
+      },
+      "block4": {
+        "type": 2,
+        "legendType": 3,
+        "xAxisType": 1,
+        "data1": {
+          "name": "日接诊患者总数量",
+          "value": [
+            {
+              "value": 253
+            },
+            {
+              "value": 319
+            },
+            {
+              "value": 263
+            },
+            {
+              "value": 233
+            },
+            {
+              "value": 222
+            },
+            {
+              "value": 231
+            },
+            {
+              "value": 274
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望日接诊患者总数量",
+          "value": [
+            {
+              "value": 262
+            },
+            {
+              "value": 197
+            },
+            {
+              "value": 262
+            },
+            {
+              "value": 268
+            },
+            {
+              "value": 271
+            },
+            {
+              "value": 224
+            },
+            {
+              "value": 240
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3f50ff", "#00e9a3", "#11d563"]
+      }
+    }
+  },
+  "goumailv": {
+    "dialogData": {
+      "name": "内蒙古赤峰市今日购买率弹窗json",
+      "block1": {
+        "count": "8.55%",
+        "num1": "88.00%",
+        "num2": "79.38%"
+      },
+      "block2": {
+        "subTitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "日值",
+          "value": [
+            {
+              "value": 4.25,
+              "name": "商品缺货率"
+            },
+            {
+              "value": 13.29,
+              "name": "缺货损失率"
+            },
+            {
+              "value": 86.71,
+              "name": "损失补救率"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望值",
+          "value": [
+            {
+              "value": 4.07,
+              "name": "商品缺货率"
+            },
+            {
+              "value": 13.24,
+              "name": "缺货损失率"
+            },
+            {
+              "value": 81.8,
+              "name": "损失补救率"
+            }
+          ]
+        },
+        "barColorList": ["#00DDFF", "#00B8FF", "#C30AFF", "#9004FF"]
+      },
+      "block3": {
+        "subTitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "日值",
+          "value": [
+            {
+              "value": 90.36,
+              "name": "患者购买意愿"
+            },
+            {
+              "value": 87.93,
+              "name": "患者购买率"
+            },
+            {
+              "value": 97.31,
+              "name": "患者购买成功率"
+            },
+            {
+              "value": 5,
+              "name": "患者退货率"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望值",
+          "value": [
+            {
+              "value": 83.51,
+              "name": "患者购买意愿"
+            },
+            {
+              "value": 90.8,
+              "name": "患者购买率"
+            },
+            {
+              "value": 96.76,
+              "name": "患者购买成功率"
+            },
+            {
+              "value": 5.17,
+              "name": "患者退货率"
+            }
+          ]
+        },
+        "barColorList": ["#00DDFF", "#00B8FF", "#C30AFF", "#9004FF"]
+      }
+    }
+  },
+  "pingjunkedanjian": {
+    "dialogData": {
+      "name": "内蒙古赤峰市今日客单均价情况弹窗json",
+      "block1": {
+        "subTitle": "单位：元",
+        "type": 2,
+        "data1": {
+          "name": "理论客单均价",
+          "value": [
+            {
+              "value": 379.91
+            },
+            {
+              "value": 425.81
+            },
+            {
+              "value": 422.96
+            },
+            {
+              "value": 482.68
+            },
+            {
+              "value": 418.11
+            },
+            {
+              "value": 453.61
+            },
+            {
+              "value": 415.42
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望理论客单均价",
+          "value": [
+            {
+              "value": 464.06
+            },
+            {
+              "value": 415.93
+            },
+            {
+              "value": 397.19
+            },
+            {
+              "value": 385.41
+            },
+            {
+              "value": 450.78
+            },
+            {
+              "value": 344.38
+            },
+            {
+              "value": 390.92
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3F50FF", "#00e9a3", "#11d563"]
+      },
+      "block2": {
+        "subTitle": "单位：千元",
+        "type": 2,
+        "data1": {
+          "name": "流失客单总价",
+          "value": [
+            {
+              "value": 5.09
+            },
+            {
+              "value": 4.56
+            },
+            {
+              "value": 4.34
+            },
+            {
+              "value": 5.93
+            },
+            {
+              "value": 5.14
+            },
+            {
+              "value": 6.02
+            },
+            {
+              "value": 5.19
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望流失客单总价",
+          "value": [
+            {
+              "value": 4.87
+            },
+            {
+              "value": 5.08
+            },
+            {
+              "value": 4.41
+            },
+            {
+              "value": 5.89
+            },
+            {
+              "value": 4.25
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 5.19
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#D9B61D", "#C30AFF", "#9004FF"]
+      },
+      "block3": {
+        "subTitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "复购率",
+          "value": [
+            {
+              "value": 25.36
+            },
+            {
+              "value": 20.73
+            },
+            {
+              "value": 20.1
+            },
+            {
+              "value": 25.1
+            },
+            {
+              "value": 27.67
+            },
+            {
+              "value": 26.49
+            },
+            {
+              "value": 24.46
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望复购率",
+          "value": [
+            {
+              "value": 24.33
+            },
+            {
+              "value": 28.58
+            },
+            {
+              "value": 25.21
+            },
+            {
+              "value": 26.66
+            },
+            {
+              "value": 28.31
+            },
+            {
+              "value": 21.96
+            },
+            {
+              "value": 25.04
+            }
+          ]
+        },
+        "lineColorList": ["#FF8D27", "#FF8D27", "#02B3B3", "#02B3B3"]
+      },
+      "block4": {
+        "subTitle": "单位：千元",
+        "type": 2,
+        "data1": {
+          "name": "复购金额",
+          "value": [
+            {
+              "value": 8.51
+            },
+            {
+              "value": 11.01
+            },
+            {
+              "value": 10.15
+            },
+            {
+              "value": 9.96
+            },
+            {
+              "value": 11.12
+            },
+            {
+              "value": 9.99
+            },
+            {
+              "value": 10.52
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望复购金额",
+          "value": [
+            {
+              "value": 10.81
+            },
+            {
+              "value": 8.48
+            },
+            {
+              "value": 7.49
+            },
+            {
+              "value": 10.17
+            },
+            {
+              "value": 10.36
+            },
+            {
+              "value": 7.56
+            },
+            {
+              "value": 9.17
+            }
+          ]
+        },
+        "lineColorList": ["#FF27DD", "#FF27DD", "#008CFF", "#008CFF"]
+      }
+    }
+  }
+}

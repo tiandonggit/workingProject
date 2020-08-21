@@ -1,0 +1,1945 @@
+{
+  "jinrixiaoshoueyuce": "-13.48%",
+  "jinrikaidanshuyuce": "-8.15%",
+  "jinrigoumailv": "88.34%",
+  "jinrigoumailvyuce": "3.93%",
+  "jinripingjunkejia": 317.21,
+  "jinripingjunkejiayuce": "-9.37%",
+  "jiaoyichengguo": {
+    "yData": [0.76,1.06,1.39],
+    "dialogData": {
+      "name": "延边朝鲜族自治州医智成果累计交易数量弹窗json",
+      "num1": "109",
+      "num2": "13926",
+      "num3": "35.54%",
+      "num4": "49490"
+    }
+  },
+  "huanjiaowenzhang": {
+    "yData": [1375, 1408, 1427],
+    "dialogData": {
+      "name": "延边朝鲜自治州患教文章累计数量弹窗内容json",
+      "block1": {
+        "title": "各类型文章分布",
+        "subtitle1": "各类型文章阅读数量分布",
+        "subtitle2": "各类型文章转发数量分布",
+        "data1": [
+          {
+            "value": 6593,
+            "name": "名医公开课"
+          },
+          {
+            "value": 3407,
+            "name": "医学中心"
+          }
+        ],
+        "data2": [
+          {
+            "value": 6902,
+            "name": "名医公开课"
+          },
+          {
+            "value": 3098,
+            "name": "医学中心"
+          }
+        ]
+      },
+      "block2": {
+        "title": "各科室医生文章分布",
+        "subtitle1": "各科室医生文章阅读数量分布",
+        "subtitle2": "各科室医生文章转发数量分布",
+        "data1": [
+          {
+            "value": 2542,
+            "name": "内科"
+          },
+          {
+            "value": 2294,
+            "name": "外科"
+          },
+          {
+            "value": 1889,
+            "name": "妇产科"
+          },
+          {
+            "value": 1644,
+            "name": "儿科"
+          },
+          {
+            "value": 1069,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 562,
+            "name": "其他"
+          }
+        ],
+        "data2": [
+          {
+            "value": 2480,
+            "name": "内科"
+          },
+          {
+            "value": 2653,
+            "name": "外科"
+          },
+          {
+            "value": 1940,
+            "name": "妇产科"
+          },
+          {
+            "value": 1480,
+            "name": "儿科"
+          },
+          {
+            "value": 1007,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 439,
+            "name": "其他"
+          }
+        ]
+      },
+      "block3": {
+        "title": "各地域文章分布",
+        "subtitle1": "各地域医生文章阅读数量分布",
+        "subtitle2": "各地域医生文章转发数量分布",
+        "data1": [
+          {
+            "value": 2035,
+            "name": "辽宁省"
+          },
+          {
+            "value": 1027,
+            "name": "吉林省"
+          },
+          {
+            "value": 675,
+            "name": "河南省"
+          },
+          {
+            "value": 630,
+            "name": "河北省"
+          },
+          {
+            "value": 509,
+            "name": "广西省"
+          },
+          {
+            "value": 885,
+            "name": "广东省"
+          },
+          {
+            "value": 356,
+            "name": "山东省"
+          },
+          {
+            "value": 617,
+            "name": "山西省"
+          },
+          {
+            "value": 1283,
+            "name": "江苏省"
+          },
+          {
+            "value": 1080,
+            "name": "黑龙江省"
+          },
+          {
+            "value": 903,
+            "name": "内蒙古自治区"
+          }
+        ],
+        "data2": [
+          {
+            "value": 2071,
+            "name": "辽宁省"
+          },
+          {
+            "value": 963,
+            "name": "吉林省"
+          },
+          {
+            "value": 641,
+            "name": "河南省"
+          },
+          {
+            "value": 625,
+            "name": "河北省"
+          },
+          {
+            "value": 486,
+            "name": "广西省"
+          },
+          {
+            "value": 826,
+            "name": "广东省"
+          },
+          {
+            "value": 534,
+            "name": "山东省"
+          },
+          {
+            "value": 603,
+            "name": "山西省"
+          },
+          {
+            "value": 1280,
+            "name": "江苏省"
+          },
+          {
+            "value": 1118,
+            "name": "黑龙江省"
+          },
+          {
+            "value": 853,
+            "name": "内蒙古自治区"
+          }
+        ]
+      }
+    }
+  },
+  "kangfurenwu": {
+    "yData": [947,951,954],
+    "dialogData": {
+      "name": "延边朝鲜自治州康复任务累计数量弹窗json",
+      "chart1": {
+        "subTitle": "单位：个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "日常任务",
+          "value": [
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            },
+            {
+              "value": 863
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3F50FF", "", ""]
+      },
+      "chart2": {
+        "subTitle": "单位：个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "调查问卷",
+          "value": [
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            },
+            {
+              "value": 91
+            }
+          ]
+        },
+        "barColorList": ["#00E9A3", "#10D564", "", ""]
+      },
+      "chart3": {
+        "num1": "90.36%",
+        "num2": "89.23%"
+      },
+      "chart4": {
+        "subTitle": "单位：十万个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "日常任务",
+          "value": [
+            {
+              "value": 2.55
+            },
+            {
+              "value": 2.56
+            },
+            {
+              "value": 2.57
+            },
+            {
+              "value": 2.57
+            },
+            {
+              "value": 2.59
+            },
+            {
+              "value": 2.59
+            },
+            {
+              "value": 2.61
+            }
+          ]
+        },
+        "barColorList": ["#C30AFF", "#9204FF", "", ""]
+      },
+      "chart5": {
+        "subTitle": "单位：万个",
+        "type": 1,
+        "legendType": 5,
+        "xAxisType": 1,
+        "data1": {
+          "name": "调查问卷",
+          "value": [
+            {
+              "value": 3.80
+            },
+            {
+              "value": 3.90
+            },
+            {
+              "value": 4.06
+            },
+            {
+              "value": 4.19
+            },
+            {
+              "value": 4.35
+            },
+            {
+              "value": 4.40
+            },
+            {
+              "value": 4.62
+            }
+          ]
+        },
+        "barColorList": ["#0ADEFF", "#04B9FF", "", ""]
+      },
+      "chart6": {
+        "num1": "75.90%",
+        "num2": "75.21%"
+      }
+    }
+  },
+  "chanpin": {
+    "yData": [46,49,54],
+    "dialogData": {
+      "name": "延边朝鲜自治州产品累计数量弹窗json",
+      "block1": [
+        {
+          "name": "全营养类",
+          "value": "14.15%"
+        },
+        {
+          "name": "蛋白质/氨基酸/ 肽类",
+          "value": "10.86%"
+        },
+        {
+          "name": "脂肪/脂肪酸类",
+          "value": "12.29%"
+        },
+        {
+          "name": "碳水化合类",
+          "value": "11.06%"
+        },
+        {
+          "name": "电解质类",
+          "value": "10.18%"
+        },
+        {
+          "name": "药食同源类",
+          "value": "10.61%"
+        },
+        {
+          "name": "特殊营养补充类",
+          "value": "10.02%"
+        },
+        {
+          "name": "益生菌类",
+          "value": "9.79%"
+        },
+        {
+          "name": "膳食纤维类",
+          "value": "11.05%"
+        }
+      ],
+      "block2": {
+        "type": 1,
+        "data1": [
+          {
+            "name": "全营养类",
+            "value": 1343
+          },
+          {
+            "name": "蛋白质/氨基酸/ 肽类",
+            "value": 1119
+          },
+          {
+            "name": "脂肪/脂肪酸类",
+            "value": 1132
+          },
+          {
+            "name": "碳水化合类",
+            "value": 1191
+          },
+          {
+            "name": "电解质类",
+            "value": 1117
+          },
+          {
+            "name": "药食同源类",
+            "value": 1039
+          },
+          {
+            "name": "特殊营养补充类",
+            "value": 939
+          },
+          {
+            "name": "益生菌类",
+            "value": 913
+          },
+          {
+            "name": "膳食纤维类",
+            "value": 1207
+          }
+        ]
+      },
+      "block3": {
+        "type": 1,
+        "data1": [
+          {
+            "value": 1269,
+            "name": "蛋白质"
+          },
+          {
+            "value": 1649,
+            "name": "电解质"
+          },
+          {
+            "value": 1385,
+            "name": "维生素"
+          },
+          {
+            "value": 1502,
+            "name": "膳食纤维"
+          },
+          {
+            "value": 958,
+            "name": "益生元"
+          },
+          {
+            "value": 960,
+            "name": "不饱和脂肪酸"
+          },
+          {
+            "value": 1120,
+            "name": "微量元素"
+          },
+          {
+            "value": 1157,
+            "name": "益生菌"
+          }
+        ]
+      },
+      "block4": [
+        {
+          "name": "黑龙江省",
+          "value": "11.46%"
+        },
+        {
+          "name": "吉林省",
+          "value": "9.47%"
+        },
+        {
+          "name": "辽宁省",
+          "value": "21.56%"
+        },
+        {
+          "name": "内蒙古自治区",
+          "value": "8.24%"
+        },
+        {
+          "name": "河北省",
+          "value": "6.8%"
+        },
+        {
+          "name": "广东省",
+          "value": "9.11%"
+        },
+        {
+          "name": "山西省",
+          "value": "4.94%"
+        },
+        {
+          "name": "山东省",
+          "value": "4.35%"
+        },
+        {
+          "name": "河南省",
+          "value": "6.59%"
+        },
+        {
+          "name": "江苏省",
+          "value": "12.03%"
+        },
+        {
+          "name": "广西省",
+          "value": "5.44%"
+        }
+      ]
+    }
+  },
+  "rihuoyue": {
+    "yData": [6,7,6,7,8,6,7],
+    "dialogData": {
+      "name": "延边朝鲜自治州日活跃医生数量弹窗内容json",
+      "nextDay": 7,
+      "nextMonth": 26,
+      "chart1": {
+        "type": 1,
+        "xAxisType": 1,
+        "data1": {
+          "name": "每日医生活跃人数",
+          "value": [
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#061B4D", "", ""]
+      },
+      "chart2": {
+        "type": 1,
+        "xAxisType": 1,
+        "data1": {
+          "name": "每日医生活跃人数增长率",
+          "value": [
+            {
+              "value": 4.17
+            },
+            {
+              "value": 16.67
+            },
+            {
+              "value": -14.29
+            },
+            {
+              "value": 16.67
+            },
+            {
+              "value": 14.29
+            },
+            {
+              "value": -25.00
+            },
+            {
+              "value": 16.67
+            }
+          ]
+        },
+        "barColorList": ["#FF8B1F", "#FF2C2C", "", ""]
+      },
+      "chart3": {
+        "type": 1,
+        "xAxisType": 1,
+        "data1": {
+          "name": "每日医生活跃占比",
+          "value": [
+            {
+              "value": 26.69
+            },
+            {
+              "value": 24.14
+            },
+            {
+              "value": 20.69
+            },
+            {
+              "value": 24.14
+            },
+            {
+              "value": 27.59
+            },
+            {
+              "value": 20.69
+            },
+            {
+              "value": 24.14
+            }
+          ]
+        },
+        "barColorList": ["#FE3B3B", "#061B4D", "", ""]
+      },
+      "chart4": {
+        "type": 1,
+        "xAxisType": 2,
+        "data1": {
+          "name": "每月医生活跃人数",
+          "value": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 29
+            },
+            {
+              "value": 28
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 29
+            }
+          ]
+        },
+        "barColorList": ["#55D0FF", "#061B4D", "", ""]
+      },
+      "chart5": {
+        "type": 1,
+        "xAxisType": 2,
+        "data1": {
+          "name": "每月医生活跃人数增长率",
+          "value": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": -3.45
+            },
+            {
+              "value": -7.14
+            },
+            {
+              "value": -3.85
+            },
+            {
+              "value": 16.00
+            }
+          ]
+        },
+        "barColorList": ["#54CFFF", "#8C37FD", "", ""]
+      },
+      "chart6": {
+        "type": 1,
+        "xAxisType": 2,
+        "data1": {
+          "name": "每月医生活跃占比",
+          "value": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 100.00
+            },
+            {
+              "value": 96.55
+            },
+            {
+              "value": 89.66
+            },
+            {
+              "value": 86.21
+            },
+            {
+              "value": 100.00
+            }
+          ]
+        },
+        "barColorList": ["#8D37FF", "#061B4D", "", ""]
+      }
+    }
+  },
+  "hezuoshengfen": {
+    "yData": [],
+    "dialogData": {}
+  },
+  "hezuoyiyuan": {
+    "yData": [0,0,0,0,1,1,1,1,1],
+    "dialogData": {
+      "name": "延边朝鲜自治州合作医院数弹窗json",
+      "block1": {
+        "type": 2,
+        "data": [
+          {
+            "value": 0,
+            "name": "三特"
+          },
+          {
+            "value": 1,
+            "name": "三甲"
+          },
+          {
+            "value": 0,
+            "name": "三丙"
+          },
+          {
+            "value": 0,
+            "name": "三乙"
+          },
+          {
+            "value": 0,
+            "name": "二甲"
+          },
+          {
+            "value": 0,
+            "name": "二乙"
+          },
+          {
+            "value": 0,
+            "name": "二丙"
+          },
+          {
+            "value": 0,
+            "name": "一甲"
+          },
+          {
+            "value": 0,
+            "name": "一乙"
+          },
+          {
+            "value": 0,
+            "name": "一丙"
+          }
+        ]
+      },
+      "block2": {
+        "type": 2,
+        "data": [
+          {
+            "value": 1,
+            "name": "综合医院"
+          },
+          {
+            "value": 0,
+            "name": "中医医院"
+          },
+          {
+            "value": 0,
+            "name": "中西医结合医院"
+          },
+          {
+            "value": 0,
+            "name": "专科医院"
+          },
+          {
+            "value": 0,
+            "name": "民族医院"
+          },
+          {
+            "value": 0,
+            "name": "康复医院"
+          },
+          {
+            "value": 0,
+            "name": "妇幼保健院"
+          },
+          {
+            "value": 0,
+            "name": "其他医疗机构"
+          },
+          {
+            "value": 0,
+            "name": "社区乡镇等基层医疗机构"
+          }
+        ]
+      },
+      "block3": [
+        {
+          "value": "-11.71%",
+          "name": "昨日平均各医院销售额",
+          "imgUrl": "decline.png",
+          "count": "34748.4"
+        },
+        {
+          "value": "-8.30%",
+          "name": "昨日平均各医院开单数量",
+          "imgUrl": "decline.png",
+          "count": "124"
+        }
+      ],
+      "block4": [
+        {
+          "value": "3.66%",
+          "name": "昨日平均各医院客单均价",
+          "imgUrl": "rise.png",
+          "count": "317.21"
+        },
+        {
+          "value": "50.20%",
+          "name": "昨日平均各医院产品覆盖率",
+          "imgUrl": "decline.png",
+          "count": "-8.17%"
+        }
+      ]
+    }
+  },
+  "hezuokeshi": {
+    "yData": [5,5,5],
+    "dialogData": {
+      "name": "延边朝鲜自治州合作科室弹窗json",
+      "block1": {
+        "type": 1,
+        "data": [
+          {
+            "value": 2000,
+            "name": "内科"
+          },
+          {
+            "value": 2000,
+            "name": "外科"
+          },
+          {
+            "value": 2000,
+            "name": "妇产科"
+          },
+          {
+            "value": 2000,
+            "name": "儿科"
+          },
+          {
+            "value": 2000,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 0,
+            "name": "其他"
+          }
+        ]
+      },
+      "block2": {
+        "subtitle": "单位：千元",
+        "data1": {
+          "name": "平均科室销售额",
+          "value": [
+            {
+              "value": 35.79
+            },
+            {
+              "value": 40.21
+            },
+            {
+              "value": 37.44
+            },
+            {
+              "value": 40.64
+            },
+            {
+              "value": 32.26
+            },
+            {
+              "value": 35.13
+            },
+            {
+              "value": 34.75
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均科室销售额",
+          "value": [
+            {
+              "value": 34.80
+            },
+            {
+              "value": 40.42
+            },
+            {
+              "value": 41.42
+            },
+            {
+              "value": 46.70
+            },
+            {
+              "value": 35.58
+            },
+            {
+              "value": 29.87
+            },
+            {
+              "value": 38.49
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3f50ff", "#00e9a3", "#11d563"]
+      },
+      "block3": {
+        "subtitle": "单位：单",
+        "data1": {
+          "name": "平均科室开单数量",
+          "value": [
+            {
+              "value": 109
+            },
+            {
+              "value": 142
+            },
+            {
+              "value": 140
+            },
+            {
+              "value": 118
+            },
+            {
+              "value": 113
+            },
+            {
+              "value": 128
+            },
+            {
+              "value": 124
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均科室开单数量",
+          "value": [
+            {
+              "value": 117
+            },
+            {
+              "value": 146
+            },
+            {
+              "value": 123
+            },
+            {
+              "value": 121
+            },
+            {
+              "value": 126
+            },
+            {
+              "value": 153
+            },
+            {
+              "value": 107
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#D9B61D", "#54F1FF", "#5475FF"]
+      },
+      "block4": {
+        "subtitle": "单位：元",
+        "data1": {
+          "name": "平均各科室客单均价",
+          "value": [
+            {
+              "value": 379.47
+            },
+            {
+              "value": 351.86
+            },
+            {
+              "value": 259.45
+            },
+            {
+              "value": 275.39
+            },
+            {
+              "value": 267.17
+            },
+            {
+              "value": 354.43
+            },
+            {
+              "value": 317.23
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均各科室客单均价",
+          "value": [
+            {
+              "value": 441.49
+            },
+            {
+              "value": 287.55
+            },
+            {
+              "value": 235.29
+            },
+            {
+              "value": 285.54
+            },
+            {
+              "value": 243.77
+            },
+            {
+              "value": 408.15
+            },
+            {
+              "value": 365.33
+            }
+          ]
+        },
+        "barColorList": ["#C30AFF", "#9004FF", "#0ADEFF", "#04B9FF"]
+      }
+    }
+  },
+  "hezuogui": {
+    "yData": [1,1,1],
+    "dialogData": {}
+  },
+  "hezuoyisheng": {
+    "yData": [28,29,29],
+    "dialogData": {
+      "name": "延边朝鲜自治州合作医生数弹窗json",
+      "block1": {
+        "type": 2,
+        "data": [
+          {
+            "name": "主任医师",
+            "value": 1268
+          },
+          {
+            "name": "副主任医师",
+            "value": 2426
+          },
+          {
+            "name": "主治医师",
+            "value": 2725
+          },
+          {
+            "name": "医师/住院医师",
+            "value": 1722
+          },
+          {
+            "name": "医士",
+            "value": 1859
+          }
+        ]
+      },
+      "block2": {
+        "subTitle": "单位：人",
+        "type": 2,
+        "data1": {
+          "name": "平均各医生接诊患者数量",
+          "value": [
+            {
+              "value": 65
+            },
+            {
+              "value": 69
+            },
+            {
+              "value": 68
+            },
+            {
+              "value": 60
+            },
+            {
+              "value": 60
+            },
+            {
+              "value": 74
+            },
+            {
+              "value": 66
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均各医生接诊患者数量",
+          "value": [
+            {
+              "value": 62
+            },
+            {
+              "value": 83
+            },
+            {
+              "value": 64
+            },
+            {
+              "value": 57
+            },
+            {
+              "value": 87
+            },
+            {
+              "value": 63
+            },
+            {
+              "value": 65
+            }
+          ]
+        },
+        "lineColorList": ["#FF8D27", "#FF8D27", "#02B3B3", "#02B3B3"]
+      },
+      "block3": {
+        "subTitle": "单位：单",
+        "type": 2,
+        "data1": {
+          "name": "平均医生开单数量",
+          "value": [
+            {
+              "value": 36
+            },
+            {
+              "value": 36
+            },
+            {
+              "value": 35
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 34
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 31
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望平均医生开单数量",
+          "value": [
+            {
+              "value": 39
+            },
+            {
+              "value": 39
+            },
+            {
+              "value": 40
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 38
+            },
+            {
+              "value": 27
+            },
+            {
+              "value": 27
+            }
+          ]
+        },
+        "lineColorList": ["#FF27DD", "#FF27DD", "#008CFF", "#008CFF"]
+      },
+      "block4": {
+        "subTitle": "单位：秒",
+        "type": 2,
+        "data1": {
+          "name": "医生平均开单时长",
+          "value": [
+            {
+              "value": 11
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 28
+            },
+            {
+              "value": 14
+            },
+            {
+              "value": 20
+            },
+            {
+              "value": 22
+            },
+            {
+              "value": 29
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望医生平均开单时长",
+          "value": [
+            {
+              "value": 22
+            },
+            {
+              "value": 13
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 14
+            },
+            {
+              "value": 15
+            },
+            {
+              "value": 14
+            },
+            {
+              "value": 17
+            }
+          ]
+        },
+        "lineColorList": ["#A100FF", "#A100FF", "#31FFB4", "#31FFB4"]
+      }
+    }
+
+  },
+  "hezuohuanzhe": {
+    "yData": [1.95,2.51,3.42],
+    "dialogData": {
+      "block1": {
+        "type": 1,
+        "data": [
+          {
+            "value": 3078,
+            "name": "内科"
+          },
+          {
+            "value": 2586,
+            "name": "外科"
+          },
+          {
+            "value": 2157,
+            "name": "妇产科"
+          },
+          {
+            "value": 1852,
+            "name": "儿科"
+          },
+          {
+            "value": 276,
+            "name": "肿瘤科"
+          },
+          {
+            "value": 50,
+            "name": "其他"
+          }
+        ]
+      },
+      "block2": {
+        "type": 1,
+        "data": [
+          {
+            "value": 10000,
+            "name": "综合医院"
+          }
+        ]
+      },
+      "block3": {
+        "subtitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "患者各科室购买率",
+          "value": [
+            {
+              "value": 87.48,
+              "name": "内科"
+            },
+            {
+              "value": 89.95,
+              "name": "外科"
+            },
+            {
+              "value": 80.77,
+              "name": "妇产科"
+            },
+            {
+              "value": 82.52,
+              "name": "儿科"
+            },
+            {
+              "value": 81.88,
+              "name": "肿瘤科"
+            },
+            {
+              "value": 81.34,
+              "name": "其他"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望患者各科室购买率",
+          "value": [
+            {
+              "value": 86.26,
+              "name": "内科"
+            },
+            {
+              "value": 88.80,
+              "name": "外科"
+            },
+            {
+              "value": 82.53,
+              "name": "妇产科"
+            },
+            {
+              "value": 79.30,
+              "name": "儿科"
+            },
+            {
+              "value": 80.46,
+              "name": "肿瘤科"
+            },
+            {
+              "value": 84.71,
+              "name": "其他"
+            }
+          ]
+        },
+        "barColorList": ["#FFA728", "#DAB61D", "#A20CFF", "#9204FF"]
+      },
+      "block4": {
+        "subtitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "患者各类别医院购买率",
+          "value": [
+            {
+              "value": 88.34,
+              "name": "综合医院"
+            },
+            {
+              "value": 0,
+              "name": "专科医院"
+            },
+            {
+              "value": 0,
+              "name": "其他医疗机构"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望患者各类别医院购买率",
+          "value": [
+            {
+              "value": 89.51,
+              "name": "综合医院"
+            },
+            {
+              "value": 0,
+              "name": "专科医院"
+            },
+            {
+              "value": 0,
+              "name": "其他医疗机构"
+            }
+          ]
+        },
+        "barColorList": ["#41c2ff", "#4051FF", "#00e9a3", "#11D664"]
+      }
+    }
+  },
+  "kaidanshu": {
+    "dialogData": {
+      "name": "延边朝鲜自治州今日开单数弹窗内容json",
+      "block1": {
+        "num1": 1,
+        "num2": 4
+      },
+      "block2": {
+        "type": 2,
+        "legendType": 3,
+        "xAxisType": 1,
+        "data1": {
+          "name": "医生平均开单时长",
+          "value": [
+            {
+              "value": 16
+            },
+            {
+              "value": 17
+            },
+            {
+              "value": 13
+            },
+            {
+              "value": 17
+            },
+            {
+              "value": 15
+            },
+            {
+              "value": 16
+            },
+            {
+              "value": 15
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望医生平均开单时长",
+          "value": [
+            {
+              "value": 16
+            },
+            {
+              "value": 17
+            },
+            {
+              "value": 13
+            },
+            {
+              "value": 17
+            },
+            {
+              "value": 15
+            },
+            {
+              "value": 16
+            },
+            {
+              "value": 15
+            }
+          ]
+        },
+        "barColorList": ["#0ADEFF", "#04B9FF", "#C30AFF", "#9004FF"]
+      },
+      "block3": {
+        "type": 2,
+        "legendType": 3,
+        "xAxisType": 1,
+        "data1": {
+          "name": "昨日平均各医院产品覆盖率",
+          "value": [
+            {
+              "value": 43.51
+            },
+            {
+              "value": 59.41
+            },
+            {
+              "value": 43.10
+            },
+            {
+              "value": 53.36
+            },
+            {
+              "value": 40.85
+            },
+            {
+              "value": 44.54
+            },
+            {
+              "value": 50.20
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望昨日平均各医院产品覆盖率",
+          "value": [
+            {
+              "value": 54.97
+            },
+            {
+              "value": 59.42
+            },
+            {
+              "value": 56.69
+            },
+            {
+              "value": 64.65
+            },
+            {
+              "value": 64.15
+            },
+            {
+              "value": 61.11
+            },
+            {
+              "value": 55.38
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#D9B61D", "#54F1FF", "#5475FF"]
+      },
+      "block4": {
+        "type": 2,
+        "legendType": 3,
+        "xAxisType": 1,
+        "data1": {
+          "name": "日接诊患者总数量",
+          "value": [
+            {
+              "value": 216
+            },
+            {
+              "value": 276
+            },
+            {
+              "value": 214
+            },
+            {
+              "value": 238
+            },
+            {
+              "value": 222
+            },
+            {
+              "value": 215
+            },
+            {
+              "value": 247
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望日接诊患者总数量",
+          "value": [
+            {
+              "value": 279
+            },
+            {
+              "value": 237
+            },
+            {
+              "value": 205
+            },
+            {
+              "value": 253
+            },
+            {
+              "value": 264
+            },
+            {
+              "value": 298
+            },
+            {
+              "value": 252
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3f50ff", "#00e9a3", "#11d563"]
+      }
+    }
+  },
+  "goumailv": {
+    "dialogData": {
+      "block1": {
+        "count": "-9.19%",
+        "num1": "88.34%",
+        "num2": "97.53%"
+      },
+      "block2": {
+        "subTitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "日值",
+          "value": [
+            {
+              "value": 2.47,
+              "name": "商品缺货率"
+            },
+            {
+              "value": 10.37,
+              "name": "缺货损失率"
+            },
+            {
+              "value": 89.63,
+              "name": "损失补救率"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望值",
+          "value": [
+            {
+              "value": 2.60,
+              "name": "商品缺货率"
+            },
+            {
+              "value": 9.85,
+              "name": "缺货损失率"
+            },
+            {
+              "value": 91.56,
+              "name": "损失补救率"
+            }
+          ]
+        },
+        "barColorList": ["#00DDFF", "#00B8FF", "#C30AFF", "#9004FF"]
+      },
+      "block3": {
+        "subTitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "日值",
+          "value": [
+            {
+              "value": 95.38,
+              "name": "患者购买意愿"
+            },
+            {
+              "value": 88.76,
+              "name": "患者购买率"
+            },
+            {
+              "value": 93.06,
+              "name": "患者购买成功率"
+            },
+            {
+              "value": 2.57,
+              "name": "患者退货率"
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望值",
+          "value": [
+            {
+              "value": 93.58,
+              "name": "患者购买意愿"
+            },
+            {
+              "value": 86.14,
+              "name": "患者购买率"
+            },
+            {
+              "value": 84.69,
+              "name": "患者购买成功率"
+            },
+            {
+              "value": 2.51,
+              "name": "患者退货率"
+            }
+          ]
+        },
+        "barColorList": ["#00DDFF", "#00B8FF", "#C30AFF", "#9004FF"]
+      }
+    }
+  },
+  "pingjunkedanjian": {
+    "dialogData": {
+      "block1": {
+        "subTitle": "单位：元",
+        "type": 2,
+        "data1": {
+          "name": "理论客单均价",
+          "value": [
+            {
+              "value": 337.04
+            },
+            {
+              "value": 271.05
+            },
+            {
+              "value": 270.12
+            },
+            {
+              "value": 278.28
+            },
+            {
+              "value": 330.01
+            },
+            {
+              "value": 297.61
+            },
+            {
+              "value": 337.37
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望理论客单均价",
+          "value": [
+            {
+              "value": 361.28
+            },
+            {
+              "value": 247.34
+            },
+            {
+              "value": 321.96
+            },
+            {
+              "value": 274.54
+            },
+            {
+              "value": 346.31
+            },
+            {
+              "value": 276.89
+            },
+            {
+              "value": 301.68
+            }
+          ]
+        },
+        "barColorList": ["#41C3FF", "#3F50FF", "#00e9a3", "#11d563"]
+      },
+      "block2": {
+        "subTitle": "单位：千元",
+        "type": 2,
+        "data1": {
+          "name": "流失客单总价",
+          "value": [
+            {
+              "value": 4.59
+            },
+            {
+              "value": 3.79
+            },
+            {
+              "value": 4.17
+            },
+            {
+              "value": 3.86
+            },
+            {
+              "value": 4.71
+            },
+            {
+              "value": 3.68
+            },
+            {
+              "value": 4.59
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望流失客单总价",
+          "value": [
+            {
+              "value": 4.80
+            },
+            {
+              "value": 5.02
+            },
+            {
+              "value": 4.71
+            },
+            {
+              "value": 5.50
+            },
+            {
+              "value": 4.94
+            },
+            {
+              "value": 4.86
+            },
+            {
+              "value": 5.47
+            }
+          ]
+        },
+        "barColorList": ["#FFDF55", "#D9B61D", "#C30AFF", "#9004FF"]
+      },
+      "block3": {
+        "subTitle": "单位：%",
+        "type": 2,
+        "data1": {
+          "name": "复购率",
+          "value": [
+            {
+              "value": 22.70
+            },
+            {
+              "value": 28.35
+            },
+            {
+              "value": 31.27
+            },
+            {
+              "value": 27.15
+            },
+            {
+              "value": 29.25
+            },
+            {
+              "value": 31.79
+            },
+            {
+              "value": 26.91
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望复购率",
+          "value": [
+            {
+              "value": 28.53
+            },
+            {
+              "value": 29.00
+            },
+            {
+              "value": 26.68
+            },
+            {
+              "value": 29.64
+            },
+            {
+              "value": 31.56
+            },
+            {
+              "value": 30.16
+            },
+            {
+              "value": 26.80
+            }
+          ]
+        },
+        "lineColorList": ["#FF8D27", "#FF8D27", "#02B3B3", "#02B3B3"]
+      },
+      "block4": {
+        "subTitle": "单位：千元",
+        "type": 2,
+        "data1": {
+          "name": "复购金额",
+          "value": [
+            {
+              "value": 10.47
+            },
+            {
+              "value": 8.59
+            },
+            {
+              "value": 10.92
+            },
+            {
+              "value": 11.74
+            },
+            {
+              "value": 10.63
+            },
+            {
+              "value": 9.02
+            },
+            {
+              "value": 10.59
+            }
+          ]
+        },
+        "data2": {
+          "name": "期望复购金额",
+          "value": [
+            {
+              "value": 10.29
+            },
+            {
+              "value": 10.39
+            },
+            {
+              "value": 10.92
+            },
+            {
+              "value": 8.47
+            },
+            {
+              "value": 8.44
+            },
+            {
+              "value": 10.87
+            },
+            {
+              "value": 9.45
+            }
+          ]
+        },
+        "lineColorList": ["#FF27DD", "#FF27DD", "#008CFF", "#008CFF"]
+      }
+    }
+  }
+}

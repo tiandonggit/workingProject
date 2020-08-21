@@ -1,0 +1,4183 @@
+[
+  {
+    "id": 1,
+    "provinceName": "辽宁",
+    "cityName": "本溪市",
+    "name": "辽宁省健康产业集团本钢总医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "nature": "公立",
+    "address": "辽宁省本溪市平山区",
+    "orderList":[
+      "<p>辽宁省健康产业集团本钢总医院的编号为1910190118的智能柜成交了一笔金额为<span class='orderPrice'>¥429.34</span>的订单,订单号为1910190118182752686939844207</p>",
+      "<p>辽宁省健康产业集团本钢总医院的编号为1910190118的智能柜成交了一笔金额为<span class='orderPrice'>¥322.14</span>的订单,订单号为1910190118188438405676908448</p>"
+    ],
+    "department": ["内科", "外科", "妇产科", "儿科", "肿瘤科"],
+    "doctor": {
+      "hezuo": "32",
+      "huoyue": "9"
+    },
+    "goumailv": "89.54%",
+    "fugailv": "59.18%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "145",
+        "jinrijiaoyichengguo": 250,
+        "leijijiaoyichengguo": 9510,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "53670.40",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "389",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥413.40",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "245",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "5677",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥189.69万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "16079",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥388.4",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "10168",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "provinceName": "辽宁",
+    "cityName": "本溪市",
+    "name": "本溪市中心医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科", "儿科", "肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省本溪市明山区",
+    "orderList":[
+      "<p>本溪中心医院的编号为1911140109的智能柜成交了一笔金额为<span class='orderPrice'>¥422.15</span>的订单,订单号为1911140109123613269535547588</p>",
+      "<p>本溪中心医院的编号为1911140109的智能柜成交了一笔金额为<span class='orderPrice'>¥326.48</span>的订单,订单号为1911140109157160993450004205</p>"
+    ],
+    "doctor": {
+      "hezuo": "35",
+      "huoyue": "12"
+    },
+    "goumailv": "87.87%",
+    "fugailv": "49.46%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "138",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "48585.05",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "251",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥400.66",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "279",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "5038",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥175.32万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "14048",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥408.55",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "9353",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "provinceName": "辽宁",
+    "cityName": "沈阳市",
+    "name": "中国医科大学附属第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科", "儿科", "肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省沈阳市和平区",
+    "orderList":[
+      "<p>中国医科大学附属第一医院的编号为1902150123的智能柜成交了一笔金额为<span class='orderPrice'>¥370.52</span>的订单,订单号为1902150123166851252771135648</p>",
+      "<p>中国医科大学附属第一医院的编号为1902150123的智能柜成交了一笔金额为<span class='orderPrice'>¥306.38</span>的订单,订单号为1902150123134468756995284564</p>"
+    ],
+    "doctor": {
+      "hezuo": "42",
+      "huoyue": "14"
+    },
+    "goumailv": "84.11%",
+    "fugailv": "40.06%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "129",
+        "jinrijiaoyichengguo": 494,
+        "leijijiaoyichengguo": 99909,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "44205.26",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "231",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥407.41",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "322",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "42143",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1330.42万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "92224",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥388.68",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "92085",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "provinceName": "辽宁",
+    "cityName": "沈阳市",
+    "name": "中国医科大学附属盛京医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科", "儿科", "肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省沈阳市和平区",
+    "orderList":[
+      "<p>中国医科大学附属盛京医院的编号为1904080137的智能柜成交了一笔金额为<span class='orderPrice'>¥491.18</span>的订单,订单号为1904080137149655635794642847</p>",
+      "<p>中国医科大学附属盛京医院的编号为1904080137的智能柜成交了一笔金额为<span class='orderPrice'>¥413.85</span>的订单,订单号为1904080137152353439769189622</p>"
+    ],
+    "doctor": {
+      "hezuo": "39",
+      "huoyue": "12"
+    },
+    "goumailv": "86.73%",
+    "fugailv": "55.03%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "197",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "57579.94",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "429",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥337.02",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "358",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "35337",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥994.05万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "91226",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥316.38",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "60703",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "provinceName": "辽宁",
+    "cityName": "沈阳市",
+    "name": "辽宁省肿瘤医院",
+    "type": "专科医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省沈阳市大东区",
+    "orderList":[
+      "<p>辽宁省肿瘤医院的编号为1908210241的智能柜成交了一笔金额为<span class='orderPrice'>¥307.16</span>的订单,订单号为1908210241175939771156456604</p>",
+      "<p>辽宁省肿瘤医院的编号为1908210241的智能柜成交了一笔金额为<span class='orderPrice'>¥412.34</span>的订单,订单号为1908210241188492501888098506</p>"
+    ],
+    "doctor": {
+      "hezuo": "20",
+      "huoyue": "6"
+    },
+    "goumailv": "87.13%",
+    "fugailv": "52.98%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "80",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "24898.71",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "162",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥357.19",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "151",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "11823",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥325.93万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "26815",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥319.04",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "20777",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "provinceName": "辽宁",
+    "cityName": "沈阳市",
+    "name": "北部战区总医院和平分院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科"],
+    "nature": "公立",
+    "address": "辽宁省沈阳市和平区",
+    "orderList":[
+      "<p>北部战区总医院和平分院的编号为1904130121的智能柜成交了一笔金额为<span class='orderPrice'>¥481.67</span>的订单,订单号为1904130121128939705537065329</p>",
+      "<p>北部战区总医院和平分院的编号为1904130121的智能柜成交了一笔金额为<span class='orderPrice'>¥305.49</span>的订单,订单号为1904130121155968581120135907</p>"
+    ],
+    "doctor": {
+      "hezuo": "34",
+      "huoyue": "11"
+    },
+    "goumailv": "80.35%",
+    "fugailv": "57.14%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "180",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "51783.79",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "346",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥358.03",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "315",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "28310",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥864.83万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "76984",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥374.73",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "62742",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "provinceName": "辽宁",
+    "cityName": "大连市",
+    "name": "大连医科大学附属第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省大连市西岗区",
+    "orderList":[
+      "<p>大连医科大学附属第一医院的编号为1906070124的智能柜成交了一笔金额为<span class='orderPrice'>¥341.56</span>的订单,订单号为1906070124139280626605656683</p>",
+      "<p>大连医科大学附属第一医院的编号为1906070124的智能柜成交了一笔金额为<span class='orderPrice'>¥477.78</span>的订单,订单号为1906070124131921534716999222</p>"
+    ],
+    "doctor": {
+      "hezuo": "37",
+      "huoyue": "10"
+    },
+    "goumailv": "86.44%",
+    "fugailv": "47.24%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "154",
+        "jinrijiaoyichengguo": 246,
+        "leijijiaoyichengguo": 41740,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "58522.50",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "353",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥439.64",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "326",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "23282",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥789.54万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "57060",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥407.58",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "57794",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "provinceName": "辽宁",
+    "cityName": "大连市",
+    "name": "大连市第三人民医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科"],
+    "nature": "公立",
+    "address": "辽宁省大连市甘井子区",
+    "orderList":[
+      "<p>大连市第三人民医院的编号为1906130143的智能柜成交了一笔金额为<span class='orderPrice'>¥362.79</span>的订单,订单号为1906130143143050154873731168</p>",
+      "<p>大连市第三人民医院的编号为1906130143的智能柜成交了一笔金额为<span class='orderPrice'>¥429.45</span>的订单,订单号为1906130143174724375508237988</p>"
+    ],
+    "doctor": {
+      "hezuo": "26",
+      "huoyue": "7"
+    },
+    "goumailv": "82.51%",
+    "fugailv": "46.56%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "88",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "22273.48",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "155",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥306.76",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "189",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "16521",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥569.76万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "46851",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥396.78",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "31824",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "provinceName": "辽宁",
+    "cityName": "大连市",
+    "name": "大连市第六人民医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科"],
+    "nature": "公立",
+    "address": "辽宁省大连市甘井子区",
+    "orderList":[
+      "<p>大连市第六人民医院的编号为1906130137的智能柜成交了一笔金额为<span class='orderPrice'>¥461.91</span>的订单,订单号为1906130137116798160202104945</p>",
+      "<p>大连市第六人民医院的编号为1906130137的智能柜成交了一笔金额为<span class='orderPrice'>¥368.27</span>的订单,订单号为1906130137124701131522593148</p>"
+    ],
+    "doctor": {
+      "hezuo": "22",
+      "huoyue": "6"
+    },
+    "goumailv": "81.28%",
+    "fugailv": "40.88%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "56",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "22511.18",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "113",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥494.56",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "137",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "10242",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥402.73万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "28903",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥464.92",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "24983",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "provinceName": "辽宁",
+    "cityName": "锦州市",
+    "name": "锦州市中心医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省锦州市古塔区",
+    "orderList":[
+      "<p>锦州市中心医院的编号为1907240118的智能柜成交了一笔金额为<span class='orderPrice'>¥461.66</span>的订单,订单号为1907240118196106985489189807</p>"
+    ],
+    "doctor": {
+      "hezuo": "31",
+      "huoyue": "9"
+    },
+    "goumailv": "85.46%",
+    "fugailv": "46.58%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "75",
+        "jinrijiaoyichengguo": 324,
+        "leijijiaoyichengguo": 35105,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "21898.62",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "139",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥341.67",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "161",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "15424",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥436.36万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "38958",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥350.16",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "28165",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "provinceName": "辽宁",
+    "cityName": "锦州市",
+    "name": "锦州医科大学附属第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省锦州市古塔区",
+    "orderList":[
+      "<p>锦州医科大学附属第一医院的编号为1907130125的智能柜成交了一笔金额为<span class='orderPrice'>¥342.58</span>的订单,订单号为1907130125110450942410599109</p>",
+      "<p>锦州医科大学附属第一医院的编号为1907130125的智能柜成交了一笔金额为<span class='orderPrice'>¥488.42</span>的订单,订单号为1907130125177928173190557787</p>"
+    ],
+    "doctor": {
+      "hezuo": "35",
+      "huoyue": "11"
+    },
+    "goumailv": "81.74%",
+    "fugailv": "49.27%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "169",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "46498.00",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "352",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥336.59",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "343",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "16719",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥661.62万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "43702",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥448.88",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "32448",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "provinceName": "辽宁",
+    "cityName": "锦州市",
+    "name": "锦州医科大学附属第三医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "辽宁省锦州市凌河区",
+    "orderList":[
+      "<p>锦州医科大学附属第三医院的编号为1907130117的智能柜成交了一笔金额为<span class='orderPrice'>¥471.72</span>的订单,订单号为1907130117196504375221264644</p>",
+      "<p>锦州医科大学附属第三医院的编号为1907130117的智能柜成交了一笔金额为<span class='orderPrice'>¥322.57</span>的订单,订单号为1907130117165255579325480080</p>"
+    ],
+    "doctor": {
+      "hezuo": "36",
+      "huoyue": "11"
+    },
+    "goumailv": "87.34%",
+    "fugailv": "47.6%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "149",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "62135.43",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "325",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥477.44",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "313",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "14508",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥534.24万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "40313",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥413.01",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "34780",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "provinceName": "河北",
+    "cityName": "石家庄市",
+    "name": "石家庄心脑血管病医院",
+    "type": "综合医院",
+    "level": "二级甲等",
+    "department": ["内科", "外科", "妇产科","儿科"],
+    "nature": "公立",
+    "address": "河北省石家庄市长安区",
+    "orderList":[
+      "<p>石家庄心脑血管病医院的编号为1911070254的智能柜成交了一笔金额为<span class='orderPrice'>¥393.45</span>的订单,订单号为1911070254164432975144797366</p>",
+      "<p>石家庄心脑血管病医院的编号为1911070254的智能柜成交了一笔金额为<span class='orderPrice'>¥492.82</span>的订单,订单号为1911070254152435587962875103</p>",
+      "<p>石家庄心脑血管病医院的编号为1911070254的智能柜成交了一笔金额为<span class='orderPrice'>¥407.67</span>的订单,订单号为1911070254185127620929812047</p>"
+    ],
+    "doctor": {
+      "hezuo": "28",
+      "huoyue": "9"
+    },
+    "goumailv": "80.07%",
+    "fugailv": "43.14%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "88",
+        "jinrijiaoyichengguo": 359,
+        "leijijiaoyichengguo": 76108,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "30749.79",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "192",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥436.41",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "204",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "2904",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥83.47万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "7769",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥342.93",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "5578",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "provinceName": "河北",
+    "cityName": "石家庄市",
+    "name": "河北医科大学第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "河北省石家庄市裕华区",
+    "orderList":[
+      "<p>河北医科大学第一医院的编号为1902140113的智能柜成交了一笔金额为<span class='orderPrice'>¥411.75</span>的订单,订单号为1902140113182404741717874605</p>",
+      "<p>河北医科大学第一医院的编号为1902140113的智能柜成交了一笔金额为<span class='orderPrice'>¥364.74</span>的订单,订单号为1902140113115562161088016206</p>"
+    ],
+    "doctor": {
+      "hezuo": "42",
+      "huoyue": "12"
+    },
+    "goumailv": "89.14%",
+    "fugailv": "57.02%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "207",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "56160.82",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "505",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥304.36",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "363",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "50308",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1947.84万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "108449",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥479.26",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "98270",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "provinceName": "河北",
+    "cityName": "石家庄市",
+    "name": "河北医科大学第二医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "河北省石家庄市新华区",
+    "orderList":[
+      "<p>河北医科大学第二医院的编号为1902140127的智能柜成交了一笔金额为<span class='orderPrice'>¥358.42</span>的订单,订单号为1902140127166693148079049169</p>",
+      "<p>河北医科大学第二医院的编号为1902140127的智能柜成交了一笔金额为<span class='orderPrice'>¥377.75</span>的订单,订单号为1902140127192049905553323101</p>"
+    ],
+    "doctor": {
+      "hezuo": "39",
+      "huoyue": "13"
+    },
+    "goumailv": "81.34%",
+    "fugailv": "51.88%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "138",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "48390.57",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "327",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥431.09",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "266",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "37916",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1082.55万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "82811",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥325.62",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "88490",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "provinceName": "黑龙江",
+    "cityName": "哈尔滨市",
+    "name": "哈尔滨医科大学附属第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "黑龙江省哈尔滨市南岗区",
+    "orderList":[
+      "<p>哈尔滨医科大学附属第一医院的编号为1904170115的智能柜成交了一笔金额为<span class='orderPrice'>¥357.43</span>的订单,订单号为1904170115185245979880534522</p>",
+      "<p>哈尔滨医科大学附属第一医院的编号为1904170115的智能柜成交了一笔金额为<span class='orderPrice'>¥330.75</span>的订单,订单号为1904170115124475393142871949</p>"
+    ],
+    "doctor": {
+      "hezuo": "36",
+      "huoyue": "11"
+    },
+    "goumailv": "87.83%",
+    "fugailv": "42.60%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "144",
+        "jinrijiaoyichengguo": 414,
+        "leijijiaoyichengguo": 99965,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "60294.06",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "358",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥476.74",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "338",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "36401",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1083.59万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "76401",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥369.89",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "75369",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "provinceName": "黑龙江",
+    "cityName": "哈尔滨市",
+    "name": "哈尔滨医科大学第二附属医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "黑龙江省哈尔滨市南岗区",
+    "orderList":[
+      "<p>哈尔滨医科大学第二附属医院的编号为1904170119的智能柜成交了一笔金额为<span class='orderPrice'>¥458.75</span>的订单,订单号为1904170119129137662177601748</p>",
+      "<p>哈尔滨医科大学第二附属医院的编号为1904170119的智能柜成交了一笔金额为<span class='orderPrice'>¥438.64</span>的订单,订单号为1904170119124662067946817109</p>"
+    ],
+    "doctor": {
+      "hezuo": "42",
+      "huoyue": "13"
+    },
+    "goumailv": "84.87%",
+    "fugailv": "41.64%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "147",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "54784.78",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "354",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥439.10",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "353",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "36833",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1440.97万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "79539",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥481.62",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "83196",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "provinceName": "黑龙江",
+    "cityName": "哈尔滨市",
+    "name": "哈尔滨医科大学附属肿瘤医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "黑龙江省哈尔滨市南岗区",
+    "orderList":[
+      "<p>哈尔滨医科大学附属肿瘤医院的编号为1908050221的智能柜成交了一笔金额为<span class='orderPrice'>¥258.57</span>的订单,订单号为1908050221105771012543722328</p>",
+      "<p>哈尔滨医科大学附属肿瘤医院的编号为1908050221的智能柜成交了一笔金额为<span class='orderPrice'>¥466.94</span>的订单,订单号为1908050221128653265596915128</p."
+    ],
+    "doctor": {
+      "hezuo": "31",
+      "huoyue": "9"
+    },
+    "goumailv": "84.79%",
+    "fugailv": "42.53%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "111",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "31353.88",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "262",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥333.13",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "261",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "11274",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥342.32万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "22656",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥481.62",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "83196",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "provinceName": "黑龙江",
+    "cityName": "哈尔滨市",
+    "name": "哈尔滨医科大学第四附属医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "黑龙江省哈尔滨市南岗区",
+    "orderList":[
+      "<p>哈尔滨医科大学第四附属医院的编号为1904170123的智能柜成交了一笔金额为<span class='orderPrice'>¥475.42</span>的订单,订单号为1904170123164937842505630002</p>",
+      "<p>哈尔滨医科大学第四附属医院的编号为1904170123的智能柜成交了一笔金额为<span class='orderPrice'>¥382.75</span>的订单,订单号为1904170123168866919251827781</p>"
+    ],
+    "doctor": {
+      "hezuo": "38",
+      "huoyue": "10"
+    },
+    "goumailv": "84.67%",
+    "fugailv": "42.79%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "86",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "21990.66",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "202",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥302.01",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "201",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "32359",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥940.69万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "95177",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥363.33",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "70152",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "provinceName": "黑龙江",
+    "cityName": "大庆市",
+    "name": "大庆油田总医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "黑龙江省大庆市萨尔图区",
+    "orderList":[
+      "<p>大庆油田总医院的编号为1902130131的智能柜成交了一笔金额为<span class='orderPrice'>¥485.93</span>的订单,订单号为1902130131181821825072496766</p>",
+      "<p>大庆油田总医院的编号为1902130131的智能柜成交了一笔金额为<span class='orderPrice'>¥387.31</span>的订单,订单号为1902130131167126222579880740</p>"
+    ],
+    "doctor": {
+      "hezuo": "47",
+      "huoyue": "15"
+    },
+    "goumailv": "86.07%",
+    "fugailv": "51.23%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "250",
+        "jinrijiaoyichengguo": 215,
+        "leijijiaoyichengguo": 44805,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "84989.36",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "548",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥395.00",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "488",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "52057",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1877.86万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "146192",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥448.09",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "108911",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "provinceName": "吉林",
+    "cityName": "长春市",
+    "name": "吉林大学第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "吉林省长春市朝阳区",
+    "orderList":[
+      "<p>吉林大学第一医院的编号为1902220108的智能柜成交了一笔金额为<span class='orderPrice'>¥338.72</span>的订单,订单号为1902220108148153784570890948</p>",
+      "<p>吉林大学第一医院的编号为1902220108的智能柜成交了一笔金额为<span class='orderPrice'>¥435.64</span>的订单,订单号为1902220108194496571048170687</p>"
+    ],
+    "doctor": {
+      "hezuo": "41",
+      "huoyue": "13"
+    },
+    "goumailv": "81.20%",
+    "fugailv": "45.48%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "136",
+        "jinrijiaoyichengguo": 459,
+        "leijijiaoyichengguo": 100495,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "40929.13",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "247",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥370.61",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "299",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "45079",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1715.52万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "98092",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥445.87",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "104749",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "provinceName": "吉林",
+    "cityName": "长春市",
+    "name": "吉林大学第二医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "吉林省长春市南关区",
+    "orderList":[
+      "<p>吉林大学第二医院的编号为1904170117的智能柜成交了一笔金额为<span class='orderPrice'>¥312.75</span>的订单,订单号为1904170117169282508890244026</p>",
+      "<p>吉林大学第二医院的编号为1904170117的智能柜成交了一笔金额为<span class='orderPrice'>¥466.64</span>的订单,订单号为1904170117178271375357245381</p>"
+    ],
+    "doctor": {
+      "hezuo": "34",
+      "huoyue": "11"
+    },
+    "goumailv": "80.55%",
+    "fugailv": "50.95%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "107",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "29811.95",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "225",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥345.89",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "210",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "31090",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1096.19万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "88681",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥397.85",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "66825",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "provinceName": "吉林",
+    "cityName": "长春市",
+    "name": "吉林大学中日联谊医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "吉林省长春市二道区",
+    "orderList":[
+      "<p>吉林大学中日联谊医院的编号为1904270116的智能柜成交了一笔金额为<span class='orderPrice'>¥393.73</span>的订单,订单号为1904270116142452861464627223</p>",
+      "<p>吉林大学中日联谊医院的编号为1904270116的智能柜成交了一笔金额为<span class='orderPrice'>¥316.64</span>的订单,订单号为1904270116187707744596222644</p>"
+    ],
+    "doctor": {
+      "hezuo": "37",
+      "huoyue": "11"
+    },
+    "goumailv": "86.70%",
+    "fugailv": "58.46%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "152",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "56636.91",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "285",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥429.76",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "260",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "29993",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1023.75万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "84211",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥417.05",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "52719",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "provinceName": "吉林",
+    "cityName": "长春市",
+    "name": "吉林省肿瘤医院",
+    "type": "专科医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","肿瘤科"],
+    "nature": "公立",
+    "address": "吉林省长春市朝阳区",
+    "orderList":[
+      "<p>吉林省肿瘤医院的编号为1908160224的智能柜成交了一笔金额为<span class='orderPrice'>¥457.97</span>的订单,订单号为1908160224189327699921671242</p>",
+      "<p>吉林省肿瘤医院的编号为1908160224的智能柜成交了一笔金额为<span class='orderPrice'>¥384.37</span>的订单,订单号为1908160224125666663301569388</p>"
+    ],
+    "doctor": {
+      "hezuo": "31",
+      "huoyue": "9"
+    },
+    "goumailv": "88.76%",
+    "fugailv": "51.33%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "154",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "60042.26",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "399",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥439.27",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "300",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "13053",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥469.18万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "30765",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥410.12",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "28534",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "provinceName": "吉林",
+    "cityName": "延边朝鲜族自治州",
+    "name": "延边大学附属医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "吉林省延边朝鲜族自治州延吉市",
+    "orderList":[
+      "<p>延边大学附属医院的编号为1907120213的智能柜成交了一笔金额为<span class='orderPrice'>¥358.75</span>的订单,订单号为1907120213185095315066762166</p>",
+      "<p>延边大学附属医院的编号为1907120213的智能柜成交了一笔金额为<span class='orderPrice'>¥418.64</span>的订单,订单号为1907120213139215409897765482</p>"
+    ],
+    "doctor": {
+      "hezuo": "29",
+      "huoyue": "7"
+    },
+    "goumailv": "88.34%",
+    "fugailv": "50.20%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "124",
+        "jinrijiaoyichengguo": 109,
+        "leijijiaoyichengguo": 13926,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "34748.40",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "269",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥317.21",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "247",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "15764",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥633.72",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "33075",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥448.80",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "34288",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "provinceName": "山东",
+    "cityName": "济南市",
+    "name": "山东大学齐鲁医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科", "外科", "妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "山东省济南市历下区",
+    "orderList":[
+      "<p>山东大学齐鲁医院的编号为1902040119的智能柜成交了一笔金额为<span class='orderPrice'>¥329.75</span>的订单,订单号为1902040119108203156130544109</p>",
+      "<p>山东大学齐鲁医院的编号为1902040119的智能柜成交了一笔金额为<span class='orderPrice'>¥437.64</span>的订单,订单号为1902040119140366126957499465</p>"
+    ],
+    "doctor": {
+      "hezuo": "44",
+      "huoyue": "14"
+    },
+    "goumailv": "82.48%",
+    "fugailv": "40.76%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "86",
+        "jinrijiaoyichengguo": 96,
+        "leijijiaoyichengguo": 41002,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "25054.70",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "174",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥353.21",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "211",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "46190",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1609.92万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "108172",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥392.59",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "101729",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "provinceName": "山东",
+    "cityName": "济南市",
+    "name": "山东省肿瘤医院",
+    "type": "专科医院",
+    "level": "三级甲等",
+    "department": ["肿瘤科"],
+    "nature": "公立",
+    "address": "山东省济南市槐荫区",
+    "orderList":[
+      "<p>山东省肿瘤医院的编号为1908170224的智能柜成交了一笔金额为<span class='orderPrice'>¥399.37</span>的订单,订单号为1908170224197379135333323485</p>",
+      "<p>山东省肿瘤医院的编号为1908170224的智能柜成交了一笔金额为<span class='orderPrice'>¥407.75</span>的订单,订单号为1908170224181981871552165769</p>"
+    ],
+    "doctor": {
+      "hezuo": "6",
+      "huoyue": "2"
+    },
+    "goumailv": "83.46%",
+    "fugailv": "46.97%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "31",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "9974.58",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "61",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥385.53",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "66",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "3230",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥120.93万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "9038",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥464.08",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "6127",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "provinceName": "山东",
+    "cityName": "青岛市",
+    "name": "青岛大学医学院附属医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "山东省青岛市南区",
+    "orderList":[
+      "<p>青岛大学医学院附属医院的编号为1906090113的智能柜成交了一笔金额为<span class='orderPrice'>¥380.97</span>的订单,订单号为1906090113139986520462017283</p>",
+      "<p>青岛大学医学院附属医院的编号为1906090113的智能柜成交了一笔金额为<span class='orderPrice'>¥358.27</span>的订单,订单号为1906090113114012754396834304</p>"
+    ],
+    "doctor": {
+      "hezuo": "39",
+      "huoyue": "10"
+    },
+    "goumailv": "87.20%",
+    "fugailv": "57.51%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "199",
+        "jinrijiaoyichengguo": 173,
+        "leijijiaoyichengguo": 22618,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "81086.53",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "419",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥467.27",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "346",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "25938",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥715.81万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "67535",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥331.56",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "52246",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "provinceName": "山西",
+    "cityName": "太原市",
+    "name": "山西医科大学第一医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "山西省太原市迎泽区",
+    "orderList":[
+      "<p>山西医科大学第一医院的编号为1902170115的智能柜成交了一笔金额为<span class='orderPrice'>¥418.55</span>的订单,订单号为1902170115179939137517380887</p>"
+    ],
+    "doctor": {
+      "hezuo": "41",
+      "huoyue": "11"
+    },
+    "goumailv": "80.17%",
+    "fugailv": "44.79%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "116",
+        "jinrijiaoyichengguo": 349,
+        "leijijiaoyichengguo": 81633,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "29057.42",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "206",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥312.45",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "259",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "56718",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥2152.96万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "134488",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥461.50",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "95031",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "provinceName": "山西",
+    "cityName": "太原市",
+    "name": "山西医科大学第二医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "山西省太原市杏花岭区",
+    "orderList":[
+      "<p>山西医科大学第二医院的编号为1904030119的智能柜成交了一笔金额为<span class='orderPrice'>¥471.75</span>的订单,订单号为1904030119149149686209654742</p>",
+      "<p>山西医科大学第二医院的编号为1904030119的智能柜成交了一笔金额为<span class='orderPrice'>¥331.94</span>的订单,订单号为1904030119144381227710379882</p>"
+    ],
+    "doctor": {
+      "hezuo": "39",
+      "huoyue": "10"
+    },
+    "goumailv": "84.80%",
+    "fugailv": "49.70%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "163",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "52721.50",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "286",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥381.41",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "328",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "24931",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥840.84万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "58872",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥384.22",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "53615",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "provinceName": "山西",
+    "cityName": "太原市",
+    "name": "山西省肿瘤医院",
+    "type": "专科医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","肿瘤科"],
+    "nature": "公立",
+    "address": "山西省太原市杏花岭区",
+    "orderList":[
+      "<p>山西省肿瘤医院的编号为1908190217的智能柜成交了一笔金额为<span class='orderPrice'>¥490.11</span>的订单,订单号为1908190217180160231934051508</p>",
+      "<p>山西省肿瘤医院的编号为1908190217的智能柜成交了一笔金额为<span class='orderPrice'>¥458.56</span>的订单,订单号为1908190217102872193815758948</p>"
+    ],
+    "doctor": {
+      "hezuo": "31",
+      "huoyue": "10"
+    },
+    "goumailv": "87.91%",
+    "fugailv": "54.33%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "138",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "52540.88",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "252",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥433.09",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "254",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "15201",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥578.53万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "44027",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥423.12",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "32230",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "provinceName": "内蒙古",
+    "cityName": "呼和浩特市",
+    "name": "内蒙古医科大学附属医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "内蒙古自治区呼和浩特市回民区",
+    "orderList":[
+      "<p>内蒙古医科大学附属医院的编号为1902270109的智能柜成交了一笔金额为<span class='orderPrice'>¥447.12</span>的订单,订单号为1902270109149886053272814460</p>",
+      "<p>内蒙古医科大学附属医院的编号为1902270109的智能柜成交了一笔金额为<span class='orderPrice'>¥458.61</span>的订单,订单号为1902270109138835609108651005</p>"
+    ],
+    "doctor": {
+      "hezuo": "31",
+      "huoyue": "10"
+    },
+    "goumailv": "84.99%",
+    "fugailv": "44.57%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "115",
+        "jinrijiaoyichengguo": 252,
+        "leijijiaoyichengguo": 48364,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "43560.02",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "246",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥445.67",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "258",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "31755",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥829.07万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "68942",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥301.19",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "62926",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "provinceName": "内蒙古",
+    "cityName": "呼和浩特市",
+    "name": "呼和浩特市第一医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "内蒙古自治区呼和浩特市玉泉区",
+    "orderList":[
+      "<p>呼和浩特市第一医院的编号为1906070132的智能柜成交了一笔金额为<span class='orderPrice'>¥455.61</span>的订单,订单号为1906070132166239871867302228</p>",
+      "<p>呼和浩特市第一医院的编号为1906070132的智能柜成交了一笔金额为<span class='orderPrice'>¥327.86</span>的订单,订单号为1906070132121203906311824169</p>"
+    ],
+    "doctor": {
+      "hezuo": "41",
+      "huoyue": "12"
+    },
+    "goumailv": "83.83%",
+    "fugailv": "53.62%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "185",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "59987.85",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "365",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥386.79",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "345",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "25543",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥928.14万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "75069",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥446.25",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "49221",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "provinceName": "内蒙古",
+    "cityName": "呼伦贝尔市",
+    "name": "内蒙古林业总医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "内蒙古自治区呼伦贝尔市牙克石市",
+    "orderList":[
+      "<p>内蒙古林业总医院的编号为1906170213的智能柜成交了一笔金额为<span class='orderPrice'>¥428.45</span>的订单,订单号为1906170213145629890612996568</p>",
+      "<p>内蒙古林业总医院的编号为1906170213的智能柜成交了一笔金额为<span class='orderPrice'>¥389.12</span>的订单,订单号为1906170213116818680071486286</p>"
+    ],
+    "doctor": {
+      "hezuo": "39",
+      "huoyue": "10"
+    },
+    "goumailv": "89.83%",
+    "fugailv": "58.61%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "177",
+        "jinrijiaoyichengguo": 159,
+        "leijijiaoyichengguo": 28695,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "58768.38",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "384",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥369.62",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "302",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "31944",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1232.02万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "91147",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥456.03",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "61840",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "provinceName": "内蒙古",
+    "cityName": "赤峰市",
+    "name": "赤峰学院附属医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "内蒙古自治区赤峰市松山区",
+    "orderList":[
+      "赤峰学院附属医院的编号为1908140119的智能柜成交了一笔金额为<span class='orderPrice'>¥418.45</span>的订单,订单号为1908140119125657753612014721",
+      "赤峰学院附属医院的编号为1908140119的智能柜成交了一笔金额为<span class='orderPrice'>¥378.75</span>的订单,订单号为1908140119117073917658426628"
+    ],
+    "doctor": {
+      "hezuo": "40",
+      "huoyue": "10"
+    },
+    "goumailv": "87.93%",
+    "fugailv": "40.15%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "110",
+        "jinrijiaoyichengguo": 97,
+        "leijijiaoyichengguo": 16078,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "37821.75",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "245",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥391.03",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "274",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "18306",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥751.59万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "51119",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥478.97",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "39176",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "provinceName": "河南",
+    "cityName": "郑州市",
+    "name": "郑州大学第一附属医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "河南省郑州市二七区",
+    "orderList":[
+      "<p>郑州大学第一附属医院的编号为1902190115的智能柜成交了一笔金额为<span class='orderPrice'>¥476.78</span>的订单,订单号为1902190115117326151768869844</p>",
+      "<p>郑州大学第一附属医院的编号为1902190115的智能柜成交了一笔金额为<span class='orderPrice'>¥414.36</span>的订单,订单号为1902190115197672715564158201</p>"
+    ],
+    "doctor": {
+      "hezuo": "47",
+      "huoyue": "14"
+    },
+    "goumailv": "84.47%",
+    "fugailv": "42.34%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "174",
+        "jinrijiaoyichengguo": 377,
+        "leijijiaoyichengguo": 95279,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "54594.21",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "436",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥371.44",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "411",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "58473",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1837.86万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "164892",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥351.72",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "112450",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "provinceName": "河南",
+    "cityName": "郑州市",
+    "name": "郑州大学第二附属医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "河南省郑州市金水区",
+    "orderList":[
+      "<p>郑州大学第二附属医院的编号为1904120128的智能柜成交了一笔金额为<span class='orderPrice'>¥489.71</span>的订单,订单号为1904120128178032088850031047</p>",
+      "<p>郑州大学第二附属医院的编号为1904120128的智能柜成交了一笔金额为<span class='orderPrice'>¥342.85</span>的订单,订单号为1904120128118537743465977760</p>"
+    ],
+    "doctor": {
+      "hezuo": "47",
+      "huoyue": "15"
+    },
+    "goumailv": "85.92%",
+    "fugailv": "50.34%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "146",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "58196.18",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "343",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥463.94",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "290",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "42730",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1608.31万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "107466",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥420.64",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "89943",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "provinceName": "河南",
+    "cityName": "郑州市",
+    "name": "河南省肿瘤医院 ",
+    "type": "专科医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","肿瘤科"],
+    "nature": "公立",
+    "address": "河南省郑州市金水区",
+    "orderList":[
+      "<p>河南省肿瘤医院的编号为1908190218的智能柜成交了一笔金额为<span class='orderPrice'>¥343.75</span>的订单,订单号为1908190218100719812080770487</p>",
+      "<p>河南省肿瘤医院的编号为1908190218的智能柜成交了一笔金额为<span class='orderPrice'>¥428.37</span>的订单,订单号为1908190218159392080421625046</p>"
+    ],
+    "doctor": {
+      "hezuo": "26",
+      "huoyue": "9"
+    },
+    "goumailv": "85.62%",
+    "fugailv": "50.61%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "124",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "50399.33",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "213",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥474.69",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "245",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "10446",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥262.69万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "26676",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥308.52",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "19118",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "provinceName": "江苏",
+    "cityName": "南京市",
+    "name": "南京鼓楼医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省南京市鼓楼区",
+    "orderList":[
+      "<p>南京鼓楼医院的编号为1902240107的智能柜成交了一笔金额为<span class='orderPrice'>¥451.42</span>的订单,订单号为1902240107107655142720008283</p>",
+      "<p>南京鼓楼医院的编号为1902240107的智能柜成交了一笔金额为<span class='orderPrice'>¥319.00</span>的订单,订单号为1902240107141682736873772505</p>"
+    ],
+    "doctor": {
+      "hezuo": "48",
+      "huoyue": "16"
+    },
+    "goumailv": "84.87%",
+    "fugailv": "58.74%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "262",
+        "jinrijiaoyichengguo": 374,
+        "leijijiaoyichengguo": 109708,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "76427.27",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "489",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥343.73",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "446",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "80590",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥3288.60万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "183811",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥485.65",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "140776",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "provinceName": "江苏",
+    "cityName": "南京市",
+    "name": "南京医科大学第二附属医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省南京市鼓楼区",
+    "orderList":[
+      "<p>南京医科大学第二附属医院的编号为1904040121的智能柜成交了一笔金额为<span class='orderPrice'>¥493.78</span>的订单,订单号为1904040121100556007038201642</p>",
+      "<p>南京医科大学第二附属医院的编号为1904040121的智能柜成交了一笔金额为<span class='orderPrice'>¥395.86</span>的订单,订单号为1904040121150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "32",
+      "huoyue": "9"
+    },
+    "goumailv": "88.18%",
+    "fugailv": "43.86%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "100",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "38732.84",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "207",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥439.24",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "228",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "17756",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥615.05万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "52132",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥394.28",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "42793",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "provinceName": "江苏",
+    "cityName": "南京市",
+    "name": "南京医科大学附属逸夫医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省南京市江宁区",
+    "orderList":[
+      "<p>南京医科大学附属逸夫医院的编号为1908250112的智能柜成交了一笔金额为<span class='orderPrice'>¥433.46</span>的订单,订单号为1908250112100556007038201642</p>",
+      "<p>南京医科大学附属逸夫医院的编号为1908250112的智能柜成交了一笔金额为<span class='orderPrice'>¥360.88</span>的订单,订单号为1908250112150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "34",
+      "huoyue": "11"
+    },
+    "goumailv": "87.77%",
+    "fugailv": "42.68%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "70",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "20264.06",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "180",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥329.82",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "164",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "27845",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥738.35万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "82028",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥308.20",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "53433",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "provinceName": "江苏",
+    "cityName": "无锡市",
+    "name": "南京医科大学附属无锡市人民医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省无锡市梁溪区",
+    "orderList":[
+      "<p>南京医科大学附属无锡市人民医院的编号为1906210117的智能柜成交了一笔金额为<span class='orderPrice'>¥334.00</span>的订单,订单号为1906210117100556007038201642</p>",
+      "<p>南京医科大学附属无锡市人民医院的编号为1906210117的智能柜成交了一笔金额为<span class='orderPrice'>¥355.45</span>的订单,订单号为1906210117150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "37",
+      "huoyue": "12"
+    },
+    "goumailv": "81.53%",
+    "fugailv": "49.3%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "106",
+        "jinrijiaoyichengguo": 207,
+        "leijijiaoyichengguo": 29580,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "38125.96",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "209",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥441.16",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "215",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "18094",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥714.89万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "51515",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥481.39",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "41299",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "provinceName": "江苏",
+    "cityName": "无锡市",
+    "name": "南京医科大学附属无锡市第二人民医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省无锡市梁溪区",
+    "orderList":[
+      "<p>南京医科大学附属无锡市第二人民医院的编号为1906210123的智能柜成交了一笔金额为<span class='orderPrice'>¥392.96</span>的订单,订单号为1906210123100556007038201642</p>",
+      "<p>南京医科大学附属无锡市第二人民医院的编号为1906210123的智能柜成交了一笔金额为<span class='orderPrice'>¥375.34</span>的订单,订单号为1906210123150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "34",
+      "huoyue": "11"
+    },
+    "goumailv": "86.14%",
+    "fugailv": "47.97%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "142",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "60167.40",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "349",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥491.90",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "296",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "17189",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥504.81万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "44893",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥363.25",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "38444",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "provinceName": "江苏",
+    "cityName": "苏州市",
+    "name": "苏州大学附属第一医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省苏州市姑苏区",
+    "orderList":[
+      "<p>苏州大学附属第一医院的编号为1907150119的智能柜成交了一笔金额为<span class='orderPrice'>¥418.00</span>的订单,订单号为1907150119100556007038201642</p>",
+      "<p>苏州大学附属第一医院的编号为1907150119的智能柜成交了一笔金额为<span class='orderPrice'>¥357.00</span>的订单,订单号为1907150119150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "34",
+      "huoyue": "9"
+    },
+    "goumailv": "88.89%",
+    "fugailv": "42.86%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "99",
+        "jinrijiaoyichengguo": 149,
+        "leijijiaoyichengguo": 33002,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "35741.61",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "192",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥406.13",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "231",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "23156",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥638.54万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "46558",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥334.26",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "41170",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "provinceName": "江苏",
+    "cityName": "苏州市",
+    "name": "苏州大学附属第二医院 ",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "江苏省苏州市姑苏区",
+    "orderList":[
+      "<p>苏州大学附属第二医院的编号为1907150124的智能柜成交了一笔金额为<span class='orderPrice'>¥314.85</span>的订单,订单号为1907150124100556007038201642</p>",
+      "<p>苏州大学附属第二医院的编号为1907150124的智能柜成交了一笔金额为<span class='orderPrice'>¥413.64</span>的订单,订单号为1907150124150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "30",
+      "huoyue": "8"
+    },
+    "goumailv": "81.16%",
+    "fugailv": "44.51%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "77",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "28363.34",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "185",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥453.85",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "173",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "15657",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥553.47万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "43410",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥406.34",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "32476",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "provinceName": "广西",
+    "cityName": "南宁市",
+    "name": "广西医科大学第一附属医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "广西壮族自治区南宁市青秀区",
+    "orderList":[
+      "<p>广西医科大学第一附属医院的编号为1902180113的智能柜成交了一笔金额为<span class='orderPrice'>¥358.00</span>的订单,订单号为1902180113100556007038201642</p>",
+      "<p>广西医科大学第一附属医院的编号为1902180113的智能柜成交了一笔金额为<span class='orderPrice'>¥374.75</span>的订单,订单号为1902180113150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "45",
+      "huoyue": "11"
+    },
+    "goumailv": "80.13%",
+    "fugailv": "41.83%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "174",
+        "jinrijiaoyichengguo": 311,
+        "leijijiaoyichengguo": 59938,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "54998.13",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "371",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥394.44",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "416",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "40469",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1483.11万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "89805",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥455.85",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "81076",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "provinceName": "广西",
+    "cityName": "南宁市",
+    "name": "广西医科大学第二附属医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "广西壮族自治区南宁市西乡塘区",
+    "orderList":[
+      "<p>广西医科大学第二附属医院的编号为1904240116的智能柜成交了一笔金额为<span class='orderPrice'>¥306.46</span>的订单,订单号为1904240116100556007038201642</p>",
+      "<p>广西医科大学第二附属医院的编号为1904240116的智能柜成交了一笔金额为<span class='orderPrice'>¥413.82</span>的订单,订单号为1904240116150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "42",
+      "huoyue": "13"
+    },
+    "goumailv": "82.54%",
+    "fugailv": "59.32%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "210",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "56699.26",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "447",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥327.11",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "354",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "33221",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1283.60万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "70402",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥437.6",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "69337",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "provinceName": "广东",
+    "cityName": "广州市",
+    "name": "中山大学附属肿瘤医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "广东省广州市越秀区",
+    "orderList":[
+      "<p>中山大学附属肿瘤医院的编号为1908290226的智能柜成交了一笔金额为<span class='orderPrice'>¥416.85</span>的订单,订单号为1908290226100556007038201642</p>",
+      "<p>中山大学附属肿瘤医院的编号为1908290226的智能柜成交了一笔金额为<span class='orderPrice'>¥480.00</span>的订单,订单号为1908290226150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "34",
+      "huoyue": "9"
+    },
+    "goumailv": "89.11%",
+    "fugailv": "48.81%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "143",
+        "jinrijiaoyichengguo": 524,
+        "leijijiaoyichengguo": 109016,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "49691.55",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "333",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥389.97",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "293",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "23314",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥887.20万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "52000",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥436.77",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "41775",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "provinceName": "广东",
+    "cityName": "广州",
+    "name": "中山大学孙逸仙纪念医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "广东省广州市越秀区",
+    "orderList":[
+      "<p>中山大学孙逸仙纪念医院的编号为1904120119的智能柜成交了一笔金额为<span class='orderPrice'>¥321.00</span>的订单,订单号为1904120119100556007038201642</p>",
+      "<p>中山大学孙逸仙纪念医院的编号为1904120119的智能柜成交了一笔金额为<span class='orderPrice'>¥346.43</span>的订单,订单号为1904120119150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "43",
+      "huoyue": "11"
+    },
+    "goumailv": "85.23%",
+    "fugailv": "42.05%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "156",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "58572.54",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "390",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥440.53",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "371",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "30132",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1155.69万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "66587",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥455.94",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "73051",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "provinceName": "广东",
+    "cityName": "广州",
+    "name": "南方医科大学中西医结合医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "广东省广州市海珠区",
+    "orderList":[
+      "<p>南方医科大学中西医结合医院的编号为1902220116的智能柜成交了一笔金额为<span class='orderPrice'>¥334.00</span>的订单,订单号为1902220116100556007038201642</p>",
+      "<p>南方医科大学中西医结合医院的编号为1902220116的智能柜成交了一笔金额为<span class='orderPrice'>¥341.76</span>的订单,订单号为1902220116150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "38",
+      "huoyue": "13"
+    },
+    "goumailv": "83.88%",
+    "fugailv": "43.03%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "108",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "37664.20",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "268",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥415.74",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "251",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_down.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "39241",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1615.17万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "116878",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥484.29",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "67287",
+        "img": "hospital13.png"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "provinceName": "广东",
+    "cityName": "广州",
+    "name": "南方医科大学珠江医院",
+    "type": "综合医院",
+    "level": "三级甲等",
+    "department": ["内科","外科","妇产科","儿科","肿瘤科"],
+    "nature": "公立",
+    "address": "广东省广州市海珠区",
+    "orderList":[
+      "<p>南方医科大学中西医结合医院的编号为1904110109的智能柜成交了一笔金额为<span class='orderPrice'>¥422.74</span>的订单,订单号为1904110109100556007038201642</p>",
+      "<p>南方医科大学中西医结合医院的编号为1904110109的智能柜成交了一笔金额为<span class='orderPrice'>¥301.66</span>的订单,订单号为1904110109150652914107566641</p>"
+    ],
+    "doctor": {
+      "hezuo": "39",
+      "huoyue": "12"
+    },
+    "goumailv": "85.16%",
+    "fugailv": "58.15%",
+    "today": [
+      {
+        "name": "开单数",
+        "value": "207",
+        "jinrijiaoyichengguo": 1,
+        "leijijiaoyichengguo": 1,
+        "img": "hospital4.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "今日交易额",
+        "value": "58618.90",
+        "img": "hospital5.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "380",
+        "img": "hospital6.png",
+        "isUpImg": "hospital_up.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥332.53",
+        "img": "hospital7.png",
+        "isUpImg": "hospital_down.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "356",
+        "img": "hospital8.png",
+        "isUpImg": "hospital_up.png"
+      }
+    ],
+    "total": [
+      {
+        "name": "开单数",
+        "value": "34301",
+        "img": "hospital9.png"
+      },
+      {
+        "name": "累计交易额",
+        "value": "¥1372.59万",
+        "img": "hospital10.png"
+      },
+      {
+        "name": "产品销量",
+        "value": "87380",
+        "img": "hospital11.png"
+      },
+      {
+        "name": "订单均价",
+        "value": "¥485.89",
+        "img": "hospital12.png"
+      },
+      {
+        "name": "接诊患者数",
+        "value": "81229",
+        "img": "hospital13.png"
+      }
+    ]
+  }
+]
